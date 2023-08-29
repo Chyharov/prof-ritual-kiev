@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/prof-ritual-kiev/static/css/main.a6a3d450.css",
+    "main.js": "/prof-ritual-kiev/static/js/main.7bde5f3d.js",
+    "static/css/960.a41391d8.chunk.css": "/prof-ritual-kiev/static/css/960.a41391d8.chunk.css",
+    "static/js/960.3be7857a.chunk.js": "/prof-ritual-kiev/static/js/960.3be7857a.chunk.js",
+    "static/css/185.8501bdd2.chunk.css": "/prof-ritual-kiev/static/css/185.8501bdd2.chunk.css",
+    "static/js/185.27c949c2.chunk.js": "/prof-ritual-kiev/static/js/185.27c949c2.chunk.js",
+    "static/media/Poppins-Regular.ttf": "/prof-ritual-kiev/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Medium.ttf": "/prof-ritual-kiev/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/prof-ritual-kiev/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
+    "static/media/Alata-Regular.ttf": "/prof-ritual-kiev/static/media/Alata-Regular.a90e0970a7aca7d36f95.ttf",
+    "index.html": "/prof-ritual-kiev/index.html",
+    "main.a6a3d450.css.map": "/prof-ritual-kiev/static/css/main.a6a3d450.css.map",
+    "main.7bde5f3d.js.map": "/prof-ritual-kiev/static/js/main.7bde5f3d.js.map",
+    "960.a41391d8.chunk.css.map": "/prof-ritual-kiev/static/css/960.a41391d8.chunk.css.map",
+    "960.3be7857a.chunk.js.map": "/prof-ritual-kiev/static/js/960.3be7857a.chunk.js.map",
+    "185.8501bdd2.chunk.css.map": "/prof-ritual-kiev/static/css/185.8501bdd2.chunk.css.map",
+    "185.27c949c2.chunk.js.map": "/prof-ritual-kiev/static/js/185.27c949c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6a3d450.css",
+    "static/js/main.7bde5f3d.js"
+  ]
+}
