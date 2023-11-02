@@ -1,0 +1,102 @@
+@import '../../sass/utils/mixin';
+
+.menu__list {
+    @include mq(mob) {
+    border-top: 1px solid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
+    width: 280px;
+    margin-top: 10px;
+    }
+
+    @include mq(tab) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    }
+}
+
+.menu__list_link {
+  font-size: 1.1rem;
+
+  @include mq(desk) {
+    font-size: 1.5rem;
+  }
+}
+
+.menu__list_item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  @include mq(mob-only) {
+      padding: 12px;
+    }
+  
+}
+
+.menu__list_item:not(:last-child) {
+  @include mq(tab) {
+      margin-right: 10px;
+    }
+ 
+}
+
+.menu__list_item a:hover,
+.menu__list_item a:focus {
+    border-bottom: 5px solid var(--primaryTextColor);
+    margin-bottom: -5px;
+}
+
+.navBar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    @include mq(tab) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navBar .navigation {
+      display: none;
+    }
+  
+    .navBar .mobileNavigation {
+      display: flex;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .navBar .navigation {
+      display: flex;
+    }
+  
+    .navBar .mobileNavigation {
+      display: none;
+    }
+  }
+
+.navBar .mobileNavigation .hamburgerMenu {
+  color: #000;
+  position: fixed;
+  top: 13px;
+  cursor: pointer;
+}
+
+.hamburgerMenu {
+  width: 35px;
+  height: 35px;
+  color: var(--primaryTextColor);
+  position: absolute;
+  top: 20px;
+  left: 78%;
+  cursor: pointer;
+}
