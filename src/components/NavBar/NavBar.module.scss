@@ -28,14 +28,15 @@
   line-height: 24.375px;
 
   @include mq(desk) {
-    font-size: 1.5rem;
   }
 }
 
 .menu__list_item {
+  width: 280px;
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   @include mq(mob-only) {
       padding: 12px;
     }
@@ -53,6 +54,11 @@
 .menu__list_item a:focus {
     border-bottom: 5px solid var(--primaryTextColor);
     margin-bottom: -5px;
+}
+
+.menu__list_itemIcon {
+  width: 20px;
+  height: 20px;
 }
 
 .navBar {

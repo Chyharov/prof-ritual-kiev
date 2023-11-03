@@ -1,5 +1,7 @@
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion'
+import { BsChevronDown } from 'react-icons/bs'
+import { BsChevronUp } from 'react-icons/bs'
 import s from './NavBar.module.scss'
 
 const NavLinks = (props) => {
@@ -65,7 +67,8 @@ const NavLinks = (props) => {
                     offset={getOffsetByDeviceType()}
                     duration={500}>
                     РИТУАЛЬНІ ПОСЛУГИ
-                </Link>
+                    </Link>
+                    <BsChevronDown className={s.menu__list_itemIcon} />
             </motion.li>
 
             <motion.li 
@@ -83,7 +86,8 @@ const NavLinks = (props) => {
                     offset={getOffsetByDeviceType()}
                     duration={500}>
                     РИТУАЛЬНІ ТОВАРИ
-                </Link>
+                    </Link>
+                    <BsChevronDown className={s.menu__list_itemIcon} />
             </motion.li>
 
             <motion.li 
