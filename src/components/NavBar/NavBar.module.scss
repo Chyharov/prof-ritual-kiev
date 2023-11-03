@@ -22,10 +22,12 @@
 }
 
 .menu__list_link {
+  padding: 10px;
   font-family: CormorantUnicase Medium;
   font-size: 15px;
   font-weight: 500;
   line-height: 24.375px;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
 
   @include mq(desk) {
   }
@@ -38,7 +40,7 @@
   flex-direction: row;
   justify-content: space-between;
   @include mq(mob-only) {
-      padding: 12px;
+      padding: 5px;
     }
   
 }
@@ -57,9 +59,20 @@
 }
 
 .menu__list_itemIcon {
-  width: 20px;
-  height: 20px;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
 }
+.menu__list_itemSubMenu {
+  font-family: CormorantUnicase Medium;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: start;
+  padding: 8px 30px 8px 30px;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+}
+
 
 .navBar {
     align-items: center;
