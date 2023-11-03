@@ -7,8 +7,8 @@ const Header = () => {
     <header className={s.header}>
       <div className={'container ' + s.header__container}>
         <Logo />
-        
-      <NavBar />
+
+        <NavBar />
       </div>
 
 
