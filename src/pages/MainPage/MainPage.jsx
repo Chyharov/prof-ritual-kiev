@@ -1,5 +1,6 @@
 import Header from 'components/Header/Header';
 import SectionHero from 'components/SectionHero/SectionHero';
+import SectionRitualServices from 'components/SectionRitualServices/SectionRitualServices';
 import ComponentForMainPage from 'components/ComponentForMainPage/ComponentForMainPage';
 
 const MainPage = () => {
@@ -8,7 +9,8 @@ const MainPage = () => {
       <Header />
       <main>
         <SectionHero />
-        <ComponentForMainPage />      
+        <SectionRitualServices />
+        <ComponentForMainPage />     
       </main>
     </>
   );
