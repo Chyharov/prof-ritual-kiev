@@ -1,0 +1,48 @@
+@import '../../sass/utils/mixin';
+
+.sectionHero {
+    padding-top: 60px;
+}
+
+.hero__container {
+    height: 393px;
+    background-image: url('../../images/Hero/HeroMobile.jpg');
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hero__title {
+    font-family: CormorantUnicase SemiBold;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 600;
+    color: var(--backgroundColor);
+    text-align: center;
+}
+
+.hero__decoration {
+    margin: 0 auto;
+    width: 220px;
+    margin-bottom: 25px;
+}
+
+.hero_description {
+    font-family: CormorantUnicase Regular;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-align: center;
+    color: var(--backgroundColor);
+    margin-bottom: 20px;
+}
+
+.hero_call {
+    font-family: CormorantUnicase Regular;
+    font-size: 25px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    color: var(--backgroundColor);
+}
+

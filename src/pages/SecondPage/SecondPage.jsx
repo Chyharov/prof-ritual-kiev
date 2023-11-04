@@ -6,9 +6,9 @@ import SecondPageComponent from 'components/SecondPageComponent/SecondPageCompon
 const SecondPage = () => {
   return (
     <>
-        <Header />
+      <Header />
     <main>
-        <SecondPageComponent />
+      <SecondPageComponent />
     </main>
     </>
   );
