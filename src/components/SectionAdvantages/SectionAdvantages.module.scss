@@ -1,0 +1,53 @@
+@import '../../sass/utils/mixin';
+
+.advantages__container {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.advantages__title {
+    font-family: CormorantUnicase Bold;
+    font-size: 26px;
+    line-height: 31.2px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 1px;
+}
+
+.advantages__decoration {
+    margin: 0 auto;
+    width: 178px;
+    height: 5px;
+    margin-bottom: 40px;
+}
+
+.advantagesServicesList__item {
+    padding: 0 15px 15px 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.advantagesServicesList__title {
+    font-family: CormorantUnicase Bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 1px;
+    width: 176px;
+    margin-left: 20px;
+}
+
+.advantagesServicesList__img {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+.advantagesServicesList__border {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--hoverColor);
+    border-radius: 50%;
+}
