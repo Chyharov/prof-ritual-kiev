@@ -1,0 +1,25 @@
+@import '../../sass/utils/mixin';
+
+.aboutCompany__container {
+    padding-top: 32px;
+    padding-bottom: 20px;
+    height: 540px;
+    background-image: url('../../images/About/BgAbout.jpg');
+}
+
+.aboutCompany__title {
+    font-family: CormorantUnicase Bold;
+    font-size: 26px;
+    line-height: 31.2px;
+    margin-bottom: 15px;
+    color: var(--backgroundColor);
+    text-shadow: rgba(255, 255, 255, 0.5) 0px 0px 1px
+}
+
+.aboutCompany_description {
+    font-family: CormorantUnicase Regular;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: var(--backgroundColor);
+    text-shadow: rgba(255, 255, 255, 0.5) 0px 0px 1px
+}

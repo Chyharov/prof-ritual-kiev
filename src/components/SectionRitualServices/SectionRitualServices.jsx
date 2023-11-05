@@ -23,7 +23,7 @@ const SectionRitualServices = () => {
             <ul className={s.ritualServicesList}>
             {ritualServicesList.map((image) => (        
                 <li className={s.ritualServicesList__item} key={image.id}>
-                    <img className={s.ritualServicesList__img} id={image.id} src={image.src} alt={image.alt} />
+                    <img className={s.ritualServicesList__img} loading="lazy" id={image.id} src={image.src} alt={image.alt} />
                     <h3 className={s.ritualServicesList__title}>{image.title}</h3>  
                 </li>
             ))}
