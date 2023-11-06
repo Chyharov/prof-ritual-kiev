@@ -1,0 +1,48 @@
+@import '../../sass/utils/mixin';
+
+.funeralServices__container {
+    padding-top: 30px;
+    padding-bottom: 35px;
+    background-color: #f7f7f7
+}
+
+.funeralServices__decoration {
+    margin-bottom: 15px;
+}
+
+.funeralServices__title {
+    font-family: CormorantUnicase Bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 1px;
+    margin-bottom: 15px;
+}
+
+.funeralServices__description {
+    font-family: CormorantUnicase Regular;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #2b2b2a;
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 1px;
+    margin-bottom: 15px;
+}
+
+.funeralServices__btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: CormorantUnicase Bold;
+    font-size: 16px;
+    padding: 14px 20px 14px 20px;
+    width: 170px;
+    border: none;
+    color: #333;
+    background-color: rgb(235, 235, 235);
+}
+
+.funeralServices__btn:hover,
+.funeralServices__btn:focus {
+    color: var(--backgroundColor);
+    background-color: var(--hoverColor);
+}
