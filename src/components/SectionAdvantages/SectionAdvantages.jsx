@@ -13,7 +13,7 @@ const SectionAdvantages = () => {
       <section className={s.sectionAdvantages}>
         <div className={'container ' + s.advantages__container}>
                 <h2 className={s.advantages__title}>Наші переваги</h2>
-                <img className={s.advantages__decoration} loading="lazy" src={AdvantagesDecoration} alt="hero__decoration" />
+                <img className={s.advantages__decoration} loading="lazy" src={AdvantagesDecoration} alt="advantages__decoration" />
 
             <ul className={s.advantagesServicesList}>
                 {advantagesServicesList.map((image) => (        

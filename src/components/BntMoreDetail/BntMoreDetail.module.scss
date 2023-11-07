@@ -1,0 +1,20 @@
+@import '../../sass/utils/mixin';
+
+.funeralServices__btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: CormorantUnicase Bold;
+    font-size: 16px;
+    padding: 14px 20px 14px 20px;
+    width: 170px;
+    border: none;
+    color: #333;
+    background-color: rgb(235, 235, 235);
+}
+
+.funeralServices__btn:hover,
+.funeralServices__btn:focus {
+    color: var(--backgroundColor);
+    background-color: var(--hoverColor);
+}

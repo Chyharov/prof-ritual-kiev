@@ -5,6 +5,7 @@ import SectionAboutCompany from 'components/SectionAboutCompany/SectionAboutComp
 import SectionAdvantages from 'components/SectionAdvantages/SectionAdvantages';
 import SectionOrganizationFuneralServices from 'components/SectionOrganizationFuneralServices/SectionOrganizationFuneralServices';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
+import SectionRitualGoods from 'components/SectionRitualGoods/SectionRitualGoods';
 import ComponentForMainPage from 'components/ComponentForMainPage/ComponentForMainPage';
 
 const MainPage = () => {
@@ -18,6 +19,7 @@ const MainPage = () => {
         <SectionAdvantages />
         <SectionOrganizationFuneralServices />
         <SectionNeedHelp />
+        <SectionRitualGoods />
         <ComponentForMainPage />     
       </main>
     </>

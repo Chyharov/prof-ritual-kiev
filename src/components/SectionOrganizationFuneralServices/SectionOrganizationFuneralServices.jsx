@@ -1,5 +1,5 @@
 import OrganizationFuneral from '../../images/OrganizationFuneralServices/OrganizationFuneralServices.jpg'
-import  { MdArrowRightAlt } from 'react-icons/md'
+import BntMoreDetail from 'components/BntMoreDetail/BntMoreDetail';
 import s from './SectionOrganizationFuneralServices.module.scss'
 
 
@@ -16,7 +16,7 @@ const SectionOrganizationFuneralServices = () => {
                 
                 <p className={s.funeralServices__description} style={{marginBottom: '25px'}}>Ми працюємо з усіма клієнтами і знаходимо їм найкращий варіант. Ми співпрацюємо з <b>десятками ресторанів</b>, маємо власний транспорт, тому ціна наших ритуальних послуг завжди залишається низькою і доступною для всіх.</p>
 
-                <button type="button" aria-label='Детальніше' className={s.funeralServices__btn}>ДЕТАЛЬНІШЕ<MdArrowRightAlt /></button>
+                <BntMoreDetail />
         </div>
       </section>
   )
