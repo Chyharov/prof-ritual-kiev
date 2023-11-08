@@ -1,5 +1,5 @@
-import s from './SectionServicesInformation.module.scss'
 import { servicesInformationList } from 'services/servicesInformationList';
+import s from './SectionServicesInformation.module.scss'
 
 
 const SectionServicesInformation = () => {
