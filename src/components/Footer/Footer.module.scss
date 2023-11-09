@@ -1,0 +1,14 @@
+@import '../../sass/utils/mixin';
+
+.footer__container {
+    background-color: #2b2b2a;
+    padding: 14px;
+}
+
+.footer__description {
+    font-family: CormorantUnicase Regular;
+    font-size: 14px;
+    line-height: 1.63;
+    color: var(--backgroundColor);
+    text-align: center;
+}

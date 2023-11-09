@@ -10,26 +10,26 @@ import SectionServicesInformation from 'components/SectionServicesInformation/Se
 import SectionServicesInformationDetail from 'components/SectionServicesInformationDetail/SectionServicesInformationDetail';
 import SectionContacts from 'components/SectionContacts/SectionContacts';
 import SectionRitualServicesList from 'components/SectionRitualServicesList/SectionRitualServicesList';
-import ComponentForMainPage from 'components/ComponentForMainPage/ComponentForMainPage';
+import Footer from 'components/Footer/Footer';
 
 const MainPage = () => {
   return (
     <>
       <Header />
-      <main>
-        <SectionHero />
-        <SectionRitualServices />
-        <SectionAboutCompany />
-        <SectionAdvantages />
-        <SectionOrganizationFuneralServices />
-        <SectionNeedHelp />
-        <SectionRitualGoods />
-        <SectionServicesInformation />
-        <SectionServicesInformationDetail />
-        <SectionContacts />
-        <SectionRitualServicesList />
-        <ComponentForMainPage />     
-      </main>
+        <main>
+          <SectionHero />
+          <SectionRitualServices />
+          <SectionAboutCompany />
+          <SectionAdvantages />
+          <SectionOrganizationFuneralServices />
+          <SectionNeedHelp />
+          <SectionRitualGoods />
+          <SectionServicesInformation />
+          <SectionServicesInformationDetail />
+          <SectionContacts />
+          <SectionRitualServicesList />
+        </main>
+      <Footer />
     </>
   );
 };
