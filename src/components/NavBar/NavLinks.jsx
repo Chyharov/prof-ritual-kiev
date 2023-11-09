@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion'
 import { BsChevronDown } from 'react-icons/bs'
 import { BsChevronUp } from 'react-icons/bs'
@@ -43,7 +43,8 @@ const NavLinks = (props) => {
             initial={animateFrom}
             animate={animateTo}
             transition={{delay: 0.05}}
-            className={s.menu__list_item}>
+                className={s.menu__list_item}>
+                    
                <Link
                     onClick={() => props.isMobile && props.closeMobileMenu()}
                     className={s.menu__list_link}
@@ -64,11 +65,7 @@ const NavLinks = (props) => {
                 <Link
                     onClick={() => props.isMobile && props.closeMobileMenu()}
                     className={s.menu__list_link}
-                    to="сontacts"
-                    spy={true}
-                    smooth={true}
-                    offset={getOffsetByDeviceType()}
-                    duration={500}>
+                    to="/SecondPage">
                     РИТУАЛЬНІ ПОСЛУГИ
                     </Link>
                     {showSubMenu ? (
