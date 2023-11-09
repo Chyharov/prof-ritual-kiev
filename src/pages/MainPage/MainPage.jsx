@@ -9,6 +9,7 @@ import SectionRitualGoods from 'components/SectionRitualGoods/SectionRitualGoods
 import SectionServicesInformation from 'components/SectionServicesInformation/SectionServicesInformation';
 import SectionServicesInformationDetail from 'components/SectionServicesInformationDetail/SectionServicesInformationDetail';
 import SectionContacts from 'components/SectionContacts/SectionContacts';
+import SectionRitualServicesList from 'components/SectionRitualServicesList/SectionRitualServicesList';
 import ComponentForMainPage from 'components/ComponentForMainPage/ComponentForMainPage';
 
 const MainPage = () => {
@@ -26,6 +27,7 @@ const MainPage = () => {
         <SectionServicesInformation />
         <SectionServicesInformationDetail />
         <SectionContacts />
+        <SectionRitualServicesList />
         <ComponentForMainPage />     
       </main>
     </>
