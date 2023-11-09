@@ -1,5 +1,5 @@
 import Header from 'components/Header/Header';
-import SecondPageComponent from 'components/SecondPageComponent/SecondPageComponent';
+import SectionContactsList from 'components/SectionContactsList/SectionContactsList';
 import Footer from 'components/Footer/Footer';
 
 
@@ -9,7 +9,7 @@ const SecondPage = () => {
     <>
       <Header />
         <main>
-          <SecondPageComponent />
+          <SectionContactsList />
         </main>
       <Footer />
     </>

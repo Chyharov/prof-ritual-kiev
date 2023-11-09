@@ -65,7 +65,7 @@ const NavLinks = (props) => {
                 <Link
                     onClick={() => props.isMobile && props.closeMobileMenu()}
                     className={s.menu__list_link}
-                    to="/SecondPage">
+                    to="/ritualservices">
                     РИТУАЛЬНІ ПОСЛУГИ
                     </Link>
                     {showSubMenu ? (
