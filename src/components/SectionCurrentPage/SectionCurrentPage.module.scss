@@ -1,0 +1,30 @@
+@import '../../sass/utils/mixin';
+
+.currentPage__container {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 320px;
+    height: 120px;
+    background-image: url('../../images/AllImages/Background.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.currentPage__title {
+    font-family: CormorantUnicase SemiBold;
+    font-size: 24px;
+    line-height: 1;
+    color: var(--backgroundColor);
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 1px;
+}
+
+.currentPage__description {
+    font-family: CormorantUnicase Regular;
+    font-size: 14px;
+    line-height: 1.63;
+    color: var(--backgroundColor);
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 1px;
+    padding-bottom: 10px;
+}
