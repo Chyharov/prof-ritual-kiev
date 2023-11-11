@@ -1,4 +1,3 @@
-import RitualServicesDecoration from '../../images/RitualServices/double-lines-dark.png'
 import s from './SectionRitualServices.module.scss'
 
 const ritualServicesList = [
@@ -17,9 +16,6 @@ const SectionRitualServices = () => {
       <section className={s.SectionRitualServices}>
         <div className={'container ' + s.ritualServices__container}>
 
-            <h2 className={s.ritualServices__title}>Похоронне бюро Профритуал</h2>
-            <img className={s.ritualServices__decoration} loading="lazy" src={RitualServicesDecoration} alt="hero__decoration" />
-                
             <ul className={s.ritualServicesList}>
             {ritualServicesList.map((image) => (        
                 <li className={s.ritualServicesList__item} key={image.id}>

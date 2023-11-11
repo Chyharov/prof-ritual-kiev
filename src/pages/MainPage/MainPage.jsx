@@ -1,5 +1,6 @@
 import Header from 'components/Header/Header';
 import SectionHero from 'components/SectionHero/SectionHero';
+import SectionProfRitualTitle from 'components/SectionProfRitualTitle/SectionProfRitualTitle';
 import SectionRitualServices from 'components/SectionRitualServices/SectionRitualServices';
 import SectionAboutCompany from 'components/SectionAboutCompany/SectionAboutCompany';
 import SectionAdvantages from 'components/SectionAdvantages/SectionAdvantages';
@@ -18,6 +19,7 @@ const MainPage = () => {
       <Header />
         <main>
           <SectionHero />
+          <SectionProfRitualTitle />
           <SectionRitualServices />
           <SectionAboutCompany />
           <SectionAdvantages />
