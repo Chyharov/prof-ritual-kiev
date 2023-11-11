@@ -15,6 +15,8 @@ const SectionContacts = () => {
                     <li className={s.contacts__item}><a href="tel:+38(073)6813773">+38 (073) 681-37-73</a></li>
                     <li className={s.contacts__item}><a href="tel:+38(098)5813773">+38 (098) 581-37-73 </a></li>
                 </ul>
+          
+                <div className={s.contacts__border}></div>
         </div>
       </section>
   )

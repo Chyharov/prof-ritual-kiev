@@ -13,6 +13,8 @@ import SectionContacts from 'components/SectionContacts/SectionContacts';
 import SectionRitualServicesList from 'components/SectionRitualServicesList/SectionRitualServicesList';
 import Footer from 'components/Footer/Footer';
 
+import { ritualServicesListMainPage } from 'services/ritualServicesListMainPage';
+
 const MainPage = () => {
   return (
     <>
@@ -20,7 +22,7 @@ const MainPage = () => {
         <main>
           <SectionHero />
           <SectionProfRitualTitle />
-          <SectionRitualServices />
+          <SectionRitualServices array={ritualServicesListMainPage}/>
           <SectionAboutCompany />
           <SectionAdvantages />
           <SectionOrganizationFuneralServices />

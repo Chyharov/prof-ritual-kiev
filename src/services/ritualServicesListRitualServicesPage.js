@@ -1,0 +1,17 @@
+export const ritualServicesListRitualServicesPage = [
+      { id: 1, src: require('../images/RitualServices/ritualAgent.jpg'), alt: 'Зображення 1', title: 'Ритуальний агент' },
+      { id: 2, src: require('../images/RitualServices/organizationFunerals.jpg'), alt: 'Зображення 2', title: 'Організація похорон' },
+      { id: 3, src: require('../images/RitualServices/cremation.jpg'), alt: 'Зображення 3', title: 'Кремація' },
+      { id: 4, src: require('../images/RitualServices/hearse.jpg'), alt: 'Зображення 4', title: 'Автокатафалк' },
+      { id: 5, src: require('../images/RitualServices/cargo200.jpg'), alt: 'Зображення 5', title: 'Вантаж 200' },
+      { id: 6, src: require('../images/RitualServices/mortuaryServices.jpg'), alt: 'Зображення 6', title: 'Послуги моргу' },
+      { id: 7, src: require('../images/RitualServices/memorialDinners.jpg'), alt: 'Зображення 7', title: 'Поминальні обіди' },
+      { id: 8, src: require('../images/RitualServicesPage/Paperwork.jpg'), alt: 'Зображення 8', title: 'Оформлення документів' },
+      { id: 9, src: require('../images/RitualServicesPage/RitualHallRental.jpg'), alt: 'Зображення 9', title: 'Оренда ритуальної зали' },
+      { id: 10, src: require('../images/RitualServicesPage/MusicalAccompaniment.jpg'), alt: 'Зображення 10', title: 'Музичний супровід' },
+      { id: 11, src: require('../images/RitualServicesPage/RemovalOfTheBody.jpg'), alt: 'Зображення 11', title: 'Винесення тіла' },
+      { id: 12, src: require('../images/RitualServicesPage/BurialOfTheDeceased.jpg'), alt: 'Зображення 12', title: 'Відспівування померлого' },
+      { id: 13, src: require('../images/RitualServicesPage/SanitationOfPremises.jpg'), alt: 'Зображення 13', title: 'Санобробка приміщень' },
+      { id: 14, src: require('../images/RitualServicesPage/MakingPortrait.jpg'), alt: 'Зображення 14', title: 'Виготовлення фотопортрету' },
+      { id: 15, src: require('../images/RitualServicesPage/SupportMedicalPersonnel.jpg'), alt: 'Зображення 15', title: 'Супровід медперсоналом' },
+];
