@@ -4,7 +4,7 @@ import SectionRitualServicesList from 'components/SectionRitualServicesList/Sect
 import Footer from 'components/Footer/Footer';
 
 
-const RitualGoods = () => {
+const RitualGoodsPage = () => {
   return (
     <>
       <Header />
@@ -19,4 +19,4 @@ const RitualGoods = () => {
 
 
 
-export default RitualGoods;
+export default RitualGoodsPage;
