@@ -11,7 +11,7 @@ import SectionRitualServicesList from 'components/SectionRitualServicesList/Sect
 import Footer from 'components/Footer/Footer';
 
 import { ritualServicesListRitualServicesPage } from 'services/ritualServicesListRitualServicesPage';
-
+const RitualServicesTitle = [{ title: 'Ритуальні Послуги' }]
 
 const RitualServices = () => {
   return (
@@ -19,7 +19,7 @@ const RitualServices = () => {
       <Header />
         <main>
           <SectionContactsList />
-          <SectionCurrentPage />
+        <SectionCurrentPage title={RitualServicesTitle}/>
           <SectionRitualServices array={ritualServicesListRitualServicesPage} />
           <SectionNeedHelp />
           <SectionRitualGoods />
