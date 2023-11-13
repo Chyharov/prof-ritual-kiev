@@ -13,7 +13,7 @@ import Footer from 'components/Footer/Footer';
 import { ritualServicesListRitualServicesPage } from 'services/ritualServicesListRitualServicesPage';
 
 
-const SecondPage = () => {
+const RitualServices = () => {
   return (
     <>
       <Header />
@@ -35,4 +35,4 @@ const SecondPage = () => {
 
 
 
-export default SecondPage;
+export default RitualServices;
