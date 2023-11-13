@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkprof_ritual_kiev=self.webpackChunkprof_ritual_kiev||[]).push([[156],{4817:function(s,e,r){r.r(e);var n=r(3446),i=r(8815),u=r(729),t=r(8383),a=r(184);e.default=function(){return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(n.Z,{}),(0,a.jsxs)("main",{children:[(0,a.jsx)(i.Z,{}),(0,a.jsx)(u.Z,{})]}),(0,a.jsx)(t.Z,{})]})}}}]);
+//# sourceMappingURL=156.18599a20.chunk.js.map
