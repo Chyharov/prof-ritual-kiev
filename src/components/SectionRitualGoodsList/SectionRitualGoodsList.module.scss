@@ -1,0 +1,30 @@
+@import '../../sass/utils/mixin';
+
+.ritualGoodsList__container {
+    margin-bottom: 40px;
+}
+
+.ritualGoodsList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ritualGoodsList__item {
+    margin-bottom: 20px;
+}
+
+.ritualGoodsList__img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.ritualGoodsList__title {
+    font-family: CormorantUnicase Bold;
+    font-size: 20px;
+    line-height: 1.1;
+    color: #2b2b2a;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, .5)
+}
