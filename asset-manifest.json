@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/prof-ritual-kiev/static/css/main.223d9295.css",
+    "main.css": "/prof-ritual-kiev/static/css/main.362d19c6.css",
     "main.js": "/prof-ritual-kiev/static/js/main.4e3e191d.js",
     "static/css/916.9f9ca0ca.chunk.css": "/prof-ritual-kiev/static/css/916.9f9ca0ca.chunk.css",
     "static/js/916.c07383cc.chunk.js": "/prof-ritual-kiev/static/js/916.c07383cc.chunk.js",
@@ -37,7 +37,7 @@
     "static/media/ritualAgent.jpg": "/prof-ritual-kiev/static/media/ritualAgent.d103418351e137c5a1aa.jpg",
     "static/media/RemovalOfTheBody.jpg": "/prof-ritual-kiev/static/media/RemovalOfTheBody.4c7985a568ef7a4fe892.jpg",
     "index.html": "/prof-ritual-kiev/index.html",
-    "main.223d9295.css.map": "/prof-ritual-kiev/static/css/main.223d9295.css.map",
+    "main.362d19c6.css.map": "/prof-ritual-kiev/static/css/main.362d19c6.css.map",
     "main.4e3e191d.js.map": "/prof-ritual-kiev/static/js/main.4e3e191d.js.map",
     "916.9f9ca0ca.chunk.css.map": "/prof-ritual-kiev/static/css/916.9f9ca0ca.chunk.css.map",
     "916.c07383cc.chunk.js.map": "/prof-ritual-kiev/static/js/916.c07383cc.chunk.js.map",
@@ -50,7 +50,7 @@
     "729.83af4b63.chunk.js.map": "/prof-ritual-kiev/static/js/729.83af4b63.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.223d9295.css",
+    "static/css/main.362d19c6.css",
     "static/js/main.4e3e191d.js"
   ]
 }
