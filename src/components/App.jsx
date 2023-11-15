@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 const MainPage = lazy(() => import('pages/MainPage/MainPage'));
 const RitualServicesPage = lazy(() => import('pages/RitualServicesPage/RitualServicesPage'));
 const RitualGoodsPage = lazy(() => import('pages/RitualGoodsPage/RitualGoodsPage'));
+const AboutPage = lazy(() => import('pages/AboutPage/AboutPage'));
 
 export const App = () => {
   return (
@@ -12,6 +13,7 @@ export const App = () => {
           <Route path="/" element={<MainPage />} />
           <Route path="/ritualservices" element={<RitualServicesPage />} />
           <Route path="/ritualgoods" element={<RitualGoodsPage />} />
+          <Route path="/about" element={<AboutPage />} />
         </Routes>
       </Suspense>
     </>

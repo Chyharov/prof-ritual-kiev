@@ -264,11 +264,7 @@ const NavLinks = (props) => {
                 <Link
                 onClick={() => props.isMobile && props.closeMobileMenu()}
                     className={s.menu__list_link}
-                    to="services"
-                    spy={true}
-                    smooth={true}
-                    offset={getOffsetByDeviceType()}
-                    duration={500}>
+                    to="/about">
                     ПРО НАС
                 </Link>
             </motion.li>
