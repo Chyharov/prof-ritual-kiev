@@ -262,7 +262,7 @@ const NavLinks = (props) => {
             transition={{delay: 0.30}}
             className={s.menu__list_item}>
                 <Link
-                onClick={() => props.isMobile && props.closeMobileMenu()}
+                    onClick={() => props.isMobile && props.closeMobileMenu()}
                     className={s.menu__list_link}
                     to="/about">
                     ПРО НАС
@@ -274,13 +274,9 @@ const NavLinks = (props) => {
             transition={{delay: 0.40}}
             className={s.menu__list_item}>
                 <Link
-                onClick={() => props.isMobile && props.closeMobileMenu()}
+                    onClick={() => props.isMobile && props.closeMobileMenu()}
                     className={s.menu__list_link}
-                    to="servicesList"
-                    spy={true}
-                    smooth={true}
-                    offset={getOffsetByDeviceType()}
-                    duration={500}>
+                    to="/price">
                     ЦІНИ
                 </Link>
                 </motion.li>
