@@ -5,6 +5,7 @@ const RitualServicesPage = lazy(() => import('pages/RitualServicesPage/RitualSer
 const RitualGoodsPage = lazy(() => import('pages/RitualGoodsPage/RitualGoodsPage'));
 const AboutPage = lazy(() => import('pages/AboutPage/AboutPage'));
 const PricePage = lazy(() => import('pages/PricePage/PricePage'));
+const ContactsPage = lazy(() => import('pages/ContactsPage/ContactsPage'));
 
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
           <Route path="/ritualgoods" element={<RitualGoodsPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/price" element={<PricePage />} />
+          <Route path="/contacts" element={<ContactsPage />} />
         </Routes>
       </Suspense>
     </>

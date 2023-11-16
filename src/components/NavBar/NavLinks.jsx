@@ -12,28 +12,6 @@ const NavLinks = (props) => {
     const animateFrom = { opacity: 0, y: -40 }
     const animateTo = { opacity: 1, y: 0 }
 
-    const getDeviceType = () => {
-    const width = window.innerWidth;
-    if (width <= 767) {
-        return 'mobile';
-    } else if (width >= 768 && width <= 1359) {
-        return 'tablet';
-    } else {
-        return 'desktop';
-    }
-};
-
-    const getOffsetByDeviceType = () => {
-        const deviceType = getDeviceType();
-        if (deviceType === 'mobile') {
-            return -90;
-        } else if (deviceType === 'tablet') {
-            return -160;
-        } else {
-            return -180;
-        }
-    };
-
 
     return (
         <div className='container'>
@@ -288,11 +266,7 @@ const NavLinks = (props) => {
                 <Link
                 onClick={() => props.isMobile && props.closeMobileMenu()}
                     className={s.menu__list_link}
-                    to="servicesList"
-                    spy={true}
-                    smooth={true}
-                    offset={getOffsetByDeviceType()}
-                    duration={500}>
+                    to="/contacts">
                     КОНТАКТИ
                 </Link>
             </motion.li>

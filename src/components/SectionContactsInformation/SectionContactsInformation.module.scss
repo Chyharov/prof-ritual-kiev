@@ -1,0 +1,41 @@
+@import '../../sass/utils/mixin';
+
+.contactsInformation__title {
+    font-family: CormorantUnicase Regular;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+    color: var(--primaryTextColor);
+    text-shadow: var(--primaryTextShadowColor);
+    margin-bottom: 40px;
+}
+
+.contactsInformation__titleList {
+    font-family: CormorantUnicase Bold;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--secondaryTextColor);
+    text-shadow: var(--primaryTextShadowColor);
+    margin-bottom: 10px;
+}
+
+.contactsInformation__item {
+    font-family: CormorantUnicase Regular;
+    font-size: 12px;
+    line-height: 1.63;
+    color: var(--primaryTextColor);
+    text-shadow: var(--primaryTextShadowColor);
+}
+
+.flexflex {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.contactsInformation__icon {
+    width: 35px;
+    height: 35px;
+    color: var(--hoverColor);
+    margin-top: 10px;
+    margin-right: 20px;
+}
