@@ -3,6 +3,8 @@ import SectionContactsList from 'components/SectionContactsList/SectionContactsL
 import SectionCurrentPage from 'components/SectionCurrentPage/SectionCurrentPage';
 import SectionAboutRitualAgent from 'components/SectionAboutRitualAgent/SectionAboutRitualAgent';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
+import SectionQualityServices from 'components/SectionQualityServices/SectionQualityServices';
+import SectionServicesInformation from 'components/SectionServicesInformation/SectionServicesInformation';
 import SectionContacts from 'components/SectionContacts/SectionContacts';
 import SectionRitualServicesList from 'components/SectionRitualServicesList/SectionRitualServicesList';
 import Footer from 'components/Footer/Footer';
@@ -19,6 +21,8 @@ const RitualAgentPage = () => {
             <SectionCurrentPage title={RitualAgentPageTitle} />
             <SectionAboutRitualAgent />
             <SectionNeedHelp />
+            <SectionQualityServices />  
+            <SectionServicesInformation />
             <SectionContacts />
             <SectionRitualServicesList />
         </main>

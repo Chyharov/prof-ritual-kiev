@@ -12,7 +12,7 @@ const SectionAboutRitualAgent = () => {
             <h2 className={s.aboutRitualAgent__title}>Завдання ритуального агента.</h2>
                 
 
-            <p className={s.aboutRitualAgent__description}>У спектр завдань спеціаліста входять визначення місця поховання або кремації, допомога у виборі <a className={s.aboutRitualAgent__link} href="/">труни</a> та <a className={s.aboutRitualAgent__link} href="/">іншого похоронного приладдя</a>. У нашій компанії ви можете придбати як труну економ-класу, так і елітну поліровану труну, а також ми можемо виготовити труну за індивідуальним замовленням. Крім того, у нас представлений широкий асортимент іншого приладдя, у тому числі <a className={s.aboutRitualAgent__link} href="/">хрести на могилу</a>,<a className={s.aboutRitualAgent__link} href="/"> вінки з живих та штучних квітів</a>, композиції на труну та багато іншого.</p>
+            <p className={s.aboutRitualAgent__description}>У спектр завдань спеціаліста входять визначення місця поховання або кремації, допомога у виборі <a className={s.aboutRitualAgent__link} href="/">труни</a> та <a className={s.aboutRitualAgent__link} href="/">іншого похоронного приладдя</a>. У нашій компанії ви можете придбати як труну економ-класу, так і елітну поліровану труну, а також ми можемо виготовити труну за індивідуальним замовленням. Крім того, у нас представлений широкий асортимент іншого приладдя, у тому числі <a className={s.aboutRitualAgent__link} href="/">хрести на могилу</a>, <a className={s.aboutRitualAgent__link} href="/"> вінки з живих та штучних квітів</a>, композиції на труну та багато іншого.</p>
         
                 
             <h2 className={s.aboutRitualAgent__title}>Агент похоронних послуг</h2>
