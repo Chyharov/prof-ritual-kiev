@@ -4,13 +4,18 @@ import { TbMailFilled } from "react-icons/tb";
 import GoogleMapReact from 'google-map-react';
 import s from './SectionContactsInformation.module.scss';
 
+const Marker = ({ text }) => (
+  <div style={{ fontSize: '24px', color: 'red', textAlign: 'center' }}>
+    <div style={{ marginBottom: '5px' }}>📍</div>
+    {text}
+  </div>
+);
+
 const SectionContactsInformation = () => {
-
   const mapCenter = {
-    lat: 50.4501,
-    lng: 30.5234,
+    lat: 50.42753825395714,
+    lng: 30.508565286504638,
   };
-
 
   const mapZoom = 15;
 
@@ -54,16 +59,13 @@ const SectionContactsInformation = () => {
         </div>
 
         <div className={s.mapContainer}>
-
           <div style={{ height: '500px', width: '290px' }}>
             <GoogleMapReact
               bootstrapURLKeys={{ key: 'AIzaSyBXj-AStZjPnU7wXm82txO2pj_QGR-KOio' }}
               defaultCenter={mapCenter}
               defaultZoom={mapZoom}
             >
-              <div lat={mapCenter.lat} lng={mapCenter.lng} text="м. Київ, вул. Івана Федорова, 33">
-                Місце
-              </div>
+              <Marker lat={mapCenter.lat} lng={mapCenter.lng} text="вул. Івана Федорова, 33" />
             </GoogleMapReact>
           </div>
         </div>
