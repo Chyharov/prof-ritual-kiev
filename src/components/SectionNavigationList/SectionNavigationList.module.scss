@@ -1,0 +1,47 @@
+@import '../../sass/utils/mixin';
+
+.navigationList__container {
+    margin-bottom: 40px;
+}
+
+.navigationList__title {
+    font-family: CormorantUnicase Regular;
+    font-size: 17px;
+    line-height: 1.63;
+    font-weight: 400;
+    padding: 10px 22px;
+    color: var(--primaryTextColor);
+    text-shadow: var(--primaryTextShadowColor);
+    background-color: #f7f7f7;
+    margin-bottom: 5px;
+}
+
+.navigationList__list {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.navigationList__item {
+    font-family: CormorantUnicase Regular;
+    font-size: 15px;
+    line-height: 1.63;
+    padding: 6px 20px;
+    color: var(--primaryTextColor);
+    text-shadow: var(--primaryTextShadowColor);
+    background-color: #f7f7f7;
+    margin-bottom: 5px;
+}
+
+.navigationList__item:hover,
+.navigationList__item:focus,
+.navigationList__title:hover,
+.navigationList__title:focus {
+    color: var(--hoverColor);
+}
+
+.navigationList__title:active,
+.navigationList__item:active {
+    background-color: var(--hoverColor);
+    color: var(--backgroundColor);
+}
+        
