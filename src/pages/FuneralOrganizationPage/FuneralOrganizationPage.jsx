@@ -3,7 +3,7 @@ import SectionContactsList from 'components/SectionContactsList/SectionContactsL
 import SectionCurrentPage from 'components/SectionCurrentPage/SectionCurrentPage';
 import SectionFuneralOrganization from 'components/SectionFuneralOrganization/SectionFuneralOrganization';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
-
+import SectionTrustInDifficultMoment from 'components/SectionTrustInDifficultMoment/SectionTrustInDifficultMoment';
 import SectionNavigationList from 'components/SectionNavigationList/SectionNavigationList';
 import SectionServicesInformation from 'components/SectionServicesInformation/SectionServicesInformation';
 import SectionContacts from 'components/SectionContacts/SectionContacts';
@@ -22,7 +22,7 @@ const FuneralOrganizationPage = () => {
             <SectionCurrentPage title={FuneralOrganizationPageTitle} />
             <SectionFuneralOrganization />  
             <SectionNeedHelp />
-
+            <SectionTrustInDifficultMoment />
             <SectionNavigationList />
             <SectionServicesInformation />
             <SectionContacts />
