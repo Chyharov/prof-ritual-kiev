@@ -1,4 +1,3 @@
-
 import s from './SectionTrustInDifficultMoment.module.scss'
 
 
