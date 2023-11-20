@@ -1,0 +1,55 @@
+@import '../../sass/utils/mixin';
+
+.sectionRitualCarParkList {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ritualCarParkList__decoration {
+    width: 278px;
+    height: 156px;
+}
+
+.ritualCarParkList__item {
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    margin-bottom: 10px;
+}
+
+.ritualCarParkList__description {
+    font-family: CormorantUnicase Regular;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--secondaryTextColor);
+    text-shadow: var(--primaryTextShadowColor);
+}
+
+.ritualCarParkList__title {
+    font-family: CormorantUnicase Regular;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--primaryTextColor);
+    text-shadow: var(--primaryTextShadowColor);
+    margin-bottom: 10px;
+}
+
+.ritualCarParkList__link {
+    font-family: CormorantUnicase Regular;
+    font-size: 16px;
+    line-height: 1.63;
+    color: var(--hoverColor);
+    text-shadow: var(--primaryTextShadowColor);
+    border-bottom: 1px solid var(--hoverColor);
+}
+
+.ritualCarParkList__listMenu li {
+    margin-left: 20px;
+    list-style: disc;
+}

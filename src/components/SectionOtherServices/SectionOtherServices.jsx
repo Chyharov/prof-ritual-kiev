@@ -1,7 +1,5 @@
 import s from './SectionOtherServices.module.scss'
 
-
-
 const SectionOtherServices = () => {
     return (
       <section className={s.sectionOtherServices}>

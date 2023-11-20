@@ -1,7 +1,5 @@
 import s from './SectionTrustInDifficultMoment.module.scss'
 
-
-
 const SectionTrustInDifficultMoment = () => {
     return (
       <section className={s.sectionTrustInDifficultMoment}>
