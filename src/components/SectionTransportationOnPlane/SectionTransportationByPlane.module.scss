@@ -1,0 +1,54 @@
+@import '../../sass/utils/mixin';
+
+.sectionTransportationByPlane {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.transportationByPlane__title {
+    font-family: CormorantUnicase Bold;
+    font-size: 23px;
+    line-height: 1.2;
+    color: var(--primaryTextColor);
+    text-shadow: var(--primaryTextShadowColor);
+    margin-bottom: 10px;
+}
+
+.transportationByPlane__description {
+    font-family: CormorantUnicase Regular;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--secondaryTextColor);
+    text-shadow: var(--primaryTextShadowColor);
+    margin-bottom: 10px;
+}
+
+.transportationByPlane__list li {
+    margin-left: 30px;
+    list-style: disc;
+}
+
+.transportationByPlane__blockquote {
+    font-family: CormorantUnicase Regular;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--secondaryTextColor);
+    text-shadow: var(--primaryTextShadowColor);
+    width: 263px;
+    padding: 10px 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: var(--hoverColor);
+    background-color: rgba(181, 155, 77, 0.05);
+    text-shadow: 0px 0px 1px var(--hoverColor);
+    border-left: 3px solid var(--hoverColor);
+}
+
+.transportationByPlane__link {
+    font-family: CormorantUnicase Regular;
+    font-size: 16px;
+    line-height: 1.63;
+    color: var(--hoverColor);
+    text-shadow: var(--primaryTextShadowColor);
+    border-bottom: 1px solid var(--hoverColor);
+}
