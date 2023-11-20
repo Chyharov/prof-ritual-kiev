@@ -1,7 +1,7 @@
 import Header from 'components/Header/Header';
 import SectionContactsList from 'components/SectionContactsList/SectionContactsList';
 import SectionCurrentPage from 'components/SectionCurrentPage/SectionCurrentPage';
-
+import SectionCargo from 'components/SectionCargo/SectionCargo';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
 
 import SectionNavigationList from 'components/SectionNavigationList/SectionNavigationList';
@@ -19,7 +19,7 @@ const CargoPage = () => {
         <main>
             <SectionContactsList />
             <SectionCurrentPage title={CargoPageTitle} />
-
+            <SectionCargo />  
             <SectionNeedHelp />
 
             <SectionNavigationList />
