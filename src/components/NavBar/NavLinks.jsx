@@ -108,7 +108,7 @@ const NavLinks = (props) => {
                         animate={animateTo}
                         transition={{delay: 0.40}}
                         className={s.menu__list_itemSubMenu}>
-                            <Link onClick={() => props.isMobile && props.closeMobileMenu()}>Поминальні Обіди</Link>
+                            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/memorialdinners">Поминальні Обіди</Link>
                     </motion.li>
                     
                     <motion.li 
