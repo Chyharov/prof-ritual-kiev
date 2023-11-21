@@ -116,7 +116,7 @@ const NavLinks = (props) => {
                         animate={animateTo}
                         transition={{delay: 0.45}}
                         className={s.menu__list_itemSubMenu}>
-                            <Link onClick={() => props.isMobile && props.closeMobileMenu()}>Оформлення документів</Link>
+                            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/documentsforfuneral">Оформлення документів для похорону</Link>
                     </motion.li>
                     
                     <motion.li 

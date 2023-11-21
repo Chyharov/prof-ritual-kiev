@@ -13,6 +13,7 @@ const HearsePage = lazy(() => import('pages/HearsePage/HearsePage'));
 const CargoPage = lazy(() => import('pages/CargoPage/CargoPage'));
 const MortuaryServicesPage = lazy(() => import('pages/MortuaryServicesPage/MortuaryServicesPage'));
 const MemorialDinnersPage = lazy(() => import('pages/MemorialDinnersPage/MemorialDinnersPage'));
+const DocumentsForFuneralPage = lazy(() => import('pages/DocumentsForFuneralPage/DocumentsForFuneralPage'));
 
 export const App = () => {
   return (
@@ -32,6 +33,7 @@ export const App = () => {
           <Route path="/cargo" element={<CargoPage />} />
           <Route path="/mortuaryservices" element={<MortuaryServicesPage />} />
           <Route path="/memorialdinners" element={<MemorialDinnersPage />} />
+          <Route path="/documentsforfuneral" element={<DocumentsForFuneralPage />} />
         </Routes>
       </Suspense>
     </>
