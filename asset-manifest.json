@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/prof-ritual-kiev/static/css/main.6a0200b0.css",
-    "main.js": "/prof-ritual-kiev/static/js/main.b27947a9.js",
+    "main.js": "/prof-ritual-kiev/static/js/main.ce0faf1a.js",
     "static/css/73.3b208d6f.chunk.css": "/prof-ritual-kiev/static/css/73.3b208d6f.chunk.css",
     "static/js/73.34ebf42d.chunk.js": "/prof-ritual-kiev/static/js/73.34ebf42d.chunk.js",
     "static/css/396.f99420a8.chunk.css": "/prof-ritual-kiev/static/css/396.f99420a8.chunk.css",
@@ -26,8 +26,8 @@
     "static/js/435.cd98f845.chunk.js": "/prof-ritual-kiev/static/js/435.cd98f845.chunk.js",
     "static/css/947.c6941475.chunk.css": "/prof-ritual-kiev/static/css/947.c6941475.chunk.css",
     "static/js/947.6b55f2a4.chunk.js": "/prof-ritual-kiev/static/js/947.6b55f2a4.chunk.js",
-    "static/css/125.f3b05143.chunk.css": "/prof-ritual-kiev/static/css/125.f3b05143.chunk.css",
-    "static/js/125.b0081473.chunk.js": "/prof-ritual-kiev/static/js/125.b0081473.chunk.js",
+    "static/css/873.004d4154.chunk.css": "/prof-ritual-kiev/static/css/873.004d4154.chunk.css",
+    "static/js/873.4160825b.chunk.js": "/prof-ritual-kiev/static/js/873.4160825b.chunk.js",
     "static/js/286.cb43d1d8.chunk.js": "/prof-ritual-kiev/static/js/286.cb43d1d8.chunk.js",
     "static/js/856.a14d35da.chunk.js": "/prof-ritual-kiev/static/js/856.a14d35da.chunk.js",
     "static/js/755.fc592755.chunk.js": "/prof-ritual-kiev/static/js/755.fc592755.chunk.js",
@@ -40,6 +40,7 @@
     "static/media/CormorantUnicase-SemiBold.ttf": "/prof-ritual-kiev/static/media/CormorantUnicase-SemiBold.0d05d9d53d7b8dfc3df6.ttf",
     "static/media/photo_2019-12-23_13-49-52-1024x690.jpg": "/prof-ritual-kiev/static/media/photo_2019-12-23_13-49-52-1024x690.a3e460f77f61a75efd20.jpg",
     "static/media/photo_2019-12-23_12-13-56-1024x690.jpg": "/prof-ritual-kiev/static/media/photo_2019-12-23_12-13-56-1024x690.9b70f168251475e172f8.jpg",
+    "static/media/AboutMemorialDinners.jpg": "/prof-ritual-kiev/static/media/AboutMemorialDinners.cb2993edd3caa8efd93b.jpg",
     "static/media/BgAbout.jpg": "/prof-ritual-kiev/static/media/BgAbout.0244a5254c3d0be4ed50.jpg",
     "static/media/MercedesSprinterEconom.jpg": "/prof-ritual-kiev/static/media/MercedesSprinterEconom.6f206ec2feabba78d0cc.jpg",
     "static/media/HeroMobile.jpg": "/prof-ritual-kiev/static/media/HeroMobile.a44ab8fd4232be2032c1.jpg",
@@ -73,7 +74,7 @@
     "static/media/RemovalOfTheBody.jpg": "/prof-ritual-kiev/static/media/RemovalOfTheBody.4c7985a568ef7a4fe892.jpg",
     "index.html": "/prof-ritual-kiev/index.html",
     "main.6a0200b0.css.map": "/prof-ritual-kiev/static/css/main.6a0200b0.css.map",
-    "main.b27947a9.js.map": "/prof-ritual-kiev/static/js/main.b27947a9.js.map",
+    "main.ce0faf1a.js.map": "/prof-ritual-kiev/static/js/main.ce0faf1a.js.map",
     "73.3b208d6f.chunk.css.map": "/prof-ritual-kiev/static/css/73.3b208d6f.chunk.css.map",
     "73.34ebf42d.chunk.js.map": "/prof-ritual-kiev/static/js/73.34ebf42d.chunk.js.map",
     "396.f99420a8.chunk.css.map": "/prof-ritual-kiev/static/css/396.f99420a8.chunk.css.map",
@@ -98,8 +99,8 @@
     "435.cd98f845.chunk.js.map": "/prof-ritual-kiev/static/js/435.cd98f845.chunk.js.map",
     "947.c6941475.chunk.css.map": "/prof-ritual-kiev/static/css/947.c6941475.chunk.css.map",
     "947.6b55f2a4.chunk.js.map": "/prof-ritual-kiev/static/js/947.6b55f2a4.chunk.js.map",
-    "125.f3b05143.chunk.css.map": "/prof-ritual-kiev/static/css/125.f3b05143.chunk.css.map",
-    "125.b0081473.chunk.js.map": "/prof-ritual-kiev/static/js/125.b0081473.chunk.js.map",
+    "873.004d4154.chunk.css.map": "/prof-ritual-kiev/static/css/873.004d4154.chunk.css.map",
+    "873.4160825b.chunk.js.map": "/prof-ritual-kiev/static/js/873.4160825b.chunk.js.map",
     "286.cb43d1d8.chunk.js.map": "/prof-ritual-kiev/static/js/286.cb43d1d8.chunk.js.map",
     "856.a14d35da.chunk.js.map": "/prof-ritual-kiev/static/js/856.a14d35da.chunk.js.map",
     "755.fc592755.chunk.js.map": "/prof-ritual-kiev/static/js/755.fc592755.chunk.js.map",
@@ -109,6 +110,6 @@
   },
   "entrypoints": [
     "static/css/main.6a0200b0.css",
-    "static/js/main.b27947a9.js"
+    "static/js/main.ce0faf1a.js"
   ]
 }
