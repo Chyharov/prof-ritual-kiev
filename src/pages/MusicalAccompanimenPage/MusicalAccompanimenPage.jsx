@@ -1,23 +1,23 @@
 import Header from 'components/Header/Header';
 import SectionContactsList from 'components/SectionContactsList/SectionContactsList';
 import SectionCurrentPage from 'components/SectionCurrentPage/SectionCurrentPage';
-import SectionAboutRentRitualHall from 'components/SectionAboutRentRitualHall/SectionAboutRentRitualHall';
+import SectionAboutMusicalAccompanimen from 'components/SectionAboutMusicalAccompanimen/SectionAboutMusicalAccompanimen';
 import SectionNavigationList from 'components/SectionNavigationList/SectionNavigationList';
 import SectionContacts from 'components/SectionContacts/SectionContacts';
 import SectionRitualServicesList from 'components/SectionRitualServicesList/SectionRitualServicesList';
 import Footer from 'components/Footer/Footer';
 
 
-const RitualHallPageTitle = [{ title: 'Оренда ритуальної зали' }]
+const MusicalAccompanimenPageTitle = [{ title: 'Музичний супровід' }]
 
-const RitualHallPage = () => {
+const MusicalAccompanimenPage = () => {
   return (
     <>
       <Header />
         <main>
             <SectionContactsList />
-            <SectionCurrentPage title={RitualHallPageTitle} />
-            <SectionAboutRentRitualHall />
+            <SectionCurrentPage title={MusicalAccompanimenPageTitle} />
+            <SectionAboutMusicalAccompanimen />
             <SectionNavigationList />
             <SectionContacts />
             <SectionRitualServicesList />
@@ -29,4 +29,4 @@ const RitualHallPage = () => {
 
 
 
-export default RitualHallPage;
+export default MusicalAccompanimenPage;
