@@ -12,13 +12,13 @@ const SectionNavigationList = () => {
                 
         <ul className={s.navigationList__list}>
             <li className={s.navigationList__item}><Link to="/ritualagent">Ритуальний агент</Link></li>
-            <li className={s.navigationList__item}><Link to="/">Організація похорон</Link></li>
-            <li className={s.navigationList__item}><Link to="/">Кремація</Link></li>
-            <li className={s.navigationList__item}><Link to="/">Автокатафалк</Link></li>
-            <li className={s.navigationList__item}><Link to="/">Вантаж 200</Link></li>
-            <li className={s.navigationList__item}><Link to="/">Послуги моргу</Link></li>
-            <li className={s.navigationList__item}><Link to="/">Поминальні обіди</Link></li>
-            <li className={s.navigationList__item}><Link to="/">Оформлення документів</Link></li>
+            <li className={s.navigationList__item}><Link to="/funeralorganization">Організація похорон</Link></li>
+            <li className={s.navigationList__item}><Link to="/cremation">Кремація</Link></li>
+            <li className={s.navigationList__item}><Link to="/hearse">Автокатафалк</Link></li>
+            <li className={s.navigationList__item}><Link to="/cargo">Вантаж 200</Link></li>
+            <li className={s.navigationList__item}><Link to="/mortuaryservices">Послуги моргу</Link></li>
+            <li className={s.navigationList__item}><Link to="/memorialdinners">Поминальні обіди</Link></li>
+            <li className={s.navigationList__item}><Link to="/documentsforfuneral">Оформлення документів для похорону</Link></li>
             <li className={s.navigationList__item}><Link to="/">Ритуальна зала</Link></li>
             <li className={s.navigationList__item}><Link to="/">Музичний супровід</Link></li>
             <li className={s.navigationList__item}><Link to="/">Винесення тіла</Link></li>
