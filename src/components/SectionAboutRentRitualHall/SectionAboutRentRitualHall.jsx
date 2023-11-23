@@ -1,4 +1,7 @@
 import RentRitualHall from '../../images/RentRitualHall/RentRitualHall.jpg'
+import RentRitualHallPhoto from '../../images/RentRitualHall/RentRitualHallPhoto.jpg'
+import RentRitualHallPhoto2 from '../../images/RentRitualHall/RentRitualHallPhoto2.jpg'
+import RentRitualHallPhoto3 from '../../images/RentRitualHall/RentRitualHallPhoto3.jpg'
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
 import s from './SectionAboutRentRitualHall.module.scss'
 
@@ -31,11 +34,11 @@ const SectionAboutRentRitualHall = () => {
                 
             <h2 className={s.aboutRentRitualHall__title}>Оренда ритуальної зали</h2>
 
-            <p className={s.aboutRentRitualHall__description}>Оренда ритуального залу розрахована щогодини. Профритуал співпрацює з багатьма орендарями і тому може надати ритуальні зали в багатьох районах Київ за доступною ціною.</p>
+            <p className={s.aboutRentRitualHall__description}>Оренда ритуального залу розрахована щогодини. Профритуал співпрацює з багатьма орендарями і тому може надати ритуальні зали в багатьох районах Києва за доступною ціною.</p>
 
-            <h3>Клієнти, які замовляли з нами оренду ритуального залу, так само цікавилися:</h3>
+            <h3 className={s.aboutRentRitualHall__titleSmal}>Клієнти, які замовляли з нами оренду ритуального залу, так само цікавилися:</h3>
                 
-            <ul className={s.aboutRentRitualHall__list}>
+            <ul style={{marginBottom: '10px'}} className={s.aboutRentRitualHall__list}>
                 <li><a className={s.aboutRentRitualHall__link} href='/'>Організацією похорон</a></li>
                 <li><a className={s.aboutRentRitualHall__link} href='/'>Поминальним обідом у Києві</a></li>
                 <li><a className={s.aboutRentRitualHall__link} href='/'>Ритуальним транспортом</a></li>
@@ -44,6 +47,12 @@ const SectionAboutRentRitualHall = () => {
                 <li><a className={s.aboutRentRitualHall__link} href='/'>Жалобними вінками</a></li>  
             </ul>
                 
+            <h3 className={s.aboutRentRitualHall__titleSmal}>Фото деяких ритуальних залів від Профритуалу</h3>
+       
+            <img className={s.rentRitualHall__phohoto} loading="lazy" src={RentRitualHallPhoto} alt="rentRitualHall__phohoto" />
+            <img className={s.rentRitualHall__phohoto} loading="lazy" src={RentRitualHallPhoto2} alt="rentRitualHall__phohoto" />
+            <img className={s.rentRitualHall__phohoto} loading="lazy" src={RentRitualHallPhoto3} alt="rentRitualHall__phohoto" />
+
         </div>
       </section>
   )

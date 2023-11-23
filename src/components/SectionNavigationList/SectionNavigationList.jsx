@@ -19,7 +19,7 @@ const SectionNavigationList = () => {
             <li className={s.navigationList__item}><Link to="/mortuaryservices">Послуги моргу</Link></li>
             <li className={s.navigationList__item}><Link to="/memorialdinners">Поминальні обіди</Link></li>
             <li className={s.navigationList__item}><Link to="/documentsforfuneral">Оформлення документів для похорону</Link></li>
-            <li className={s.navigationList__item}><Link to="/">Ритуальна зала</Link></li>
+            <li className={s.navigationList__item}><Link to="/ritualhall">Ритуальна зала</Link></li>
             <li className={s.navigationList__item}><Link to="/">Музичний супровід</Link></li>
             <li className={s.navigationList__item}><Link to="/">Винесення тіла</Link></li>
             <li className={s.navigationList__item}><Link to="/">Відспівування померлого</Link></li>
