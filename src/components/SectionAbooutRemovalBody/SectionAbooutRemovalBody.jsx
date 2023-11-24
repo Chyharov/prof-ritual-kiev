@@ -1,50 +1,47 @@
-import MusicalAccompanimen from '../../images/MusicalAccompanimen/MusicalAccompanimen.jpg'
+import { Link } from 'react-router-dom';
+import RemovalBodyDecoration from '../../images/RemovalBody/RemovalBodyDecoration.jpg'
+import funeralTeam__photo from '../../images/RemovalBody/funeralTeam__photo.jpeg'
+import funeralTeam__photo2 from '../../images/RemovalBody/funeralTeam__photo2.jpeg'
+import funeralTeam__photo3 from '../../images/RemovalBody/funeralTeam__photo3.jpeg'
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
-import s from './SectionAboutMusicalAccompanimen.module.scss'
+import s from './SectionAbooutRemovalBody.module.scss'
 
-const SectionAboutMusicalAccompanimen = () => {
+const SectionAbooutRemovalBody = () => {
     return (
-      <section className={s.sectionAboutMusicalAccompanimen}>
-        <div className={'container ' + s.aboutMusicalAccompanimen__container}>
+      <section className={s.sectionAbooutRemovalBody}>
+        <div className={'container ' + s.abooutRemovalBody__container}>
                 
-            <img className={s.musicalAccompanimen__decoration} loading="lazy" src={MusicalAccompanimen} alt="musicalAccompanimen__decoration" />
+            <img className={s.abooutRemovalBody__decoration} loading="lazy" src={RemovalBodyDecoration} alt="abooutRemovalBody__decoration" />
 
-            <p className={s.musicalAccompanimen__description}>Що може бути сумнішим за похорон? Скорбота, смуток, розпач, плач, голосіння супроводжують проводи померлої близької людини. Проте існує обряд похорону, певний порядок, а також звичаї та ритуали, якими керуються організатори «останнього шляху» людини на цій землі. І одним із цих обрядів є супровід траурної процесії похоронним духовим оркестром.</p>                
+            <p className={s.abooutRemovalBody__description}>Наше ритуальне бюро знає, як складно в таку хвилину думати про <b>дотримання всіх правил</b>, пов’язаних з винесенням тіла померлого, саме тому ми пропонуємо вам скористатися послугою – бригада для похорону. Наші співробітники добре знають усі правила винесення тіла – як за православними правилами, так і відповідно до звичаїв та правил інших релігій.</p>                
 
-            <h2 className={s.musicalAccompanimen__title}>Похоронний оркестр та музичний супровід від Профритуал</h2>
+            <h2 className={s.abooutRemovalBody__title}>Бригада ритуальних вантажників</h2>
                 
-            <p className={s.musicalAccompanimen__description}>Похоронне бюро “Профритуал” надає музичний супровід під час супроводу померлого до транспорту, поховання, поминального обіду. Ми дбаємо про транспортацію оркестру під час похорону. Ви можете замовити музичний супровід під час всього дня або під час одного з перерахованих моментів, що відбуваються під час похорону.</p>
-
-            <h3 className={s.musicalAccompanimen__titleMedium}>Історія виникнення похоронних оркестрів.</h3>    
-
-            <p className={s.musicalAccompanimen__description}>Виникнення оркестрів на Русі відбулося завдяки Петру I. На зміну відсталості у період епохи поступово приходила цивілізованість, зокрема й у музиці. Як не парадоксально, оркестри завдячують своєю появою завдяки війні зі шведами, коли серед взятих у полон виявилася велика кількість музикантів. Петровські реформи узаконили появу військових, придворних, і навіть похоронних оркестрів. Спочатку духові похоронні оркестри супроводжували тільки похорон військових високого рангу і верховних політиків, що мають чималі заслуги перед Батьківщиною.</p>
-
-            <blockquote className={s.musicalAccompanimen__blockquote}>Пізнє поховання з похоронним оркестром стає доступним цивільним особам – спочатку, звісно, ​​представникам дворянського стану, а період правління Єлизавети II – купецтву. Цікаво, що чим вищою була гільдія купця, тим більше музикантів належало йому для похоронного оркестру. Потім оркестри грали і на похороні городян, і знову чим нижчий стан, тим менше музикантів. Словом, поява спеціальних ритуальних оркестрів, які грають у мінорі і лише на похороні, гармонійно вписалося в порядок життя. Щоправда, у сільській місцевості жителі протестували проти оркестрів та обходилися читанням псалмів священнослужителя.
-            </blockquote>
-
-            <p style={{marginBottom: '20px'}} className={s.musicalAccompanimen__description}>Радянський період характерний супровід похоронної процесії оркестром як неодмінною умовою. Хоча послідовники жовтневої революції руйнували практично всі існуючі раніше звичаї, на похороні завжди були присутні похоронні оркестри, на знак шанування загиблого товариша і як данина поваги до соратника.</p>
-
-            <SectionNeedHelp />
+            <blockquote className={s.abooutRemovalBody__blockquote}> Вона працюватиме від початку самого процесу похорону і до його завершення. Склад бригади залежатиме від розміру труни та складності роботи, є мінімальний, стандартний та елітний склад <b>(4-6-8 осіб)</b>.</blockquote>
             
-            <h3 style={{ marginTop: '20px' }} className={s.musicalAccompanimen__titleMedium}>Оркестр на похороні військових</h3>    
-                
-            <p className={s.musicalAccompanimen__description}>Похорон військових слід відзначити окремо. Тут неодмінно грає військово-духовий оркестр жалобну музику патріотичного характеру (зазвичай це похоронний марш). Без оркестру похорон військового уявити неможливо. Похоронною музикою при цьому виражається не тільки скорбота та страждання, а й віддаються почесті досконалим їм заслугам і подвигам, вноситься внесок у збереження світлої пам’яті загиблого. Ніщо не здатне так показати скорботу по покійному, передати почуття близьких йому людей, виділити священну урочистість події, як музика, яку виконує духовий похоронний оркестр.</p>
-            
-            <p className={s.musicalAccompanimen__description}>Адже музика на похороні була присутня з часів давнини в дещо іншому «облику» – це і плач, і голосіння, і залік. Але найкраще відображає настрій музичних інструментальна.</p>
+            <p style={{marginBottom: '20px'}} className={s.abooutRemovalBody__description}>Якщо Вам потрібно виконати перевезення тіла померлого на тривалі відстані, ритуальні вантажники проводять разом з вами тіло до вокзалу або аеропорту. Крім того, за вашим бажанням вони можуть брати участь у <Link className={s.abooutRemovalBody__link} to="/cargo">далеких перевезеннях померлих</Link></p>
 
-            <h3 style={{ marginTop: '20px' }} className={s.musicalAccompanimen__titleMedium}>Похоронні оркестри у наш час</h3>    
-
-            <p className={s.musicalAccompanimen__description}>Були у похоронних оркестрів у нашій країні та періоди криз. Це вісімдесяті-дев’яності роки минулого століття. У вісімдесятих увійшли до моди аудіозаписи похоронної музики, якими замінювали оркестри. Розвиток техніки, відмінна якість звуку сприяли витіснення другого план похоронних оркестрів, багато виявилися незатребуваними. Ну а ці лихі дев’яності, що запам’яталися плутаниною у всіх сферах життя суспільства, коли народ був змушений не жити, а намагатися вижити? Тоді здавалося, що діяльність оркестрів для похорону припинила своє існування і більше не знадобляться.</p>
-
-            <p className={s.musicalAccompanimen__description}>Проте країна пережила лихоліття, і потреба в духових оркестрах для похорону стала відроджуватися. Сучасність така, що дедалі більше людей прагнуть культури у всьому, зокрема й культурі траурної церемонії. Тому попит на похоронні оркестри підвищується, і зараз у багатьох ритуальних агенціях існує послуга супроводу траурної церемонії похоронним оркестром. Багатьом хочеться проводити близьку людину в останній шлях красиво, за обрядом. І похоронний оркестр, який грає весь час церемонії не надто голосно, навіть дещо заспокоює, налаштовує на лад примирення з долею та законами життя.</p>
+                <SectionNeedHelp />
                 
-            <h4 className={s.musicalAccompanimen__titleSmal}>Клієнти, які замовляли послугу музичного супроводу, так само цікавилися:</h4>
+            <h2 style={{ marginTop: '20px' }} className={s.abooutRemovalBody__title}>Наша Бригада для похорону</h2>    
+
+            <p className={s.abooutRemovalBody__description}>Багато людей вважають за краще не замовляти професійну бригаду для винесення тіла померлого. Вони довіряють цей ритуал похорону членам сім’ї чи близьким знайомим. Але на жаль, люди журяться втратою друга чи члена сім’ї по-різному. Але ваші близькі та друзі теж перебувають під стресом, їхній друг помер, його більше немає. Щоб пом’якшити горе перед похороном багато хто вживає алкоголь. Не знаючи коректної процедури винесення тіла померлого і <b>під впливом алкоголю</b> часто трапляються нещасні випадки під час похорону, які завдають незворотного стресу близьким і рідним померлого. Наша бригада це міцні та сильні чоловіки, які відповідально ставляться до своєї роботи.</p>
+
+            <h4 className={s.abooutRemovalBody__titleSmal}>Клієнти, які замовляли ритуальну послугу “бригада для похорону” так само цікавилися:</h4>
                 
-            <ul style={{ marginBottom: '20px' }} className={s.musicalAccompanimen__list}>
-                <li><a className={s.musicalAccompanimen__link} href="/">Поминальним обідом</a></li>
-                <li><a className={s.musicalAccompanimen__link} href="/">Послуг транспорту</a></li>
-                <li><a className={s.musicalAccompanimen__link} href="/">Орендою ритуального залу</a></li>
-                <li><a className={s.musicalAccompanimen__link} href="/">Жалобними вінками</a></li>  
+            <ul style={{ marginBottom: '20px' }} className={s.abooutRemovalBody__list}>
+                <li><a className={s.abooutRemovalBody__link} href="/">Орендою ритуального залу</a></li>
+                <li><a className={s.abooutRemovalBody__link} href="/">Оформлення документів</a></li>
+                <li><a className={s.abooutRemovalBody__link} href="/">Ритуальний транспорт</a></li>
+                <li><a className={s.abooutRemovalBody__link} href="/">Поминальний обід у Києві</a></li>  
+            </ul>
+                
+            <h4 className={s.abooutRemovalBody__titleSmal}>Фото нашої бригади для похорону</h4>
+                
+            <ul className={s.funeralTeam__photoList}>
+                <li className={s.funeralTeam__photoItem}><img className={s.funeralTeam__photo} loading="lazy" src={funeralTeam__photo} alt="funeralTeam__photo" /></li>
+                <li className={s.funeralTeam__photoItem}><img className={s.funeralTeam__photo} loading="lazy" src={funeralTeam__photo2} alt="funeralTeam__photo2" /></li>
+                <li className={s.funeralTeam__photoItem}><img className={s.funeralTeam__photo} loading="lazy" src={funeralTeam__photo3} alt="funeralTeam__photo3" /></li>
             </ul>
                 
         </div>
@@ -52,4 +49,4 @@ const SectionAboutMusicalAccompanimen = () => {
   )
 };
 
-export default SectionAboutMusicalAccompanimen;
+export default SectionAbooutRemovalBody;

@@ -1,7 +1,7 @@
 import Header from 'components/Header/Header';
 import SectionContactsList from 'components/SectionContactsList/SectionContactsList';
 import SectionCurrentPage from 'components/SectionCurrentPage/SectionCurrentPage';
-import SectionAboutMusicalAccompanimen from 'components/SectionAboutMusicalAccompanimen/SectionAboutMusicalAccompanimen';
+import SectionAbooutRemovalBody from 'components/SectionAbooutRemovalBody/SectionAbooutRemovalBody';
 import SectionNavigationList from 'components/SectionNavigationList/SectionNavigationList';
 import SectionContacts from 'components/SectionContacts/SectionContacts';
 import SectionRitualServicesList from 'components/SectionRitualServicesList/SectionRitualServicesList';
@@ -17,7 +17,7 @@ const RemovalBodyPage = () => {
         <main>
             <SectionContactsList />
             <SectionCurrentPage title={RemovalBodyPageTitle} />
-            <SectionAboutMusicalAccompanimen />
+            <SectionAbooutRemovalBody />
             <SectionNavigationList />
             <SectionContacts />
             <SectionRitualServicesList />
