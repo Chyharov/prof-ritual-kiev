@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/prof-ritual-kiev/static/css/main.b267ffe6.css",
-    "main.js": "/prof-ritual-kiev/static/js/main.a7cb3550.js",
+    "main.js": "/prof-ritual-kiev/static/js/main.e4d34126.js",
     "static/css/73.3b208d6f.chunk.css": "/prof-ritual-kiev/static/css/73.3b208d6f.chunk.css",
     "static/js/73.34ebf42d.chunk.js": "/prof-ritual-kiev/static/js/73.34ebf42d.chunk.js",
     "static/css/396.57f15f91.chunk.css": "/prof-ritual-kiev/static/css/396.57f15f91.chunk.css",
@@ -36,8 +36,8 @@
     "static/js/985.6c7db4d6.chunk.js": "/prof-ritual-kiev/static/js/985.6c7db4d6.chunk.js",
     "static/css/609.057b04d7.chunk.css": "/prof-ritual-kiev/static/css/609.057b04d7.chunk.css",
     "static/js/609.c6bd4ad4.chunk.js": "/prof-ritual-kiev/static/js/609.c6bd4ad4.chunk.js",
-    "static/css/23.44ff27f7.chunk.css": "/prof-ritual-kiev/static/css/23.44ff27f7.chunk.css",
-    "static/js/23.54c78dcf.chunk.js": "/prof-ritual-kiev/static/js/23.54c78dcf.chunk.js",
+    "static/css/110.db62f332.chunk.css": "/prof-ritual-kiev/static/css/110.db62f332.chunk.css",
+    "static/js/110.5b44f5b1.chunk.js": "/prof-ritual-kiev/static/js/110.5b44f5b1.chunk.js",
     "static/js/286.cb43d1d8.chunk.js": "/prof-ritual-kiev/static/js/286.cb43d1d8.chunk.js",
     "static/js/856.a14d35da.chunk.js": "/prof-ritual-kiev/static/js/856.a14d35da.chunk.js",
     "static/js/755.fc592755.chunk.js": "/prof-ritual-kiev/static/js/755.fc592755.chunk.js",
@@ -62,6 +62,7 @@
     "static/media/funeralTeam__photo.jpeg": "/prof-ritual-kiev/static/media/funeralTeam__photo.708431b99a2c76d4ec9b.jpeg",
     "static/media/BgForNeedHelp.jpg": "/prof-ritual-kiev/static/media/BgForNeedHelp.ffb6f248dbc55daf4203.jpg",
     "static/media/funeralTeam__photo2.jpeg": "/prof-ritual-kiev/static/media/funeralTeam__photo2.205ae5fa0a4946f0f7d0.jpeg",
+    "static/media/RequiemServiceByPriestDecoration.jpg": "/prof-ritual-kiev/static/media/RequiemServiceByPriestDecoration.524021b9ab07ce40d724.jpg",
     "static/media/ritualGoodsDecoration.jpg": "/prof-ritual-kiev/static/media/ritualGoodsDecoration.3d5b64c14fd7d976aead.jpg",
     "static/media/MemorialDinners.jpg": "/prof-ritual-kiev/static/media/MemorialDinners.a86948ea3383236b7341.jpg",
     "static/media/Cargo.jpg": "/prof-ritual-kiev/static/media/Cargo.3d3bdfab4ba5f65fb8b0.jpg",
@@ -94,7 +95,7 @@
     "static/media/RemovalOfTheBody.jpg": "/prof-ritual-kiev/static/media/RemovalOfTheBody.4c7985a568ef7a4fe892.jpg",
     "index.html": "/prof-ritual-kiev/index.html",
     "main.b267ffe6.css.map": "/prof-ritual-kiev/static/css/main.b267ffe6.css.map",
-    "main.a7cb3550.js.map": "/prof-ritual-kiev/static/js/main.a7cb3550.js.map",
+    "main.e4d34126.js.map": "/prof-ritual-kiev/static/js/main.e4d34126.js.map",
     "73.3b208d6f.chunk.css.map": "/prof-ritual-kiev/static/css/73.3b208d6f.chunk.css.map",
     "73.34ebf42d.chunk.js.map": "/prof-ritual-kiev/static/js/73.34ebf42d.chunk.js.map",
     "396.57f15f91.chunk.css.map": "/prof-ritual-kiev/static/css/396.57f15f91.chunk.css.map",
@@ -129,8 +130,8 @@
     "985.6c7db4d6.chunk.js.map": "/prof-ritual-kiev/static/js/985.6c7db4d6.chunk.js.map",
     "609.057b04d7.chunk.css.map": "/prof-ritual-kiev/static/css/609.057b04d7.chunk.css.map",
     "609.c6bd4ad4.chunk.js.map": "/prof-ritual-kiev/static/js/609.c6bd4ad4.chunk.js.map",
-    "23.44ff27f7.chunk.css.map": "/prof-ritual-kiev/static/css/23.44ff27f7.chunk.css.map",
-    "23.54c78dcf.chunk.js.map": "/prof-ritual-kiev/static/js/23.54c78dcf.chunk.js.map",
+    "110.db62f332.chunk.css.map": "/prof-ritual-kiev/static/css/110.db62f332.chunk.css.map",
+    "110.5b44f5b1.chunk.js.map": "/prof-ritual-kiev/static/js/110.5b44f5b1.chunk.js.map",
     "286.cb43d1d8.chunk.js.map": "/prof-ritual-kiev/static/js/286.cb43d1d8.chunk.js.map",
     "856.a14d35da.chunk.js.map": "/prof-ritual-kiev/static/js/856.a14d35da.chunk.js.map",
     "755.fc592755.chunk.js.map": "/prof-ritual-kiev/static/js/755.fc592755.chunk.js.map",
@@ -140,6 +141,6 @@
   },
   "entrypoints": [
     "static/css/main.b267ffe6.css",
-    "static/js/main.a7cb3550.js"
+    "static/js/main.e4d34126.js"
   ]
 }
