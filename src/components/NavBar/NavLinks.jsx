@@ -148,7 +148,7 @@ const NavLinks = (props) => {
                         animate={animateTo}
                         transition={{delay: 0.65}}
                         className={s.menu__list_itemSubMenu}>
-                            <Link onClick={() => props.isMobile && props.closeMobileMenu()}>Відспівування померлого</Link>
+                            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/requiemservicebypriest">Відспівування померлого</Link>
                     </motion.li>
                     
                     <motion.li 
