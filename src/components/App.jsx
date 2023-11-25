@@ -18,6 +18,7 @@ const RitualHallPage = lazy(() => import('pages/RitualHallPage/RitualHallPage'))
 const MusicalAccompanimenPage = lazy(() => import('pages/MusicalAccompanimenPage/MusicalAccompanimenPage'));
 const RemovalBodyPage = lazy(() => import('pages/RemovalBodyPage/RemovalBodyPage'));
 const RequiemServiceByPriestPage = lazy(() => import('pages/RequiemServiceByPriestPage/RequiemServiceByPriestPage'));
+const SanitationOfPremisesPage = lazy(() => import('pages/SanitationOfPremisesPage/SanitationOfPremisesPage'));
 
 
 export const App = () => {
@@ -43,6 +44,7 @@ export const App = () => {
           <Route path="/musicalaccompanimen" element={<MusicalAccompanimenPage />} />
           <Route path="/removalbody" element={<RemovalBodyPage />} />
           <Route path="/requiemservicebypriest" element={<RequiemServiceByPriestPage />} />
+          <Route path="/sanitationofpremises" element={<SanitationOfPremisesPage />} />
         </Routes>
       </Suspense>
     </>
