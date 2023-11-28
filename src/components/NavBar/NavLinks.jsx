@@ -205,32 +205,32 @@ const NavLinks = (props) => {
             initial={animateFrom}
             animate={animateTo}
             transition={{delay: 0.10}}
-            className={s.menu__list_itemSubMenu}><Link
-                    onClick={() => props.isMobile && props.closeMobileMenu()}>Вінки</Link></motion.li>
+            className={s.menu__list_itemSubMenu}>
+                        <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/ritualwreath">Вінки</Link></motion.li>
                     <motion.li 
             initial={animateFrom}
             animate={animateTo}
             transition={{delay: 0.15}}
-            className={s.menu__list_itemSubMenu}><Link
-                    onClick={() => props.isMobile && props.closeMobileMenu()}>Труни</Link></motion.li>
+            className={s.menu__list_itemSubMenu}>
+                        <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/">Труни</Link></motion.li>
                     <motion.li 
             initial={animateFrom}
             animate={animateTo}
             transition={{delay: 0.20}}
-            className={s.menu__list_itemSubMenu}><Link
-                    onClick={() => props.isMobile && props.closeMobileMenu()}>Хрести</Link></motion.li>
+            className={s.menu__list_itemSubMenu}>
+                        <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/">Хрести</Link></motion.li>
                     <motion.li 
             initial={animateFrom}
             animate={animateTo}
             transition={{delay: 0.25}}
-            className={s.menu__list_itemSubMenu}><Link
-                    onClick={() => props.isMobile && props.closeMobileMenu()}>Пам'ятники</Link></motion.li>
+            className={s.menu__list_itemSubMenu}>
+                        <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/">Пам'ятники</Link></motion.li>
                     <motion.li 
             initial={animateFrom}
             animate={animateTo}
             transition={{delay: 0.30}}
-            className={s.menu__list_itemSubMenu}><Link
-                    onClick={() => props.isMobile && props.closeMobileMenu()}>Приладдя</Link></motion.li>
+            className={s.menu__list_itemSubMenu}>
+                        <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/">Приладдя</Link></motion.li>
                 </ul>
                 )}
                 

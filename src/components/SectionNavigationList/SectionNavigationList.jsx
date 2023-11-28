@@ -31,7 +31,7 @@ const SectionNavigationList = () => {
         <h2 className={s.navigationList__title}><Link to="/ritualgoods">Ритуальні товари</Link></h2>
                 
         <ul className={s.navigationList__list}>
-            <li className={s.navigationList__item}><Link to="/">Вінки</Link></li>
+            <li className={s.navigationList__item}><Link to="/ritualwreath">Вінки</Link></li>
             <li className={s.navigationList__item}><Link to="/">Труни</Link></li>
             <li className={s.navigationList__item}><Link to="/">Хрести</Link></li>
             <li className={s.navigationList__item}><Link to="/">Пам’ятники</Link></li>
