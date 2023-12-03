@@ -1,0 +1,33 @@
+@import '../../sass/utils/mixin';
+
+.aboutCrosses__container {
+    margin-bottom: 20px;
+}
+
+.aboutCrosses__decoration {
+    width: 290px;
+    height: 94px;
+    margin-bottom: 25px;
+}
+
+.aboutCrosses__description {
+    font-family: CormorantUnicase Regular;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--secondaryTextColor);
+    text-shadow: var(--primaryTextShadowColor);
+    margin-bottom: 10px;
+}
+
+.aboutCrosses__list {
+    margin-bottom: 20px;
+}
+
+.aboutCrosses__item {
+    margin-bottom: 10px;
+}
+
+.aboutCrosses__img {
+    width: 290px;
+    height: 436px;
+}
