@@ -35,7 +35,7 @@ const SectionNavigationList = () => {
             <li className={s.navigationList__item}><Link to="/сoffins">Труни</Link></li>
             <li className={s.navigationList__item}><Link to="/crosses">Хрести</Link></li>
             <li className={s.navigationList__item}><Link to="/ritualmonuments">Пам’ятники</Link></li>
-            <li className={s.navigationList__item}><Link to="/">Приладдя</Link></li>
+            <li className={s.navigationList__item}><Link to="/ritualaccessories">Приладдя</Link></li>
         </ul>
 
         </div>

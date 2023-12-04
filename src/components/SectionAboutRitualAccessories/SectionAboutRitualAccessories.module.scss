@@ -1,0 +1,53 @@
+@import '../../sass/utils/mixin';
+
+.sectionAboutRitualAccessories {
+    margin-bottom: 20px;
+}
+
+.aboutAboutRitual__decoration {
+    width: 290px;
+    height: 94px;
+    margin-bottom: 25px;
+}
+
+.aboutAboutRitual__description {
+    font-family: CormorantUnicase Regular;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--secondaryTextColor);
+    text-shadow: var(--primaryTextShadowColor);
+    margin-bottom: 10px;
+}
+
+.aboutAboutRitual__title {
+    font-family: CormorantUnicase SemiBold;
+    font-size: 23px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: var(--primaryTextColor);
+    text-shadow: var(--primaryTextShadowColor);
+    margin-bottom: 10px;
+}
+
+.aboutAboutRitual__list {
+    margin-bottom: 20px;
+}
+
+.aboutAboutRitual__item {
+    margin-bottom: 10px;
+}
+
+.ritualAccessories__img {
+    width: 290px;
+    height: 388px;
+}
+
+.orthodoxShroud__img {
+    width: 290px;
+    height: 436px;
+}
+
+.tulleCovering__img {
+    width: 290px;
+    max-height: 436px;
+}

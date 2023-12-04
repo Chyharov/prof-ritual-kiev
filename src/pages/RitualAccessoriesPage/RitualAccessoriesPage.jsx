@@ -1,22 +1,22 @@
 import Header from 'components/Header/Header';
 import SectionContactsList from 'components/SectionContactsList/SectionContactsList';
 import SectionCurrentPage from 'components/SectionCurrentPage/SectionCurrentPage';
-import SectionAboutRitualMonuments from 'components/SectionAboutRitualMonuments/SectionAboutRitualMonuments';
+import SectionAboutRitualAccessories from 'components/SectionAboutRitualAccessories/SectionAboutRitualAccessories';
 import SectionNavigationList from 'components/SectionNavigationList/SectionNavigationList';
 import SectionContacts from 'components/SectionContacts/SectionContacts';
 import SectionRitualServicesList from 'components/SectionRitualServicesList/SectionRitualServicesList';
 import Footer from 'components/Footer/Footer';
 
-const RitualMonumentsPageTitle = [{ title: 'Ритуальні Пам`ятники' }]
+const RitualAccessoriesPageTitle = [{ title: 'Ритуальне приладдя' }]
 
-const RitualMonumentsPage = () => {
+const RitualAccessoriesPage = () => {
   return (
     <>
       <Header />
         <main>
             <SectionContactsList />
-            <SectionCurrentPage title={RitualMonumentsPageTitle} />
-            <SectionAboutRitualMonuments />
+            <SectionCurrentPage title={RitualAccessoriesPageTitle} />
+            <SectionAboutRitualAccessories />
             <SectionNavigationList />
             <SectionContacts />
             <SectionRitualServicesList />
@@ -28,4 +28,4 @@ const RitualMonumentsPage = () => {
 
 
 
-export default RitualMonumentsPage;
+export default RitualAccessoriesPage;

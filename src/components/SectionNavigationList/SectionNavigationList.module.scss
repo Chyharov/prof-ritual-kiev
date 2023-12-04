@@ -39,7 +39,7 @@
     color: var(--hoverColor);
 }
 
-.navigationList__title:active,
+.navigationList__title:active ,
 .navigationList__item:active {
     background-color: var(--hoverColor);
     color: var(--backgroundColor);
