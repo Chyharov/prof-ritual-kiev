@@ -40,10 +40,9 @@ const SectionContactsInformation = () => {
           <div>
             <h2 className={s.contactsInformation__titleList}>Телефони</h2>
             <ul className={s.contactsInformation__list}>
-              <li className={s.contactsInformation__item}><a href="tel:+38(044)2092472">+38 (044) 209-24-72</a></li>
-              <li className={s.contactsInformation__item}><a href="tel:+38(099)6813773">+38 (099) 681-37-73</a></li>
-              <li className={s.contactsInformation__item}><a href="tel:+38(073)6813773">+38 (073) 681-37-73</a></li>
-              <li className={s.contactsInformation__item}><a href="tel:+38(098)5813773">+38 (098) 581-37-73</a></li>
+              <li className={s.contactsInformation__item}><a href="tel:+380442090261">+38 (044) 209-02-61</a></li>
+              <li className={s.contactsInformation__item}><a href="tel:+380996813773">+38 (067) 011-21-60</a></li>
+              <li className={s.contactsInformation__item}><a href="tel:+380736813773">+38 (093) 904-07-07</a></li>
             </ul>
           </div>
         </div>
