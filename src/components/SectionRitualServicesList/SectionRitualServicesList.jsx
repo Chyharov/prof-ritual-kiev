@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import s from './SectionRitualServicesList.module.scss'
 
 
@@ -7,14 +8,14 @@ const SectionRitualServicesList = () => {
         <div className={'container ' + s.ritualServicesList__container}>
                 
                 <ul className={s.ritualServices__list}>
-                    <li className={s.ritualServices__item}>Ритуальный агент</li>
-                    <li className={s.ritualServices__item}>Організація похорон</li>
-                    <li className={s.ritualServices__item}>Кремація</li>
-                    <li className={s.ritualServices__item}>Автокатафалк</li>
-                    <li className={s.ritualServices__item}>Вантаж 200</li>
-                    <li className={s.ritualServices__item}>Послуги моргу</li>
-                    <li className={s.ritualServices__item}>Поминальні обіди</li>
-                    <li className={s.ritualServices__item}>Ритуальні товари</li>
+                    <Link className={s.ritualServices__item} to="/ritualagent">Виклик ритуального агента</Link>
+                    <Link className={s.ritualServices__item} to="/funeralorganization">Організація похорон</Link>
+                    <Link className={s.ritualServices__item} to="/cremation">Кремація</Link>
+                    <Link className={s.ritualServices__item} to="/hearse">Автокатафалк</Link>
+                    <Link className={s.ritualServices__item} to="/cargo">Вантаж 200</Link>
+                    <Link className={s.ritualServices__item} to="/mortuaryservices">Послуги моргу</Link>
+                    <Link className={s.ritualServices__item} to="/memorialdinners">Поминальні обіди</Link>
+                    <Link className={s.ritualServices__item} to="/ritualgoods">Ритуальні товари</Link>
                 </ul>
         
         </div>

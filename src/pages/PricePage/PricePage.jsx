@@ -3,6 +3,7 @@ import SectionContactsList from 'components/SectionContactsList/SectionContactsL
 import SectionCurrentPage from 'components/SectionCurrentPage/SectionCurrentPage';
 import SectionServicesInformation from 'components/SectionServicesInformation/SectionServicesInformation';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
+import SectionNavigationList from 'components/SectionNavigationList/SectionNavigationList';
 import SectionContacts from 'components/SectionContacts/SectionContacts';
 import SectionRitualServicesList from 'components/SectionRitualServicesList/SectionRitualServicesList';
 import Footer from 'components/Footer/Footer';
@@ -19,6 +20,7 @@ const PricePage = () => {
             <SectionCurrentPage title={PricePageTitle} />
             <SectionServicesInformation /> 
             <SectionNeedHelp />
+            <SectionNavigationList />
             <SectionContacts />
             <SectionRitualServicesList />
         </main>

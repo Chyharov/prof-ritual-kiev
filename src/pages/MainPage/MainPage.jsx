@@ -8,6 +8,7 @@ import SectionOrganizationFuneralServices from 'components/SectionOrganizationFu
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
 import SectionRitualGoods from 'components/SectionRitualGoods/SectionRitualGoods';
 import SectionServicesInformation from 'components/SectionServicesInformation/SectionServicesInformation';
+import SectionNavigationList from 'components/SectionNavigationList/SectionNavigationList';
 import SectionServicesInformationDetail from 'components/SectionServicesInformationDetail/SectionServicesInformationDetail';
 import SectionContacts from 'components/SectionContacts/SectionContacts';
 import SectionRitualServicesList from 'components/SectionRitualServicesList/SectionRitualServicesList';
@@ -30,6 +31,7 @@ const MainPage = () => {
           <SectionRitualGoods />
           <SectionServicesInformation />
           <SectionServicesInformationDetail />
+          <SectionNavigationList />
           <SectionContacts />
           <SectionRitualServicesList />
         </main>

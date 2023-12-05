@@ -6,6 +6,7 @@ import SectionAdvantages from 'components/SectionAdvantages/SectionAdvantages';
 import SectionOrganizationFuneralServices from 'components/SectionOrganizationFuneralServices/SectionOrganizationFuneralServices';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
 import SectionRitualGoods from 'components/SectionRitualGoods/SectionRitualGoods';
+import SectionNavigationList from 'components/SectionNavigationList/SectionNavigationList';
 import SectionContacts from 'components/SectionContacts/SectionContacts';
 import SectionRitualServicesList from 'components/SectionRitualServicesList/SectionRitualServicesList';
 import Footer from 'components/Footer/Footer';
@@ -25,6 +26,7 @@ const AboutPage = () => {
             <SectionOrganizationFuneralServices />  
             <SectionNeedHelp />
             <SectionRitualGoods />
+            <SectionNavigationList />    
             <SectionContacts />
             <SectionRitualServicesList />
         </main>

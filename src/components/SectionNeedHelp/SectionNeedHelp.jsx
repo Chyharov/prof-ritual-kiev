@@ -6,7 +6,7 @@ const SectionNeedHelp = () => {
         <div className={'container ' + s.needHelp__container}>
             <h2 className={s.needHelp__title}>Потрібна допомога? Замов зворотній зв’язок.</h2>
                 
-            <a className={s.needHelp__link} href="tel:+380996813773"><p className={s.needHelp__description}>+38 (099) 681-37-73</p></a>
+            <a className={s.needHelp__link} href="tel:+380672459505"><p className={s.needHelp__description}>+38 (067) 245-95-05</p></a>
         </div>
       </section>
   )
