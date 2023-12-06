@@ -59,14 +59,59 @@
 }
 
 .modal {
+    width: 90%;
+    height: 170px;
     position: fixed;
     top: 50%;
     left: 50%;
-    padding: 20px;
+    padding: 10px;
     background-color: var(--backgroundColor);
     border: 1px solid var(--hoverColor);
     transform: translate(-50%, -50%);
     box-shadow: var(--primaryTextShadowColor);
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+.contact__list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact__links {
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.contact__icons {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.btn__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.icon__telegram {
+    fill: #3498db;
+}
+
+.icon__viber {
+    fill: #8a3ab9;
+}
+
+.icon__whatsApp {
+    fill: #25d366;
+}

@@ -6,20 +6,22 @@
     justify-content: center;
     position: fixed;
     bottom: 60px;
-    right: 20px;
+    right: 10px;
     border-radius: 50px;
     cursor: pointer;
     opacity: 0;
     transition: opacity 0.3s ease;
+    padding: 10px;
 }
 
 .toTopIcon {
     border-radius: 50px;
+    box-shadow: var(--primaryTextShadowColor);
     background-color: var(--backgroundColor);
     color: var(--hoverColor);
     fill: var(--hoverColor);
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
 }
 
 .scroll-to-top-button.visible {
