@@ -44,17 +44,17 @@ const SectionContacts = () => {
         <button className={s.contacts__btn} onClick={openModal}>
           Викликати агента
         </button>
-        <a className={s.contacts__call} href="tel:+38044209-02-61">
+        <a className={s.contacts__call} href="tel:+380442090261">
           +38 (044) 209-02-61
         </a>
 
         <h2 className={s.contacts__title}>Телефони:</h2>
         <ul className={s.contacts__list}>
           <li className={s.contacts__item}>
-            <a href="tel:+380996813773">+38 (067) 011-21-60</a>
+            <a href="tel:+380670112160">+38 (067) 011-21-60</a>
           </li>
           <li className={s.contacts__item}>
-            <a href="tel:+380736813773">+38 (093) 904-07-07</a>
+            <a href="tel:+380939040707">+38 (093) 904-07-07</a>
           </li>
         </ul>
 
@@ -66,21 +66,21 @@ const SectionContacts = () => {
             <ul className={s.contact__list}>
               
               <li className={s.contact__item}>
-                <a className={s.contact__links} href="https://t.me/+380672459505" target="_blank" rel="noopener noreferrer">
+                <a className={s.contact__links} href="https://t.me/+380939040707" target="_blank" rel="noopener noreferrer">
                   <FaTelegram className={`${s.contact__icons} ${s.icon__telegram}`} />
                   <p> Telegram</p>
                 </a>
               </li>
 
               <li className={s.contact__item}>
-                <a className={s.contact__links} href="viber://chat?number=+380672459505/" target="_blank" rel="noopener noreferrer">
+                <a className={s.contact__links} href="viber://chat?number=+380939040707/" target="_blank" rel="noopener noreferrer">
                   <FaViber className={`${s.contact__icons} ${s.icon__viber}`} />
                   <p> Viber</p>
                 </a>
               </li>
 
               <li className={s.contact__item}>
-                <a className={s.contact__links} href="whatsapp://send?phone=+380672459505" target="_blank" rel="noopener noreferrer">
+                <a className={s.contact__links} href="whatsapp://send?phone=+380939040707" target="_blank" rel="noopener noreferrer">
                   <FaSquareWhatsapp className={`${s.contact__icons} ${s.icon__whatsApp}`} />
                   <p> WhatsApp</p>
                 </a>
