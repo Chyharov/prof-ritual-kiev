@@ -19,10 +19,14 @@
     padding: 10px 20px 20px 20px;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    outline: 1px solid var(--primaryTextColor);
+    outline: 2px solid var(--hoverColor);
 
     @include mq(tab) {
-        max-width: 800px;
+        max-width: 750px;
+    }
+
+    @include mq(desk) {
+        max-width: 1800px;
     }
 }
 
@@ -30,6 +34,10 @@
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+
+    @include mq(desk) {
+        max-height: 800px;
+    }
 }
 
 .closeModal {
@@ -55,4 +63,32 @@
     text-align: inherit;
     color: var(--primaryTextColor);
     text-align: center;
+}
+
+.centerButtonModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonModal {
+    margin: 10px 0px;
+    color: var(--hoverColor);
+    background-color: var(--backgroundColor);
+    outline: 1px solid var(--hoverColor);
+    border-radius: 10px;
+    padding: 5px 30px;
+    cursor: pointer;
+    border: none;
+}
+
+.buttonModal:hover,
+.buttonModal:focus {
+    color: var(--backgroundColor);
+    background-color: var(--hoverColor);
+    border: none;
+}
+
+.buttonModal:first-child {
+    margin-right: 30px;
 }
