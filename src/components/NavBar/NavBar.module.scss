@@ -34,7 +34,6 @@
 }
 
 .menu__list_item {
-  width: 280px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -123,3 +122,11 @@
   color: var(--primaryTextColor);
   cursor: pointer;
 }
+
+.navContainer {
+width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+    

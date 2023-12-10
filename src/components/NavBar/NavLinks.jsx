@@ -17,264 +17,294 @@ const NavLinks = (props) => {
         <div className='container'>
         <ul className={s.menu__list}>
 
-            <motion.li 
-            initial={animateFrom}
-            animate={animateTo}
-            transition={{delay: 0.05}}
-                className={s.menu__list_item}>
+            <Link onClick={() => props.isMobile && props.closeMobileMenu()} className={s.menu__list_link} to="/">
+                <motion.li 
+                initial={animateFrom}
+                animate={animateTo}
+                transition={{delay: 0.05}}
+                className={s.menu__list_item}>ГОЛОВНА</motion.li>
+            </Link>
+
+                
+            <div className={s.navContainer}>
                     
-               <Link
-                    onClick={() => props.isMobile && props.closeMobileMenu()}
-                    className={s.menu__list_link}
-                    to="/">
-                    ГОЛОВНА
-                </Link>
-            </motion.li>
-
-            <motion.li 
-            initial={animateFrom}
-            animate={animateTo}
-            transition={{delay: 0.10}}
-            className={s.menu__list_item}>
-                <Link
-                    onClick={() => props.isMobile && props.closeMobileMenu()}
-                    className={s.menu__list_link}
-                    to="/ritualservices">
-                    РИТУАЛЬНІ ПОСЛУГИ
-                    </Link>
+            <Link onClick={() => props.isMobile && props.closeMobileMenu()} className={s.menu__list_link} to="/ritualservices">
+                <motion.li 
+                initial={animateFrom}
+                animate={animateTo}
+                transition={{delay: 0.10}}
+                className={s.menu__list_item}>РИТУАЛЬНІ ПОСЛУГИ</motion.li>
+            </Link>
                     {showSubMenu ? (
-                        <BsChevronUp 
-                            className={s.menu__list_itemIcon}
-                            onClick={() => setShowSubMenu(!showSubMenu)} />
-                    ) : (
-                        <BsChevronDown 
-                            className={s.menu__list_itemIcon}
-                            onClick={() => setShowSubMenu(!showSubMenu)} />
-                    )}
-                </motion.li>
-                {showSubMenu && (
-
-                <ul>
-                    <motion.li 
+                        <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.10}}
-                        className={s.menu__list_itemSubMenu}>
-                            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/ritualagent">Виклик ритуального агента</Link>
-                    </motion.li>
-                    
-                    <motion.li 
+                        className={s.menu__list_item}><BsChevronUp 
+                        className={s.menu__list_itemIcon}
+                        onClick={() => setShowSubMenu(!showSubMenu)} /></motion.li>
+                        ) : (
+                        <motion.li 
+                        initial={animateFrom}
+                        animate={animateTo}
+                        transition={{delay: 0.10}}
+                        className={s.menu__list_item}><BsChevronDown 
+                        className={s.menu__list_itemIcon}
+                        onClick={() => setShowSubMenu(!showSubMenu)} /></motion.li>
+                        )}
+            </div>
+                
+                {showSubMenu && (
+
+                <ul>
+                    <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/ritualagent">
+                        <motion.li 
+                        initial={animateFrom}
+                        animate={animateTo}
+                        transition={{delay: 0.10}}
+                        className={s.menu__list_itemSubMenu}>Виклик ритуального агента
+                        </motion.li>
+                    </Link>
+                        
+                    <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/funeralorganization">
+                        <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.15}}
-                        className={s.menu__list_itemSubMenu}>
-                            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/funeralorganization">Організація похорон</Link>
-                    </motion.li>
-                    
-                    <motion.li 
+                        className={s.menu__list_itemSubMenu}>Організація похорон
+                        </motion.li>
+                    </Link>
+                        
+                    <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/cremation">
+                        <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.20}}
-                        className={s.menu__list_itemSubMenu}>
-                            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/cremation">Кремація</Link>
-                    </motion.li>
+                        className={s.menu__list_itemSubMenu}>Кремація
+                        </motion.li>
+                    </Link>
                     
+                    <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/hearse">
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.25}}
-                        className={s.menu__list_itemSubMenu}>
-                            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/hearse">Автокатафалк</Link>
+                        className={s.menu__list_itemSubMenu}>Автокатафалк
                     </motion.li>
-                    
+                    </Link>
+                        
+                    <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/cargo">
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.30}}
-                        className={s.menu__list_itemSubMenu}>
-                            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/cargo">Вантаж 200</Link>
+                        className={s.menu__list_itemSubMenu}>Вантаж 200
                     </motion.li>
-                    
-                    <motion.li 
+                    </Link>
+                        
+                    <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/mortuaryservices">    
+                    <motion.li
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.35}}
-                        className={s.menu__list_itemSubMenu}>
-                            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/mortuaryservices">Послуги моргу</Link>
+                        className={s.menu__list_itemSubMenu}>Послуги моргу
                     </motion.li>
+                    </Link>
                     
+                    <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/memorialdinners">
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.40}}
-                        className={s.menu__list_itemSubMenu}>
-                            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/memorialdinners">Поминальні Обіди</Link>
+                        className={s.menu__list_itemSubMenu}>Поминальні Обіди
                     </motion.li>
-                    
+                    </Link>
+                            
+                    <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/documentsforfuneral">
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.45}}
                         className={s.menu__list_itemSubMenu}>
-                            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/documentsforfuneral">Оформлення документів для похорону</Link>
+                            Оформлення документів для похорону
                     </motion.li>
-                    
+                    </Link>
+                        
+                    <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/ritualhall">
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{ delay: 0.50 }}
-                        className={s.menu__list_itemSubMenu}>
-                            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/ritualhall">Ритуальна зала</Link>
+                        className={s.menu__list_itemSubMenu}>Ритуальна зала
                     </motion.li>
-                    
+                    </Link>
+                        
+                    <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/musicalaccompanimen">
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.55}}
-                        className={s.menu__list_itemSubMenu}>
-                            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/musicalaccompanimen">Музичний супровід</Link>
+                        className={s.menu__list_itemSubMenu}>Музичний супровід
                     </motion.li>
-                    
+                    </Link>
+                            
+                    <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/removalbody">
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{ delay: 0.60 }}
                         className={s.menu__list_itemSubMenu}>
-                            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/removalbody">Винесення тіла</Link>
+                            Винесення тіла
                     </motion.li>
-                    
+                    </Link>
+                        
+                    <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/requiemservicebypriest">
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.65}}
-                        className={s.menu__list_itemSubMenu}>
-                            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/requiemservicebypriest">Відспівування померлого</Link>
+                        className={s.menu__list_itemSubMenu}>Відспівування померлого
                     </motion.li>
-                    
+                    </Link>
+                        
+                    <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/sanitationofpremises">
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.70}}
-                        className={s.menu__list_itemSubMenu}>
-                            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/sanitationofpremises">Санобробка приміщень</Link>
+                        className={s.menu__list_itemSubMenu}>Санобробка приміщень
                     </motion.li>
-                    
+                    </Link>
+                        
+                    <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/makingfuneralportrait">
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.75}}
-                        className={s.menu__list_itemSubMenu}>
-                            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/makingfuneralportrait">Виготовлення фотопортрету</Link>
+                        className={s.menu__list_itemSubMenu}>Виготовлення фотопортрету
                     </motion.li>
-                    
+                    </Link>
+                        
+                    <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/funeralescortbymedicalpersonnal">
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{ delay: 0.80 }}
-                        className={s.menu__list_itemSubMenu}>
-                            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/funeralescortbymedicalpersonnal">Супровід медперсоналом</Link>
+                        className={s.menu__list_itemSubMenu}>Супровід медперсоналом
                     </motion.li>
-                    
+                    </Link>
                 </ul>
                 )}
-
-            <motion.li 
-            initial={animateFrom}
-            animate={animateTo}
-            transition={{delay: 0.20}}
-            className={s.menu__list_item}>
-            <Link
-                onClick={() => props.isMobile && props.closeMobileMenu()}
-                className={s.menu__list_link}
-                to="/ritualgoods">
-                РИТУАЛЬНІ ТОВАРИ
-            </Link>
-            {showRitualGoodsSubMenu ? (
-                <BsChevronUp 
-                    className={s.menu__list_itemIcon}
-                    onClick={() => setshowRitualGoodsSubMenu(!showRitualGoodsSubMenu)} />
-            ) : (
-                <BsChevronDown 
-                    className={s.menu__list_itemIcon}
-                    onClick={() => setshowRitualGoodsSubMenu(!showRitualGoodsSubMenu)} />
-            )}
-        </motion.li>
-                {showRitualGoodsSubMenu && (
-                <ul>
-                    <motion.li 
-            initial={animateFrom}
-            animate={animateTo}
-            transition={{delay: 0.10}}
-            className={s.menu__list_itemSubMenu}>
-                        <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/ritualwreath">Вінки</Link></motion.li>
-                    <motion.li 
-            initial={animateFrom}
-            animate={animateTo}
-            transition={{delay: 0.15}}
-            className={s.menu__list_itemSubMenu}>
-                        <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/сoffins">Труни</Link></motion.li>
-                    <motion.li 
-            initial={animateFrom}
-            animate={animateTo}
-            transition={{delay: 0.20}}
-            className={s.menu__list_itemSubMenu}>
-                        <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/crosses">Хрести</Link></motion.li>
-                    <motion.li 
-            initial={animateFrom}
-            animate={animateTo}
-            transition={{delay: 0.25}}
-            className={s.menu__list_itemSubMenu}>
-                        <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/ritualmonuments">Пам'ятники</Link></motion.li>
-                    <motion.li 
-            initial={animateFrom}
-            animate={animateTo}
-            transition={{delay: 0.30}}
-            className={s.menu__list_itemSubMenu}>
-                        <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/ritualaccessories">Приладдя</Link></motion.li>
-                </ul>
-                )}
-                
-            <motion.li 
-            initial={animateFrom}
-            animate={animateTo}
-            transition={{delay: 0.30}}
-            className={s.menu__list_item}>
-                <Link
-                    onClick={() => props.isMobile && props.closeMobileMenu()}
-                    className={s.menu__list_link}
-                    to="/about">
-                    ПРО НАС
-                </Link>
-            </motion.li>
-            <motion.li 
-            initial={animateFrom}
-            animate={animateTo}
-            transition={{delay: 0.40}}
-            className={s.menu__list_item}>
-                <Link
-                    onClick={() => props.isMobile && props.closeMobileMenu()}
-                    className={s.menu__list_link}
-                    to="/price">
-                    ЦІНИ
-                </Link>
-                </motion.li>
-                 <motion.li 
-            initial={animateFrom}
-            animate={animateTo}
-            transition={{delay: 0.50}}
-            className={s.menu__list_item}>
-                <Link
-                onClick={() => props.isMobile && props.closeMobileMenu()}
-                    className={s.menu__list_link}
-                    to="/contacts">
-                    КОНТАКТИ
-                </Link>
-            </motion.li>
             
+            <div className={s.navContainer}> 
 
+            <Link onClick={() => props.isMobile && props.closeMobileMenu()} className={s.menu__list_link} to="/ritualgoods">
+                <motion.li 
+                initial={animateFrom}
+                animate={animateTo}
+                transition={{delay: 0.20}}
+                className={s.menu__list_item}>РИТУАЛЬНІ ТОВАРИ</motion.li>
+            </Link>
+                
+            {showRitualGoodsSubMenu ? (
+                <motion.li 
+                initial={animateFrom}
+                animate={animateTo}
+                transition={{delay: 0.20}}
+                className={s.menu__list_item}><BsChevronUp 
+                    className={s.menu__list_itemIcon}
+                    onClick={() => setshowRitualGoodsSubMenu(!showRitualGoodsSubMenu)} /></motion.li>
+            ) : (
+                <motion.li 
+                initial={animateFrom}
+                animate={animateTo}
+                transition={{delay: 0.20}}
+                className={s.menu__list_item}><BsChevronDown 
+                    className={s.menu__list_itemIcon}
+                    onClick={() => setshowRitualGoodsSubMenu(!showRitualGoodsSubMenu)} /></motion.li>
+            )}
+            </div>   
+                
+                {showRitualGoodsSubMenu && (
+                
+            <ul>
+            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/ritualwreath">
+                <motion.li 
+                initial={animateFrom}
+                animate={animateTo}
+                transition={{delay: 0.10}}
+                className={s.menu__list_itemSubMenu}>Вінки
+                </motion.li>
+            </Link>
+
+            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/сoffins">
+                <motion.li 
+                initial={animateFrom}
+                animate={animateTo}
+                transition={{delay: 0.15}}
+                className={s.menu__list_itemSubMenu}>Труни
+                </motion.li>
+            </Link>
+                
+            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/crosses">
+                <motion.li 
+                initial={animateFrom}
+                animate={animateTo}
+                transition={{delay: 0.20}}
+                className={s.menu__list_itemSubMenu}>Хрести
+                </motion.li>
+            </Link>
+
+            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/ritualmonuments">
+                    <motion.li 
+                    initial={animateFrom}
+                    animate={animateTo}
+                    transition={{delay: 0.25}}
+                    className={s.menu__list_itemSubMenu}>Пам'ятники
+                    </motion.li>
+            </Link>
+                    
+            <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/ritualaccessories">
+                <motion.li 
+                initial={animateFrom}
+                animate={animateTo}
+                transition={{delay: 0.30}}
+                className={s.menu__list_itemSubMenu}>Приладдя
+                </motion.li>
+            </Link>
             </ul>
-            </div>
-     );
+            )}
+                
+            <Link onClick={() => props.isMobile && props.closeMobileMenu()} className={s.menu__list_link} to="/about">
+                <motion.li 
+                initial={animateFrom}
+                animate={animateTo}
+                transition={{delay: 0.30}}
+                className={s.menu__list_item}>ПРО НАС
+                </motion.li>
+            </Link>
+
+            <Link onClick={() => props.isMobile && props.closeMobileMenu()} className={s.menu__list_link} to="/price"> 
+                <motion.li 
+                initial={animateFrom}
+                animate={animateTo}
+                transition={{delay: 0.40}}
+                className={s.menu__list_item}>Ціни
+                </motion.li>
+            </Link>
+                
+            <Link onClick={() => props.isMobile && props.closeMobileMenu()} className={s.menu__list_link} to="/contacts">
+                <motion.li 
+                initial={animateFrom}
+                animate={animateTo}
+                transition={{delay: 0.50}}
+                className={s.menu__list_item}>КОНТАКТИ
+                </motion.li>
+            </Link>
+                
+        </ul>
+        </div>
+    );
 }
  
 export default NavLinks;
