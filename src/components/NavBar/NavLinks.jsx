@@ -236,6 +236,7 @@ const NavLinks = (props) => {
                 className={s.menu__list_itemSubMenu}>Вінки
                 </motion.li>
             </Link>
+            
 
             <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/сoffins">
                 <motion.li 
