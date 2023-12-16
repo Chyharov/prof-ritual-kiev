@@ -1,19 +1,10 @@
 import RitualWreathDecoration from '../../images/RitualWreath/RitualWreathDecoration.webp'
 import RitualWreathListComponent from 'components/RitualWreathListComponent/RitualWreathListComponent';
 import ArtificialRitualWreathsListComponent from 'components/ArtificialRitualWreathsListComponent/ArtificialRitualWreathsListComponent';
+import EkibansForTheCoffinComponent from 'components/EkibansForTheCoffinComponent/EkibansForTheCoffinComponent';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
 import s from './SectionAboutRitualWreath.module.scss'
 
-const ekibansForTheCoffin = [
-    { id: 1, src: require('../../images/RitualWreath/ekibansForTheCoffin.jpg'), alt: 'Зображення 1' },
-    { id: 2, src: require('../../images/RitualWreath/ekibansForTheCoffin2.jpg'), alt: 'Зображення 2' },
-    { id: 3, src: require('../../images/RitualWreath/ekibansForTheCoffin3.jpg'), alt: 'Зображення 3' },
-    { id: 4, src: require('../../images/RitualWreath/ekibansForTheCoffin4.jpg'), alt: 'Зображення 4' },
-    { id: 5, src: require('../../images/RitualWreath/ekibansForTheCoffin5.jpg'), alt: 'Зображення 5' },
-    { id: 6, src: require('../../images/RitualWreath/ekibansForTheCoffin6.jpg'), alt: 'Зображення 6' },
-    { id: 7, src: require('../../images/RitualWreath/ekibansForTheCoffin7.jpg'), alt: 'Зображення 7' },
-    { id: 8, src: require('../../images/RitualWreath/ekibansForTheCoffin8.jpg'), alt: 'Зображення 8' },
-];
 
 
 const SectionAboutRitualWreath = () => {
@@ -48,13 +39,7 @@ const SectionAboutRitualWreath = () => {
             
                 <h2 className={s.aboutRitualWreath__title}>Екібани на труну</h2>
 
-            <ul className={s.aboutRitualWreath__list}>
-                {ekibansForTheCoffin.map((image) => (        
-                    <li className={s.aboutRitualWreath__item} key={image.id}>
-                        <img className={s.ekibansForTheCoffin__img} loading="lazy" id={image.id} src={image.src} alt={image.alt} />
-                    </li>
-                ))}
-            </ul>
+            <EkibansForTheCoffinComponent />
             
                 <SectionNeedHelp />
                 
