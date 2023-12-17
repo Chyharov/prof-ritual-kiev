@@ -1,17 +1,7 @@
-import RitualAccessoriesDecoration from '../../images/RitualAccessories/RitualAccessoriesDecoration.jpg'
+import RitualAccessoriesDecoration from '../../images/RitualAccessories/RitualAccessoriesDecoration.jpg';
+import RitualAccessorieListComponent from 'components/RitualAccessorieListComponent/RitualAccessorieListComponent';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
 import s from './SectionAboutRitualAccessories.module.scss'
-
-const ritualAccessoriesImgList = [
-    { id: 1, src: require('../../images/RitualAccessories/RitualAccessories.jpg'), alt: 'Зображення 1' },
-    { id: 2, src: require('../../images/RitualAccessories/RitualAccessories2.jpg'), alt: 'Зображення 2' },
-    { id: 3, src: require('../../images/RitualAccessories/RitualAccessories3.jpg'), alt: 'Зображення 3' },
-];
-
-const orthodoxShroudImgList = [
-    { id: 1, src: require('../../images/RitualAccessories/RitualAccessories4.jpg'), alt: 'Зображення 1' },
-    { id: 2, src: require('../../images/RitualAccessories/RitualAccessories5.jpg'), alt: 'Зображення 2' },
-];
 
 const tulleCoveringImgList = [
     { id: 1, src: require('../../images/RitualAccessories/RitualAccessories6.jpg'), alt: 'Зображення 1' },
@@ -40,13 +30,7 @@ const SectionAboutRitualAccessories = () => {
 
                 <p className={s.aboutAboutRitual__description}>Для проведення прощальної панахиди та відспівування покійного <b>обов’язковим аксесуаром є</b> похоронний набір. У набір входять: прохідна молитва, віночок на голову, хрестик, хрест в руку, свічки, для чоловіків іконка зі Спасителем, для жінок іконка з Богородицею.</p>
 
-                <ul className={s.aboutAboutRitual__list}>
-                {ritualAccessoriesImgList.map((image) => (        
-                    <li className={s.aboutAboutRitual__item} key={image.id}>
-                        <img className={s.ritualAccessories__img} loading="lazy" id={image.id} src={image.src} alt={image.alt} />
-                    </li>
-                ))}
-                </ul>
+                <RitualAccessorieListComponent />
                 
                 <SectionNeedHelp />
                 
@@ -55,14 +39,6 @@ const SectionAboutRitualAccessories = () => {
                 <p className={s.aboutAboutRitual__description}>Понад звичайний одяг на покійного християнина належить саван – білий покрив, що нагадує про той білий одяг, в який одягають немовля при хрещенні. Це свідчить, що померлий <b>зберіг до кінця життя</b> обітниці, які він дав при хрещенні.</p>
 
                 <p className={s.aboutAboutRitual__description}>Православний саван – це дуже важлива частина похорону православної людини. “Профритуал” продає тільки якісне ритуальне приладдя, яке зроблено з усіма ритуальними обрядами та традиціями. Якщо ви хочете дізнатися більше інформації про наше ритуальне приладдя, то <b>телефонуйте нам цілодобово</b> за номерами вказівними нижче.</p>
-
-                <ul className={s.aboutAboutRitual__list}>
-                {orthodoxShroudImgList.map((image) => (        
-                    <li className={s.aboutAboutRitual__item} key={image.id}>
-                        <img className={s.orthodoxShroud__img} loading="lazy" id={image.id} src={image.src} alt={image.alt} />
-                    </li>
-                ))}
-                </ul>
 
                 <h2 className={s.aboutAboutRitual__title}>Тюлі-покривала для похорону</h2>
 
