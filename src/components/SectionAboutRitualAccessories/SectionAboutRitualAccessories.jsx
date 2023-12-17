@@ -1,21 +1,8 @@
 import RitualAccessoriesDecoration from '../../images/RitualAccessories/RitualAccessoriesDecoration.jpg';
 import RitualAccessorieListComponent from 'components/RitualAccessorieListComponent/RitualAccessorieListComponent';
+import TulleCoveringListComponent from 'components/TulleCoveringListComponent/TulleCoveringListComponent';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
 import s from './SectionAboutRitualAccessories.module.scss'
-
-const tulleCoveringImgList = [
-    { id: 1, src: require('../../images/RitualAccessories/RitualAccessories6.jpg'), alt: 'Зображення 1' },
-    { id: 2, src: require('../../images/RitualAccessories/RitualAccessories7.jpg'), alt: 'Зображення 2' },
-    { id: 3, src: require('../../images/RitualAccessories/RitualAccessories8.jpg'), alt: 'Зображення 3' },
-    { id: 4, src: require('../../images/RitualAccessories/RitualAccessories9.jpg'), alt: 'Зображення 4' },
-    { id: 5, src: require('../../images/RitualAccessories/RitualAccessories10.jpg'), alt: 'Зображення 5' },
-    { id: 6, src: require('../../images/RitualAccessories/RitualAccessories11.jpg'), alt: 'Зображення 6' },
-    { id: 7, src: require('../../images/RitualAccessories/RitualAccessories12.jpg'), alt: 'Зображення 7' },
-    { id: 8, src: require('../../images/RitualAccessories/RitualAccessories13.jpg'), alt: 'Зображення 8' },
-    { id: 9, src: require('../../images/RitualAccessories/RitualAccessories14.jpg'), alt: 'Зображення 9' },
-    { id: 10, src: require('../../images/RitualAccessories/RitualAccessories15.jpg'), alt: 'Зображення 10' },
-    { id: 11, src: require('../../images/RitualAccessories/RitualAccessories16.jpg'), alt: 'Зображення 11' },
-];
 
 const SectionAboutRitualAccessories = () => {
     return (
@@ -30,9 +17,9 @@ const SectionAboutRitualAccessories = () => {
 
                 <p className={s.aboutAboutRitual__description}>Для проведення прощальної панахиди та відспівування покійного <b>обов’язковим аксесуаром є</b> похоронний набір. У набір входять: прохідна молитва, віночок на голову, хрестик, хрест в руку, свічки, для чоловіків іконка зі Спасителем, для жінок іконка з Богородицею.</p>
 
-                <RitualAccessorieListComponent />
+            <RitualAccessorieListComponent />
                 
-                <SectionNeedHelp />
+            <SectionNeedHelp />
                 
                 <h2 style={{ marginTop: '20px' }} className={s.aboutAboutRitual__title}>Саван православний</h2>
 
@@ -44,13 +31,7 @@ const SectionAboutRitualAccessories = () => {
 
                 <p className={s.aboutAboutRitual__description}>Наші ритуальні тюлі та покривала зроблені в Україні на заводах, що знаходяться на околицях міста Київ. Ми маємо великий вибір тюлів та покривал, різних кольорів та розмірів. Телефонуйте нам у будь-який час і ми допоможемо вам підібрати найкраще та якісне ритуальне приладдя за доступною для вас ціною.</p>
 
-                <ul className={s.aboutAboutRitual__list}>
-                {tulleCoveringImgList.map((image) => (        
-                    <li className={s.aboutAboutRitual__item} key={image.id}>
-                        <img className={s.tulleCovering__img} loading="lazy" id={image.id} src={image.src} alt={image.alt} />
-                    </li>
-                ))}
-                </ul>
+            <TulleCoveringListComponent />
 
         </div>
       </section>
