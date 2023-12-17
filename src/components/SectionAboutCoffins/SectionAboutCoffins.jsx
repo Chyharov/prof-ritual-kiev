@@ -1,21 +1,7 @@
 import CoffinsDecoration from '../../images/Coffins/CoffinsDecoration.jpg'
+import StandardCoffinsListComponent from 'components/StandardCoffinsListComponent/StandardCoffinsListComponent';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
 import s from './SectionAboutCoffins.module.scss'
-
-const standardCoffins = [
-    { id: 1, src: require('../../images/Coffins/StandardCoffins/StandardCoffins.jpg'), alt: 'Зображення 1' },
-    { id: 2, src: require('../../images/Coffins/StandardCoffins/StandardCoffins2.jpg'), alt: 'Зображення 2' },
-    { id: 3, src: require('../../images/Coffins/StandardCoffins/StandardCoffins3.jpg'), alt: 'Зображення 3' },
-    { id: 4, src: require('../../images/Coffins/StandardCoffins/StandardCoffins4.jpg'), alt: 'Зображення 4' },
-    { id: 5, src: require('../../images/Coffins/StandardCoffins/StandardCoffins5.jpg'), alt: 'Зображення 5' },
-    { id: 6, src: require('../../images/Coffins/StandardCoffins/StandardCoffins6.jpg'), alt: 'Зображення 6' },
-    { id: 7, src: require('../../images/Coffins/StandardCoffins/StandardCoffins7.jpg'), alt: 'Зображення 7' },
-    { id: 8, src: require('../../images/Coffins/StandardCoffins/StandardCoffins8.jpg'), alt: 'Зображення 8' },
-    { id: 9, src: require('../../images/Coffins/StandardCoffins/StandardCoffins9.jpg'), alt: 'Зображення 9' },
-    { id: 10, src: require('../../images/Coffins/StandardCoffins/StandardCoffins10.jpg'), alt: 'Зображення 10' },
-    { id: 11, src: require('../../images/Coffins/StandardCoffins/StandardCoffins11.jpg'), alt: 'Зображення 11' },
-    { id: 12, src: require('../../images/Coffins/StandardCoffins/StandardCoffins12.jpg'), alt: 'Зображення 12' },
-];
 
 const eliteCoffins = [
     { id: 1, src: require('../../images/Coffins/EliteCoffins/EliteCoffins.jpg'), alt: 'Зображення 1' },
@@ -87,15 +73,7 @@ const SectionAboutCoffins = () => {
                 
                 <p className={s.aboutCoffins__description}><b>Матеріал:</b> дерев’яна заготовка, з елементами дерева, розкритого лаком.</p>
                 
-        
-                       
-            <ul className={s.aboutCoffins__list}>
-                {standardCoffins.map((image) => (        
-                    <li className={s.aboutCoffins__item} key={image.id}>
-                        <img className={s.standardCoffins__img} loading="lazy" id={image.id} src={image.src} alt={image.alt} />
-                    </li>
-                ))}
-            </ul>
+            <StandardCoffinsListComponent />
 
                 <h2 className={s.aboutCoffins__title}>Елітні Труни</h2>
 
