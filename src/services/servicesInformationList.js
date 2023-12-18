@@ -66,8 +66,9 @@ export const servicesInformationList = [
             {
                 servicesInformationId: 1,
                 servicesInformationTitle: 'ЕКОНОМ',
-                servicesInformationPrice: '',
-                servicesInformationCurrency: 'уточнюйте',
+                servicesInformationMin: 'від',
+                servicesInformationPrice: ' 5000',
+                servicesInformationCurrency: ' грн',
                 servicesInformationCurrencyItem: [
                     'Труна дерев’яна (оббита тканиною);',
                     'Похоронний набір;',
