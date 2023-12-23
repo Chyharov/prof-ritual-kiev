@@ -17,7 +17,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    width: 100%;
+    width: 800px;
     }
 }
 
@@ -82,7 +82,8 @@
     @include mq(tab) {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    width: 800px;
     }
   }
   
@@ -125,9 +126,16 @@
 }
 
 .navContainer {
-width: 280px;
+  width: 280px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @include mq(tab) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 220px;
+  }
 }
     
