@@ -1,7 +1,7 @@
 @import '../../sass/utils/mixin';
 
 .footer__container {
-    background-color: #2b2b2a;
+    background-color: var(--secondaryTextcolor);
     padding: 14px;
 }
 

@@ -8,6 +8,7 @@ import s from './NavBar.module.scss'
 const NavLinks = (props) => {
     const [showSubMenu, setShowSubMenu] = useState(false);
     const [showRitualGoodsSubMenu, setshowRitualGoodsSubMenu] = useState(false);
+    const [showPhoneMenu, setShowPhoneMenu] = useState(false);
 
     const animateFrom = { opacity: 0, y: -40 }
     const animateTo = { opacity: 1, y: 0 }
@@ -303,6 +304,65 @@ const NavLinks = (props) => {
                 </motion.li>
             </Link>
                 
+    <div className={s.navContainerPhone}> 
+
+            
+            
+                <motion.li 
+                initial={animateFrom}
+                animate={animateTo}
+                transition={{delay: 0.60}}
+                className={s.menu__list_item}>
+                    <div className={s.phoneNumbersContainer}>
+                        <p className={s.phoneNumberDescription}>Цілодобово 24/7</p>
+                        <a href="tel:+380442090261"><p className={s.phoneNumberNavBar}>+38 (044) 209-02-61</p></a>
+                    </div>  
+                </motion.li>
+           
+                    
+            {showPhoneMenu ? (
+                <motion.li 
+                initial={animateFrom}
+                animate={animateTo}
+                transition={{delay: 0.20}}
+                className={s.menu__list_item}><BsChevronUp 
+                    className={s.menu__list_itemIcon}
+                    onClick={() => setShowPhoneMenu(!showPhoneMenu)} /></motion.li>
+            ) : (
+                <motion.li 
+                initial={animateFrom}
+                animate={animateTo}
+                transition={{delay: 0.20}}
+                className={s.menu__list_item}><BsChevronDown 
+                    className={s.menu__list_itemIcon}
+                    onClick={() => setShowPhoneMenu(!showPhoneMenu)} /></motion.li>
+            )}
+    </div>   
+                
+                {showPhoneMenu && (
+                
+            <ul className={s.phoneNumbersList}>
+
+                <a href="tel:+380670112160">
+                    <motion.li 
+                    initial={animateFrom}
+                    animate={animateTo}
+                    transition={{delay: 0.15}}
+                    className={s.menu__list_itemSubMenuPhones}>+38 (067) 011-21-60
+                    </motion.li>
+                </a>
+
+                <a href="tel:+380939040707">
+                    <motion.li 
+                    initial={animateFrom}
+                    animate={animateTo}
+                    transition={{delay: 0.20}}
+                    className={s.menu__list_itemSubMenuPhones}>+38 (093) 904-07-07
+                    </motion.li>
+                </a>
+            </ul>
+            )}
+
         </ul>
         </div>
     );
