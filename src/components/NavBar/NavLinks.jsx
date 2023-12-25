@@ -57,7 +57,7 @@ const NavLinks = (props) => {
                 
                 {showSubMenu && (
 
-                <ul>
+                <ul className={s.ritualServicesSubMenu}>
                     <Link onClick={() => props.isMobile && props.closeMobileMenu()} to="/ritualagent">
                         <motion.li 
                         initial={animateFrom}

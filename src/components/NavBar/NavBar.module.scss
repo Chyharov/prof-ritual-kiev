@@ -176,7 +176,8 @@
 }
 
 .phoneNumbersList,
-.ritualGoodsSubMenu {
+.ritualGoodsSubMenu,
+.ritualServicesSubMenu {
   position: absolute;
   background-color: var(--backgroundColor);
   border-top: 2px solid var(--hoverColor);
@@ -185,6 +186,11 @@
 .ritualGoodsSubMenu {
   top: 78px;
   right: 503px;
+}
+
+.ritualServicesSubMenu {
+  top: 78px;
+  right: 724px;
 }
 
 .phoneNumbersList {
