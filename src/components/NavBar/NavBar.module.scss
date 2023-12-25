@@ -62,6 +62,7 @@
   width: 40px;
   height: 40px;
 }
+
 .menu__list_itemSubMenu {
   width: 290px;
   font-family: CormorantUnicase Medium;
@@ -71,6 +72,11 @@
   text-align: start;
   padding: 8px 30px 8px 30px;
   text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+
+  @include mq(tab) {
+    width: 200px;
+    text-align: center;
+  }
 }
 
 
@@ -169,12 +175,21 @@
   text-shadow: var(--primaryTextShadowColor);
 }
 
-.phoneNumbersList {
-  border-top: 2px solid var(--hoverColor);
+.phoneNumbersList,
+.ritualGoodsSubMenu {
   position: absolute;
+  background-color: var(--backgroundColor);
+  border-top: 2px solid var(--hoverColor);
+}
+
+.ritualGoodsSubMenu {
+  top: 78px;
+  right: 503px;
+}
+
+.phoneNumbersList {
   top: 78px;
   right: 18px;
-  background-color: var(--backgroundColor);
 }
 
 .menu__list_itemSubMenuPhones {
