@@ -291,7 +291,7 @@ const NavLinks = (props) => {
                 initial={animateFrom}
                 animate={animateTo}
                 transition={{delay: 0.40}}
-                className={s.menu__list_item}>Ціни
+                className={s.menu__list_item}>ЦІНИ
                 </motion.li>
             </Link>
                 
