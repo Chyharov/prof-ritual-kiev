@@ -8,13 +8,47 @@
     font-family: CormorantUnicase Bold;
     font-size: 20px;
     font-weight: 700;
-    line-height: 22px;
+    line-height: 1.1;
     text-align: center;
     color: var(--secondaryTextcolor);
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, .5);
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-shadow: var(--primaryTextShadowColor);
+    @include mq(tab) {
+        font-size: 22px;
+        text-align: start;
+        margin-bottom: 12px;
+    }
+}
+
+.ritualServicesList__description {
+    display: none;
+
+    @include mq(tab) {
+        display: contents;
+        font-family: CormorantUnicase Regular;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        color: var(--secondaryTextcolor);
+        text-shadow: var(--primaryTextShadowColor);
+    }
 }
 
 .ritualServicesList__item {
     padding-bottom: 25px;
+
+    @include mq(tab) {
+        width: 270px;
+        padding-bottom: 0px;
+    }
+}
+
+.ritualServicesList {
+    @include mq(tab) {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 70px;
+    }
 }

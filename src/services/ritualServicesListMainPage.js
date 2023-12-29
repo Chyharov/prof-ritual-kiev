@@ -1,10 +1,10 @@
 export const ritualServicesListMainPage = [
-      { id: 1, src: require('../images/RitualServices/ritualAgent.jpg'), alt: 'Зображення 1', title: 'Ритуальний агент' },
-      { id: 2, src: require('../images/RitualServices/organizationFunerals.jpg'), alt: 'Зображення 2', title: 'Організація похорон' },
-      { id: 3, src: require('../images/RitualServices/cremation.jpg'), alt: 'Зображення 3', title: 'Кремація' },
-      { id: 4, src: require('../images/RitualServices/hearse.jpg'), alt: 'Зображення 4', title: 'Автокатафалк' },
-      { id: 5, src: require('../images/RitualServices/ritualGoods.jpg'), alt: 'Зображення 5', title: 'Ритуальні товари' },
-      { id: 6, src: require('../images/RitualServices/cargo200.jpg'), alt: 'Зображення 6', title: 'Вантаж 200' },
-      { id: 7, src: require('../images/RitualServices/mortuaryServices.jpg'), alt: 'Зображення 7', title: 'Послуги моргу' },
-      { id: 8, src: require('../images/RitualServices/memorialDinners.jpg'), alt: 'Зображення 8', title: 'Поминальні обіди' },
+      { id: 1, src: require('../images/RitualServices/ritualAgent.jpg'), alt: 'Зображення 1', title: 'Ритуальний агент', link: "/ritualagent", description: "Наш похоронний агент може під’їхати 24 години на добу, первинна консультація – безкоштовно. У разі потреби ми можемо надати медичну та психологічну допомогу." },
+      { id: 2, src: require('../images/RitualServices/organizationFunerals.jpg'), alt: 'Зображення 2', title: 'Організація похорон', link: "/funeralorganization", description: "Організація похорону «під ключ» – це збирання документів у відповідних інстанціях, необхідних для проведення похорону до самого похоронного обряду та поминальної трапези." },
+      { id: 3, src: require('../images/RitualServices/cremation.jpg'), alt: 'Зображення 3', title: 'Кремація', link: "/cremation", description: "Кремація є відносно новою послугою в Україні, але за даними статистики 45% покійних кремували минулого року. Кремація це складний процес і потребує ретельної підготовки." },
+      { id: 4, src: require('../images/RitualServices/hearse.jpg'), alt: 'Зображення 4', title: 'Автокатафалк', link: "/hearse", description: "Транспорт для перевезення тіла, супроводжуючих та ритуальних аксесуарів до місця поховання та для подальшого перевезення людей до зали для проведення поминальної церемонії." },
+      { id: 5, src: require('../images/RitualServices/ritualGoods.jpg'), alt: 'Зображення 5', title: 'Ритуальні товари', link: "/ritualgoods", description: "У магазині ритуальних товарів можна подивитися і купити: труни, вінки, хрести та інше ритуальне приладдя. Продаж пам’ятників відбувається за специфікаціями клієнта." },
+      { id: 6, src: require('../images/RitualServices/cargo200.jpg'), alt: 'Зображення 6', title: 'Вантаж 200', link: "/cargo", description: "Транспортування тіла – це складна процедура, з якою не впоратися поодинці. Агенти ритуального бюро “Профритуал” допоможуть у перевезенні від місця смерті до місця поховання." },
+      { id: 7, src: require('../images/RitualServices/mortuaryServices.jpg'), alt: 'Зображення 7', title: 'Послуги моргу', link: "/mortuaryservices", description: "Наш похоронний агент може під’їхати 24 години на добу, первинна консультація – безкоштовно. У разі потреби ми можемо надати медичну та психологічну допомогу." },
+      { id: 8, src: require('../images/RitualServices/memorialDinners.jpg'), alt: 'Зображення 8', title: 'Поминальні обіди', link: "/memorialdinners", description: "Наш похоронний агент може під’їхати 24 години на добу, первинна консультація – безкоштовно. У разі потреби ми можемо надати медичну та психологічну допомогу." },
 ];

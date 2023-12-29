@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import s from './SectionRitualServices.module.scss'
 
 const SectionRitualServices = ({ array }) => {
@@ -6,10 +7,13 @@ const SectionRitualServices = ({ array }) => {
         <div className={'container ' + s.ritualServices__container}>
 
             <ul className={s.ritualServicesList}>
-            {array.map((image) => (        
+            {array.map((image) => (    
                 <li className={s.ritualServicesList__item} key={image.id}>
+                  <Link to={image.link}>
                     <img className={s.ritualServicesList__img} loading="lazy" id={image.id} src={image.src} alt={image.alt} />
-                    <h3 className={s.ritualServicesList__title}>{image.title}</h3>  
+                    <h1 className={s.ritualServicesList__title}>{image.title}</h1>
+                    <p className={s.ritualServicesList__description}>{image.description}</p>
+                  </Link>
                 </li>
             ))}
             </ul>
