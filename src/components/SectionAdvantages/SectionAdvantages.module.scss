@@ -4,14 +4,21 @@
     padding-top: 35px;
     padding-bottom: 35px;
     background-color: var(--secondaryBackgroundColor);
+    @include mq(tab) {
+        width: 1170px;
+    }
 }
 
 .advantages__title {
     font-family: CormorantUnicase Bold;
     font-size: 26px;
-    line-height: 31.2px;
+    line-height: 1.2;
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 1px;
+    color: var(--secondaryTextcolor);
+    text-shadow: var(--primaryTextShadowColor);
+    @include mq(tab) {
+    font-size: 36px;
+    }
 }
 
 .advantages__decoration {
@@ -19,6 +26,16 @@
     width: 178px;
     height: 5px;
     margin-bottom: 40px;
+    @include mq(tab) {
+        width: 250px;
+    }
+}
+
+.advantagesServicesList {
+    @include mq(tab) {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .advantagesServicesList__item {
@@ -26,21 +43,38 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
+    @include mq(tab) {
+        flex-direction: column;
+    }
 }
+
+        
 
 .advantagesServicesList__title {
     font-family: CormorantUnicase Bold;
     font-size: 20px;
-    line-height: 24px;
-    text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 1px;
+    line-height: 1.2;
+    color: var(--secondaryTextcolor);
+    text-shadow: var(--primaryTextShadowColor);
     width: 176px;
     margin-left: 20px;
+    
+
+    @include mq(tab) {
+        text-align: center;
+        margin-left: 0px;
+    }
 }
 
 .advantagesServicesList__img {
     width: 60px;
     height: 60px;
     padding: 10px;
+    @include mq(tab) {
+        width: 80px;
+        height: 80px;
+    }
 }
 
 .advantagesServicesList__border {
@@ -51,4 +85,10 @@
     justify-content: center;
     border: 1px solid var(--hoverColor);
     border-radius: 50%;
+
+    @include mq(tab) {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 32px;
+    }
 }
