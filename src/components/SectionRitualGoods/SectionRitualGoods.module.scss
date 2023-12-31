@@ -25,7 +25,9 @@
 }
 
 .ritualGoods__DescriprionContainer {
+    @include mq(tab) {
     width: 570px;
+    }
 }
 
 .ritualGoods__title {

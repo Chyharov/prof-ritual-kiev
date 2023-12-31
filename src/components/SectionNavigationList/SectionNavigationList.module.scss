@@ -1,5 +1,11 @@
 @import '../../sass/utils/mixin';
 
+.sectionNavigationList {
+    @include mq(tab) {
+        display: none;
+    }
+}
+
 .navigationList__container {
     margin-bottom: 40px;
 }

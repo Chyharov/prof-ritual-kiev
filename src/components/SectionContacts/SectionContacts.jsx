@@ -41,22 +41,44 @@ const SectionContacts = () => {
   return (
     <section className={s.sectionContacts}>
       <div className={'container ' + s.contacts__container}>
-        <button className={s.contacts__btn} onClick={openModal}>
-          Викликати агента
-        </button>
-        <a className={s.contacts__call} href="tel:+380442090261">
-          +38 (044) 209-02-61
-        </a>
 
-        <h2 className={s.contacts__title}>Телефони:</h2>
-        <ul className={s.contacts__list}>
-          <li className={s.contacts__item}>
-            <a href="tel:+380670112160">+38 (067) 011-21-60</a>
-          </li>
-          <li className={s.contacts__item}>
-            <a href="tel:+380939040707">+38 (093) 904-07-07</a>
-          </li>
-        </ul>
+        <div className={s.address__container}>
+          <h2 className={s.contacts__title}>Адреси:</h2>
+
+          <ul className={s.contacts__list}>
+            <li className={s.contacts__item}>
+              <a href="https://maps.app.goo.gl/oJiTr5byXTbS7jwj6" aria-label="Link for find location" target="_blank" rel="noopener noreferrer">вул. Івана Федорова, 33</a>
+            </li>
+            <li className={s.contacts__item}>
+              <a href="https://maps.app.goo.gl/Pi6zGBgXvyVMbD837" aria-label="Link for find location" target="_blank" rel="noopener noreferrer">вул. Колоскова, 9 </a>
+            </li>
+          </ul>
+        </div>
+        
+        <div className={s.contacts__btnContainer}>
+          <button className={s.contacts__btn} onClick={openModal}>
+          Викликати агента
+          </button>
+
+          <a className={s.contacts__call} href="tel:+380442090261">
+            +38 (044) 209-02-61
+          </a>
+        </div>
+        
+
+        <div className={s.phone__container}>
+          <h2 className={s.contacts__title}>Телефони:</h2>
+
+          <ul className={s.contacts__list}>
+            <li className={s.contacts__item}>
+              <a href="tel:+380670112160">+38 (067) 011-21-60</a>
+            </li>
+            <li className={s.contacts__item}>
+              <a href="tel:+380939040707">+38 (093) 904-07-07</a>
+            </li>
+          </ul>
+        </div>
+        
 
         <div className={s.contacts__border}></div>
 
