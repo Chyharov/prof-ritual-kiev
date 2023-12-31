@@ -18,9 +18,12 @@ const SectionFuneralBureauProfitual = () => {
                 <p className={s.funeralBureauProfitual__description}>Ми чудово розуміємо що похорон це той день коли ви відпускаєте близьку вам людину та цей день повинен пройти гідно та без зайвого стресу котрий багато хто відчуває якщо наважується зайнятися організацією похорону сам. <b>Зателефонуйте нашому агенту</b> і дізнайтесь скільки коштуватимуть наші послуги, я вас запевняю, що ціни нижчі ніж у нас ви не знайдете в місті Київ.</p>
                 <p className={s.funeralBureauProfitual__description}><b>Організація ритуальних послуг</b> дуже кропітка робота. Починаючи з оформлення документів і закінчуючи поминальним обідом. Такий стрес може негативно вплинути на здоров’я людини. Профритуал більше 10 років працює у сфері ритуальних послуг і ми знаємо як організувати похорон за доступною для вас ціною.</p>
 
-                {FuneralBureauProfitualPhotos.map((image) => (
-                    <img className={s.advantagesServicesList__img} loading="lazy" id={image.id} src={image.src} alt={image.alt} />
-                ))}
+                <div className={s.FuneralBureauProfitualPhotos__container}>
+                    {FuneralBureauProfitualPhotos.map((image) => (
+                        <img className={s.advantagesServicesList__img} loading="lazy" id={image.id} src={image.src} alt={image.alt} />
+                    ))}
+                </div>
+                
             </div>
         </section>
   )

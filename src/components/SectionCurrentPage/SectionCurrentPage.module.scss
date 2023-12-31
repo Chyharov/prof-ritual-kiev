@@ -35,6 +35,9 @@
     color: var(--backgroundColor);
     text-shadow: var(--primaryTextShadowColor);
     text-align: start;
+    @include mq(tab) {
+        font-size: 32px;
+    }
 }
 
 .currentPage__description {
