@@ -2,6 +2,9 @@
 
 .sectionContactsList {
     padding-top: 60px;
+    @include mq(tab) {
+        display: none;
+    }
 }
 
 .sectionContactsList__container {
