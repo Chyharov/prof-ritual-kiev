@@ -1,7 +1,7 @@
 @import '../../sass/utils/mixin';
 
-.ritualGoodsList__container {
-    margin-bottom: 40px;
+.sectionRitualGoodsList {
+    padding-bottom: 35px;
 }
 
 .ritualGoodsList {
@@ -9,16 +9,31 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: column;
+
+    @include mq(tab) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 .ritualGoodsList__item {
     margin-bottom: 20px;
+
+    @include mq(tab) {
+        width: 210px;
+    }
 }
 
 .ritualGoodsList__img {
     width: 250px;
     height: 250px;
     margin-bottom: 15px;
+
+    @include mq(tab) {
+        width: 210px;
+        height: 210px;
+    }
 }
 
 .ritualGoodsList__title {
@@ -26,5 +41,23 @@
     font-size: 20px;
     line-height: 1.1;
     color: var(--secondaryTextcolor);
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, .5)
+    text-shadow: var(--primaryTextShadowColor);
+
+    @include mq(tab) {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+}
+
+.ritualGoodsList__description {
+    display: none;
+
+    @include mq(tab) {
+        display: contents;
+        font-family: CormorantUnicase Regular;
+        font-size: 16px;
+        line-height: 1.2;
+        color: var(--secondaryTextcolor);
+        text-shadow: var(--primaryTextShadowColor);
+    }
 }
