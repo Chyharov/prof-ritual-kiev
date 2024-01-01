@@ -41,7 +41,7 @@ const SectionAboutCoffins = () => {
         
             <p className={s.aboutCoffins__description}><b>Ціна: </b><span className={s.aboutCoffins__span}>від 9 800 грн.</span></p>
 
-            <p className={s.aboutCoffins__description}><b>Матеріал: </b>дерев’яна заготовка розкрита лаком.</p>
+            <p className={s.aboutCoffins__description}><b>Матеріал: </b> дерев’яна заготовка розкрита лаком.</p>
 
         <EliteCoffinsListComponent />
             
@@ -51,7 +51,7 @@ const SectionAboutCoffins = () => {
 
             <p className={s.aboutCoffins__description}><b>Ціна: </b><span className={s.aboutCoffins__span}>від 2 800 грн.</span></p>
 
-            <p><b>Матеріал:</b> дерев’яна заготівля, оббита тканиною (шовк, атлас, велюр, парча).</p>
+            <p className={s.aboutCoffins__description}><b>Матеріал:</b> дерев’яна заготівля, оббита тканиною (шовк, атлас, велюр, парча).</p>
 
         <EconomCoffinsListComponent />
             
