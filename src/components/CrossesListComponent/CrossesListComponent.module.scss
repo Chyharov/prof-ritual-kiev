@@ -2,10 +2,22 @@
 
 .aboutCrosses__list {
     margin-bottom: 20px;
+
+    @include mq(tab) {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        justify-items: center;
+    }
 }
 
 .aboutCrosses__item {
     margin-bottom: 10px;
+
+    @include mq(tab) {
+        margin-bottom: 0px;
+    }
 }
 
 .aboutCrosses__img {

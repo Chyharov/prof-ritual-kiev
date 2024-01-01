@@ -27,7 +27,6 @@ const economCoffinsArray = [
     { id: 22, src: require('../../images/Coffins/EconomCoffins/EconomCoffins22.jpg'), alt: 'Зображення 22' },
     { id: 23, src: require('../../images/Coffins/EconomCoffins/EconomCoffins23.jpg'), alt: 'Зображення 23' },
     { id: 24, src: require('../../images/Coffins/EconomCoffins/EconomCoffins24.jpg'), alt: 'Зображення 24' },
-    { id: 25, src: require('../../images/Coffins/EconomCoffins/EconomCoffins25.jpg'), alt: 'Зображення 25' },
 ];
 
 const EconomCoffinsListComponent = () => {

@@ -8,6 +8,11 @@
     width: 290px;
     height: 94px;
     margin-bottom: 25px;
+
+    @include mq(tab) {
+        width: 1200px;
+        height: 380px;
+    }
 }
 
 .aboutCrosses__description {
@@ -17,4 +22,8 @@
     color: var(--secondaryTextColor);
     text-shadow: var(--primaryTextShadowColor);
     margin-bottom: 10px;
+
+    @include mq(tab) {
+        line-height: 1.5;
+    }
 }
