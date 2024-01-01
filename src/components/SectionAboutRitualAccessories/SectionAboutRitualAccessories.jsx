@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import RitualAccessoriesDecoration from '../../images/RitualAccessories/RitualAccessoriesDecoration.jpg';
 import RitualAccessorieListComponent from 'components/RitualAccessorieListComponent/RitualAccessorieListComponent';
 import TulleCoveringListComponent from 'components/TulleCoveringListComponent/TulleCoveringListComponent';
@@ -11,7 +12,7 @@ const SectionAboutRitualAccessories = () => {
         
             <img className={s.aboutAboutRitual__decoration} loading="lazy" src={RitualAccessoriesDecoration} alt="crosses__decoration" />
 
-                <p className={s.aboutAboutRitual__description}>Ритуальне приладдя є невід’ємною частиною похорону. “Профритуал” займається <b>продажем ритуальних товарів</b> та приладдя вже понад 10 років. Все ритуальне приладдя, яке ми маємо в наявності, ви можете подивитися відвідавши нас за адресою вул. Перта Запорожця 15 у місті Київ. Або зателефонуйте нам, і коротко опішіть чого ви потребуєте а ми зробимо інше. В наявності є <b>більше 100 різних ритуальних речей</b>, які ми продаємо за найнижчими цінами в місті Київ. При покупці <a href="/">ритуальної труни</a> або <a href="/">ритуальних вінків</a> ми робимо великі знижки на багато ритуальних речей.</p>
+                <p className={s.aboutAboutRitual__description}>Ритуальне приладдя є невід’ємною частиною похорону. “Профритуал” займається <b>продажем ритуальних товарів</b> та приладдя вже понад 10 років. Все ритуальне приладдя, яке ми маємо в наявності, ви можете подивитися відвідавши нас за адресою вул. Перта Запорожця 15 у місті Київ. Або зателефонуйте нам, і коротко опішіть чого ви потребуєте а ми зробимо інше. В наявності є <b>більше 100 різних ритуальних речей</b>, які ми продаємо за найнижчими цінами в місті Київ. При покупці <Link className='links' to="/сoffins">ритуальної труни</Link> або <Link className='links' to="/ritualwreath">ритуальних вінків</Link> ми робимо великі знижки на багато ритуальних речей.</p>
 
                 <h2 className={s.aboutAboutRitual__title}>Похоронні набори</h2>
 
