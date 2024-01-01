@@ -1,13 +1,21 @@
 @import '../../sass/utils/mixin';
 
 .sectionAboutRitualWreath {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    @include mq(tab) {
+        padding-bottom: 35px;
+    }
 }
 
 .aboutRitualWreath__decoration {
     width: 290px;
     height: 94px;
     margin-bottom: 25px;
+
+    @include mq(tab) {
+        width: 1200px;
+        height: 380px;
+    }
 }
 
 .aboutRitualWreath__description {
