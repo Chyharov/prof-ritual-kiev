@@ -8,6 +8,11 @@
     width: 290px;
     height: 94px;
     margin-bottom: 25px;
+
+    @include mq(tab) {
+        width: 1200px;
+        height: 380px;
+    }
 }
 
 .aboutCoffins__description {
@@ -17,11 +22,15 @@
     color: var(--secondaryTextColor);
     text-shadow: var(--primaryTextShadowColor);
     margin-bottom: 10px;
+
+    @include mq(tab) {
+        line-height: 1.5;
+    }
 }
 
 .aboutCoffins__title {
     font-family: CormorantUnicase Bold;
-    font-size: 23px;
+    font-size: 22px;
     line-height: 1.2;
     color: var(--primaryTextColor);
     text-shadow: var(--primaryTextShadowColor);
@@ -49,8 +58,6 @@
     font-family: CormorantUnicase Regular;
     font-size: 16px;
     line-height: 1.3;
-    color: var(--secondaryTextColor);
-    text-shadow: var(--primaryTextShadowColor);
     width: 263px;
     padding: 10px 25px;
     margin-left: 15px;
@@ -59,4 +66,9 @@
     background-color: rgba(181, 155, 77, 0.05);
     text-shadow: 0px 0px 1px var(--hoverColor);
     border-left: 3px solid var(--hoverColor);
+
+    @include mq(tab) {
+        line-height: 1.5;
+        width: 1157px;
+    }
 }

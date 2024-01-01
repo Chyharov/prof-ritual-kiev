@@ -25,6 +25,10 @@
     color: var(--secondaryTextColor);
     text-shadow: var(--primaryTextShadowColor);
     margin-bottom: 10px;
+
+    @include mq(tab) {
+        line-height: 1.5;
+    }
 }
 
 .aboutRitualWreath__title {
