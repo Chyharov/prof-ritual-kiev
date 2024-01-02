@@ -56,6 +56,7 @@ const ModalWindow = ({ selectedImage, arrayPhoto, setSelectedImage, setModalOpen
           <AiOutlineClose className={s.closeModalIcon} />
         </span>
         <img className={s.modalImage} id={selectedImage.id} src={selectedImage.src} alt={selectedImage.alt} />
+        <p className={`${s.modalDescription} description`}><b>{selectedImage.title}</b>{selectedImage.description}</p>
         <div className={s.centerButtonModal}>
           <button className={s.buttonModal} aria-label="Попередній слайд" onClick={() => setSelectedImage(getPrevImage())}>
             <FontAwesomeIcon icon={faChevronLeft} />

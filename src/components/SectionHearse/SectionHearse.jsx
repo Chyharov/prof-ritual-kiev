@@ -1,14 +1,50 @@
+import React, { useState } from 'react';
+import Modal from '../ModalWindow/ModalWindow';
 import { Link } from 'react-router-dom';
 import HearseDecoration from '../../images/Hearse/Hearse.jpg'
 import s from './SectionHearse.module.scss'
 
-import Cadillac from '../../images/RitualCarParkList/Cadillac.jpg'
-import MercedesSprinter from '../../images/RitualCarParkList/MercedesSprinter.jpg'
-import MercedesSprinterEconom from '../../images/RitualCarParkList/MercedesSprinterEconom.jpg'
-import VolksWagenT5andT6 from '../../images/RitualCarParkList/VolksWagenT5andT6.jpg'
-
+const hearseListArray = [
+  {
+    id: 1,
+    src: require('../../images/RitualCarParkList/Cadillac.jpg'),
+    alt: 'Зображення 1',
+    title: 'Економ ритуальний транспорт - Volkswagen T5 і T6',
+    description: ', що має місткість 7-8 осіб, ролики для зручного завантаження та вивантаження тіла.',
+  },
+  {
+    id: 2,
+    src: require('../../images/RitualCarParkList/MercedesSprinter.jpg'),
+    alt: 'Зображення 2',
+    title: 'Бюджет ритуальний транспорт – Mercedes-Benz Sprinter',
+    description: ', що має місткість (8 сидячих місць), ролики для зручного завантаження та вивантаження тіла.',
+  },
+  {
+    id: 3,
+    src: require('../../images/RitualCarParkList/MercedesSprinterEconom.jpg'),
+    alt: 'Зображення 3',
+    title: 'Середній ритуальний транспорт – Mercedes Benz Sprinter',
+    description: ', що має місткість 14-18 місць, кондиціонер, ролики, комфортні сидіння.',
+  },
+  {
+    id: 4,
+    src: require('../../images/RitualCarParkList/VolksWagenT5andT6.jpg'),
+    alt: 'Зображення 4',
+    title: 'VIP ритуальний транспорт – Cadillac катафалк лімузин',
+    description: ', що має місткість 2-3 особи, кондиціонер, ролики, комфортні сидіння.',
+  }
+];
 
 const SectionHearse = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const openModal = id => {
+    setSelectedImage(hearseListArray.find(image => image.id === id));
+    setModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  };
+
     return (
       <section className={s.sectionHearse}>
         <div className={'container ' + s.hearse__container}>
@@ -22,35 +58,32 @@ const SectionHearse = () => {
         
             <p style={{marginBottom: '10px'}} className='description'>Ми пропонуємо <b>4 види</b> ритуального транспорту у Києві та Київській області – економ, бюджет, середній та VIP. Ви можете вибрати будь-який ритуальний транспорт із 4 видів, який буде відповідати вашим потребам у будь-який час доби.</p>  
 
-          <ul style={{marginTop: '10px'}} className={s.ritualCarParkList__list}>
-                <li className={s.ritualCarParkList__item}>
-                    <div className={s.flex}>
-                        <img className={s.ritualCarParkList__decoration} loading="lazy" src={VolksWagenT5andT6} alt="ritualCarParkList__decoration" />
-                    </div>
-                    <p style={{marginBottom: '10px'}} className='description'><b>Економ ритуальний</b> транспорт – <b>Volkswagen T5 і T6</b>, що має місткість 7-8 осіб, ролики для зручного завантаження та вивантаження тіла.</p>
+            <ul style={{marginTop: '10px'}} className={s.ritualCarParkList__list}>
+              {hearseListArray.map(image => (
+                <li className={s.ritualCarParkList__item} key={image.id}>
+                  <div className={s.flex}>
+                  <img
+                    className={s.ritualCarParkList__decoration}
+                    loading="lazy"
+                    id={image.id}
+                    src={image.src}
+                    alt={image.alt}
+                    onClick={() => openModal(image.id, image.src, image.alt)}
+                    />
+                  </div>
+                  <p style={{ marginBottom: '10px' }} className='description'><b>{image.title}</b>{image.description}</p>
                 </li>
-                    
-                <li className={s.ritualCarParkList__item}>
-                    <div className={s.flex}>
-                        <img className={s.ritualCarParkList__decoration} loading="lazy" src={MercedesSprinterEconom} alt="ritualCarParkList__decoration" />
-                    </div>
-                    <p style={{marginBottom: '10px'}} className='description'><b>Бюджет ритуальний транспорт – Mercedes-Benz Sprinter</b>, що має місткість (8 сидячих місць), ролики для зручного завантаження та вивантаження тіла.</p>
-                </li>
-                    
-                <li className={s.ritualCarParkList__item}>
-                    <div className={s.flex}>
-                        <img className={s.ritualCarParkList__decoration} loading="lazy" src={MercedesSprinter} alt="ritualCarParkList__decoration" />
-                    </div>
-                    <p style={{marginBottom: '10px'}} className='description'><b>Середній ритуальний транспорт – Mercedes Benz Sprinter</b>, що має місткість 14-18 місць, кондиціонер, ролики, комфортні сидіння.</p>
-                </li>
-                    
-                <li className={s.ritualCarParkList__item}>
-                    <div className={s.flex}>
-                        <img className={s.ritualCarParkList__decoration} loading="lazy" src={Cadillac} alt="ritualCarParkList__decoration" />
-                    </div>
-                    <p style={{marginBottom: '10px'}} className='description'><b>VIP ритуальний транспорт – Cadillac катафалк лімузин</b>, що має місткість 2-3 особи, кондиціонер, ролики, комфортні сидіння.</p>
-                </li>
+              ))}
             </ul>
+
+            {modalOpen && selectedImage && (
+              <Modal
+                selectedImage={selectedImage}
+                arrayPhoto={hearseListArray}
+                setSelectedImage={setSelectedImage}
+                setModalOpen={setModalOpen}
+              />
+            )}
                 
                 <h2 style={{marginBottom: '10px'}} className='title'>Клієнти, які замовляли послугу “Катафалк”, також цікавилися:</h2>
                 <ul className={s.ritualCarParkList__listMenu}>

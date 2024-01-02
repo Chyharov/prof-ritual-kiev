@@ -93,3 +93,11 @@
 .buttonModal:first-child {
     margin-right: 30px;
 }
+
+.modalDescription {
+    max-width: 250px;
+
+    @include mq(tab) {
+        max-width: 350px;
+    }
+}
