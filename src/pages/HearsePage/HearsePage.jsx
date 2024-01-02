@@ -3,7 +3,6 @@ import SectionContactsList from 'components/SectionContactsList/SectionContactsL
 import SectionCurrentPage from 'components/SectionCurrentPage/SectionCurrentPage';
 import SectionHearse from 'components/SectionHearse/SectionHearse';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
-import SectionRitualCarParkList from 'components/SectionRitualCarParkList/SectionRitualCarParkList';
 import SectionNavigationList from 'components/SectionNavigationList/SectionNavigationList';
 import SectionContacts from 'components/SectionContacts/SectionContacts';
 import SectionRitualServicesList from 'components/SectionRitualServicesList/SectionRitualServicesList';
@@ -21,7 +20,6 @@ const HearsePage = () => {
             <SectionCurrentPage title={HearsePageTitle} />
             <SectionHearse />  
             <SectionNeedHelp />
-            <SectionRitualCarParkList />
             <SectionNavigationList />
             <SectionContacts />
             <SectionRitualServicesList />

@@ -1,27 +1,71 @@
 @import '../../sass/utils/mixin';
 
 .sectionHearse {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+    @include mq(tab) {
+        padding-bottom: 35px;
+    }
 }
 
 .hearse__decoration {
+    width: 290px;
+    height: 94px;
     margin-bottom: 25px;
+    
+    @include mq(tab) {
+        width: 1200px;
+        height: 380px;
+    }
 }
 
-.hearse__title {
-    font-family: CormorantUnicase SemiBold;
-    font-size: 24px;
-    line-height: 1.2;
-    color: var(--primaryTextColor);
-    text-shadow: var(--primaryTextShadowColor);
+.sectionRitualCarParkList {
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.hearse__description {
-    font-family: CormorantUnicase Regular;
-    font-size: 16px;
-    line-height: 1.3;
-    color: var(--secondaryTextColor);
-    text-shadow: var(--primaryTextShadowColor);
+.ritualCarParkList__item {
+    width: 290px;
+    margin-bottom: 20px;
+
+    @include mq(tab) {
+        width: 570px;
+        margin-bottom: 0px;
+    }
+}
+
+.ritualCarParkList__decoration {
+    width: 278px;
+    height: 156px;
+
+    @include mq(tab) {
+        width: 550px;
+        height: 300px;
+    }
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
     margin-bottom: 10px;
 }
+
+.ritualCarParkList__listMenu li {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.ritualCarParkList__list {
+    @include mq(tab) {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        justify-items: center;
+    }
+}
+
+
