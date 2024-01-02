@@ -24,7 +24,7 @@
     text-shadow: var(--primaryTextShadowColor);
     margin-bottom: 10px;
 
-    @include mq(tab) {
+    @media screen and (min-width: 768px) {
         line-height: 1.5;
     }
 }
@@ -38,7 +38,7 @@
     border-bottom: 1px solid var(--hoverColor);
     margin-bottom: 10px;
 
-    @include mq(tab) {
+    @media screen and (min-width: 768px) {
         line-height: 1.5;
     }
 }
@@ -47,7 +47,6 @@
     font-family: CormorantUnicase Regular;
     font-size: 16px;
     line-height: 1.3;
-    width: 263px;
     padding: 10px 25px;
     margin-left: 15px;
     margin-right: 15px;
@@ -58,6 +57,5 @@
     
     @include mq(tab) {
         line-height: 1.5;
-        width: 1157px;
     }
 }

@@ -2,8 +2,6 @@ import Header from 'components/Header/Header';
 import SectionContactsList from 'components/SectionContactsList/SectionContactsList';
 import SectionCurrentPage from 'components/SectionCurrentPage/SectionCurrentPage';
 import SectionAboutRitualAgent from 'components/SectionAboutRitualAgent/SectionAboutRitualAgent';
-import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
-import SectionQualityServices from 'components/SectionQualityServices/SectionQualityServices';
 import SectionNavigationList from 'components/SectionNavigationList/SectionNavigationList';
 import SectionServicesInformation from 'components/SectionServicesInformation/SectionServicesInformation';
 import SectionContacts from 'components/SectionContacts/SectionContacts';
@@ -21,8 +19,6 @@ const RitualAgentPage = () => {
             <SectionContactsList />
             <SectionCurrentPage title={RitualAgentPageTitle} />
             <SectionAboutRitualAgent />
-            <SectionNeedHelp />
-            <SectionQualityServices />
             <SectionNavigationList />
             <SectionServicesInformation />
             <SectionContacts />
