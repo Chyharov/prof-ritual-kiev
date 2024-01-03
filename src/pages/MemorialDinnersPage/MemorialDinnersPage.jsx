@@ -3,7 +3,6 @@ import SectionContactsList from 'components/SectionContactsList/SectionContactsL
 import SectionCurrentPage from 'components/SectionCurrentPage/SectionCurrentPage';
 import SectionMemorialDinners from 'components/SectionMemorialDinners/SectionMemorialDinners';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
-import SectionAboutMemorialDinners from 'components/SectionAboutMemorialDinners/SectionAboutMemorialDinners';
 import SectionNavigationList from 'components/SectionNavigationList/SectionNavigationList';
 import SectionContacts from 'components/SectionContacts/SectionContacts';
 import SectionRitualServicesList from 'components/SectionRitualServicesList/SectionRitualServicesList';
@@ -21,7 +20,6 @@ const MemorialDinnersPage = () => {
             <SectionCurrentPage title={MemorialDinnersPageTitle} />
             <SectionMemorialDinners />
             <SectionNeedHelp />
-            <SectionAboutMemorialDinners />
             <SectionNavigationList />
             <SectionContacts />
             <SectionRitualServicesList />

@@ -1,29 +1,31 @@
 @import '../../sass/utils/mixin';
 
 .memorialDinners__container {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+        @include mq(tab) {
+            padding-bottom: 35px;
+        }
 }
 
 .memorialDinners__decoration {
     width: 290px;
     height: 94px;
     margin-bottom: 25px;
+    
+        @include mq(tab) {
+            width: 1200px;
+            height: 380px;
+        }
 }
 
-.memorialDinners__title {
-    font-family: CormorantUnicase Bold;
-    font-size: 23px;
-    line-height: 1.2;
-    color: var(--primaryTextColor);
-    text-shadow: var(--primaryTextShadowColor);
+.aboutMemorialDinners__decoration {
+    width: 290px;
+    height: 218px;
     margin-bottom: 10px;
-}
 
-.memorialDinners__description {
-    font-family: CormorantUnicase Regular;
-    font-size: 16px;
-    line-height: 1.3;
-    color: var(--secondaryTextColor);
-    text-shadow: var(--primaryTextShadowColor);
-    margin-bottom: 10px;
+    @include mq(tab) {
+        width: 1200px;
+        height: 880px;
+    }
 }
