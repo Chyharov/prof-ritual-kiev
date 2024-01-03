@@ -12,7 +12,7 @@ const SectionCargo = () => {
 
             <p style={{ marginBottom: '10px' }} className='description'>Ми розуміємо, що в години скорботи вам не хотілося б стикатися зі стомливим процесом щодо оформлення документів та відправлення вантажу 200. Тому Профритуал у найкоротші терміни зберуть усі необхідні документи, серед яких:</p>    
             
-            <ul className={s.ritualCarParkList__list}>
+            <ul className='list'>
                 <li><p style={{ marginBottom: '10px' }} className='description'>Свідоцтво про смерть;</p></li>
                 <li><p style={{ marginBottom: '10px' }} className='description'>Довідка про неукладання;</p></li>
                 <li><p style={{ marginBottom: '10px' }} className='description'>Довідка СЕС.</p></li>
@@ -20,7 +20,7 @@ const SectionCargo = () => {
 
             <p style={{ marginBottom: '10px' }} className='description'>Також ми підготуємо для транспортування спеціальний контейнер для перевезення Вантаж 200 із зазначеного місця до пункту призначення. Якщо виникла необхідність відправити покійного за межі України, то <b>ритуальний агент оформить перевезення вантажу 200 на митниці.</b></p>
         
-            <ul className={s.ritualCarParkList__list}>
+            <ul className='list'>
                 <li><p style={{ marginBottom: '10px' }} className='description'>Літаком;</p></li>
                 <li><p style={{ marginBottom: '10px' }} className='description'>Поїздом;</p></li>
                 <li><p style={{ marginBottom: '10px' }} className='description'>Автомобілем.</p></li>
@@ -47,7 +47,7 @@ const SectionCargo = () => {
           <h2 style={{ marginBottom: '10px' }} className='title'>Клієнти, які замовляли послугу “Вантаж 200”, також цікавилися:</h2>
 
 
-          <ul className={s.ritualCarParkList__list}>
+          <ul className='list'>
             <li><Link className='links' to="/ritualagent">Викликом агента додому</Link></li>
             <li><Link className='links' to="/memorialdinners">Поминальним обідом</Link></li>
             <li><Link className='links' to="/ritualhall">Орендою ритуального залу</Link></li>
