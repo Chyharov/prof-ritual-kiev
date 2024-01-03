@@ -3,7 +3,6 @@ import SectionContactsList from 'components/SectionContactsList/SectionContactsL
 import SectionCurrentPage from 'components/SectionCurrentPage/SectionCurrentPage';
 import SectionCargo from 'components/SectionCargo/SectionCargo';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
-import SectionTransportationByPlane from 'components/SectionTransportationOnPlane/SectionTransportationByPlane';
 import SectionNavigationList from 'components/SectionNavigationList/SectionNavigationList';
 import SectionContacts from 'components/SectionContacts/SectionContacts';
 import SectionRitualServicesList from 'components/SectionRitualServicesList/SectionRitualServicesList';
@@ -21,7 +20,6 @@ const CargoPage = () => {
             <SectionCurrentPage title={CargoPageTitle} />
             <SectionCargo />  
             <SectionNeedHelp />
-            <SectionTransportationByPlane />
             <SectionNavigationList />
             <SectionContacts />
             <SectionRitualServicesList />
