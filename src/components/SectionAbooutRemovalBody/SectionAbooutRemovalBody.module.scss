@@ -1,73 +1,38 @@
 @import '../../sass/utils/mixin';
 
 .abooutRemovalBody__container {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+        @include mq(tab) {
+            padding-bottom: 35px;
+        }
 }
 
 .abooutRemovalBody__decoration {
     width: 290px;
     height: 94px;
     margin-bottom: 25px;
+    
+        @include mq(tab) {
+            width: 1200px;
+            height: 380px;
+        }
 }
 
-.abooutRemovalBody__title {
-    font-family: CormorantUnicase Bold;
-    font-size: 23px;
-    line-height: 1.2;
-    color: var(--primaryTextColor);
-    text-shadow: var(--primaryTextShadowColor);
-    margin-bottom: 10px;
-}
+.funeralTeam__photoList {
 
-.abooutRemovalBody__description {
-    font-family: CormorantUnicase Regular;
-    font-size: 16px;
-    line-height: 1.3;
-    color: var(--secondaryTextColor);
-    text-shadow: var(--primaryTextShadowColor);
-    margin-bottom: 10px;
-}
-
-.abooutRemovalBody__link {
-    font-family: CormorantUnicase Regular;
-    font-size: 16px;
-    line-height: 1.63;
-    color: var(--hoverColor);
-    text-shadow: var(--primaryTextShadowColor);
-    border-bottom: 1px solid var(--hoverColor);
-    margin-bottom: 10px;
-}
-
-.abooutRemovalBody__titleSmal {
-    font-family: CormorantUnicase Regular;
-    font-size: 16px;
-    line-height: 1.3;
-    color: var(--primaryTextColor);
-    text-shadow: var(--primaryTextShadowColor);
-    margin-bottom: 10px;
-}
-
-.abooutRemovalBody__blockquote {
-    font-family: CormorantUnicase Regular;
-    font-size: 16px;
-    line-height: 1.3;
-    color: var(--secondaryTextColor);
-    text-shadow: var(--primaryTextShadowColor);
-    width: 263px;
-    padding: 10px 25px;
-    margin-left: 15px;
-    margin-right: 15px;
-    color: var(--hoverColor);
-    background-color: rgba(181, 155, 77, 0.05);
-    text-shadow: 0px 0px 1px var(--hoverColor);
-    border-left: 3px solid var(--hoverColor);
-}
-
-.funeralTeam__photoItem {
-    margin-bottom: 10px;
+    @include mq(tab) {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .funeralTeam__photo {
     width: 290px;
     height: 220px;
+
+    @include mq(tab) {
+        width: 380px;
+        height: 252px;
+    }
 }
