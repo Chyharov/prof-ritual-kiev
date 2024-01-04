@@ -69,16 +69,15 @@ const SectionAboutRentRitualHall = () => {
                 ))}
             </ul>
 
-      {modalOpen && selectedImage && (
-        <Modal
-          selectedImage={selectedImage}
-          arrayPhoto={ritualHallImgListArray}
-          setSelectedImage={setSelectedImage}
-          setModalOpen={setModalOpen}
-        />
-      )}
+            {modalOpen && selectedImage && (
+                <Modal
+                selectedImage={selectedImage}
+                arrayPhoto={ritualHallImgListArray}
+                setSelectedImage={setSelectedImage}
+                setModalOpen={setModalOpen}
+                />
+            )}
             
-
         </div>
       </section>
   )

@@ -2,6 +2,7 @@ import Header from 'components/Header/Header';
 import SectionContactsList from 'components/SectionContactsList/SectionContactsList';
 import SectionCurrentPage from 'components/SectionCurrentPage/SectionCurrentPage';
 import SectionAboutMusicalAccompanimen from 'components/SectionAboutMusicalAccompanimen/SectionAboutMusicalAccompanimen';
+import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
 import SectionNavigationList from 'components/SectionNavigationList/SectionNavigationList';
 import SectionContacts from 'components/SectionContacts/SectionContacts';
 import SectionRitualServicesList from 'components/SectionRitualServicesList/SectionRitualServicesList';
@@ -18,6 +19,7 @@ const MusicalAccompanimenPage = () => {
             <SectionContactsList />
             <SectionCurrentPage title={MusicalAccompanimenPageTitle} />
             <SectionAboutMusicalAccompanimen />
+            <SectionNeedHelp />
             <SectionNavigationList />
             <SectionContacts />
             <SectionRitualServicesList />
