@@ -1,5 +1,13 @@
 @import '../../sass/utils/mixin';
 
+.sectionNeedHelp {
+    padding-bottom: 20px;
+    
+    @include mq(tab) {
+        padding-bottom: 0px;
+    }
+}
+
 .needHelp__container {
     padding-top: 35px;
     padding-bottom: 35px;
@@ -10,7 +18,7 @@
     @include mq(tab) {
         padding-top: 20px;
         padding-bottom: 20px;
-        width: 1170px;
+        width: 1200px;
         height: 114px;
         background-image: url('../../images/NeedHelp/BgForNeedHelpDesk.jpg');
     }
