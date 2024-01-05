@@ -2,6 +2,7 @@ import Header from 'components/Header/Header';
 import SectionContactsList from 'components/SectionContactsList/SectionContactsList';
 import SectionCurrentPage from 'components/SectionCurrentPage/SectionCurrentPage';
 import SectionAboutFuneralEscortByMedicalPersonnal from 'components/SectionAboutFuneralEscortByMedicalPersonnal/SectionAboutFuneralEscortByMedicalPersonnal';
+import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
 import SectionNavigationList from 'components/SectionNavigationList/SectionNavigationList';
 import SectionContacts from 'components/SectionContacts/SectionContacts';
 import SectionRitualServicesList from 'components/SectionRitualServicesList/SectionRitualServicesList';
@@ -18,6 +19,7 @@ const FuneralEscortByMedicalPersonnalPage = () => {
             <SectionContactsList />
             <SectionCurrentPage title={FuneralEscortByMedicalPersonnalPageTitle} />
             <SectionAboutFuneralEscortByMedicalPersonnal />
+            <SectionNeedHelp />
             <SectionNavigationList />
             <SectionContacts />
             <SectionRitualServicesList />
