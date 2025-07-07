@@ -1,70 +1,74 @@
 @import '../../sass/utils/mixin';
 
 .contactsInformation__container {
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include mq(desk) {
     justify-content: space-between;
+    flex-direction: row;
+  }
 }
 
 .sectionContactsInformation {
-    padding-bottom: 35px;
+  padding-bottom: 35px;
 }
 
 .contactsInformation__title {
-    font-family: CormorantUnicase Regular;
-    font-size: 30px;
-    line-height: 1.2;
-    font-weight: 400;
-    color: var(--primaryTextColor);
-    text-shadow: var(--primaryTextShadowColor);
-    margin-bottom: 40px;
+  font-family: CormorantUnicase Regular;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: var(--primaryTextColor);
+  text-shadow: var(--primaryTextShadowColor);
+  margin-bottom: 40px;
 }
 
 .contactsInformation__titleList {
-    font-family: CormorantUnicase Bold;
-    font-size: 18px;
-    line-height: 1.2;
-    color: var(--primaryTextColor);
-    text-shadow: var(--primaryTextShadowColor);
-    margin-bottom: 10px;
+  font-family: CormorantUnicase Bold;
+  font-size: 18px;
+  line-height: 1.2;
+  color: var(--primaryTextColor);
+  text-shadow: var(--primaryTextShadowColor);
+  margin-bottom: 10px;
 }
 
 .contactsInformation__item {
-    font-family: CormorantUnicase Regular;
-    font-size: 12px;
-    line-height: 1.63;
-    color: var(--primaryTextColor);
-    text-shadow: var(--primaryTextShadowColor);
+  font-family: CormorantUnicase Regular;
+  font-size: 12px;
+  line-height: 1.63;
+  color: var(--primaryTextColor);
+  text-shadow: var(--primaryTextShadowColor);
 
-    @include mq(tab) {
-        font-size: 16px;
-    }
+  @include mq(tab) {
+    font-size: 16px;
+  }
 }
 
 .flexflex {
-    display: flex;
-    margin-bottom: 20px;
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .contactsInformation__icon {
-    width: 35px;
-    height: 35px;
-    color: var(--hoverColor);
-    margin-top: 10px;
-    margin-right: 20px;
+  width: 35px;
+  height: 35px;
+  color: var(--hoverColor);
+  margin-top: 10px;
+  margin-right: 20px;
 }
 
 .contactsInformationList__container {
-    @include mq(tab) {
-        width: 370px;
-    }
-
+  @include mq(tab) {
+    width: 370px;
+  }
 }
 
 .mapContainer {
-    width: 290px;
-    height: 500px;
+  width: 290px;
+  height: 400px;
 
-    @include mq(tab) {
-        width: 770px;
-    }
+  @include mq(tab) {
+    width: 770px;
+  }
 }
