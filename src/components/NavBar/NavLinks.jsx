@@ -315,7 +315,7 @@ const NavLinks = (props) => {
                 className={s.menu__list_item}>
                     <div className={s.phoneNumbersContainer}>
                         <p className={s.phoneNumberDescription}>Цілодобово 24/7</p>
-                        <a href="tel:+380442090261"><p className={s.phoneNumberNavBar}>+38 (044) 209-02-61</p></a>
+                            <a href="tel:+380675233540" aria-label="Call agent"><p className={s.phoneNumberNavBar}>+38 (067) 523-35-40</p></a>
                     </div>  
                 </motion.li>
            
@@ -348,16 +348,7 @@ const NavLinks = (props) => {
                     initial={animateFrom}
                     animate={animateTo}
                     transition={{delay: 0.15}}
-                    className={s.menu__list_itemSubMenuPhones}>+38 (067) 011-21-60
-                    </motion.li>
-                </a>
-
-                <a href="tel:+380939040707">
-                    <motion.li 
-                    initial={animateFrom}
-                    animate={animateTo}
-                    transition={{delay: 0.20}}
-                    className={s.menu__list_itemSubMenuPhones}>+38 (093) 904-07-07
+                    className={s.menu__list_itemSubMenuPhones}>+38 (099) 681-37-73
                     </motion.li>
                 </a>
             </ul>

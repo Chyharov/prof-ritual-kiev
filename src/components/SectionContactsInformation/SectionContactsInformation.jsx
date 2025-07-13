@@ -52,9 +52,8 @@ const SectionContactsInformation = () => {
             <div>
               <h2 className={s.contactsInformation__titleList}>Телефони</h2>
               <ul className={s.contactsInformation__list}>
-                <li className={s.contactsInformation__item}><a href="tel:+380442090261">+38 (044) 209-02-61</a></li>
-                <li className={s.contactsInformation__item}><a href="tel:+380670112160">+38 (067) 011-21-60</a></li>
-                <li className={s.contactsInformation__item}><a href="tel:+380939040707">+38 (093) 904-07-07</a></li>
+                <li className={s.contactsInformation__item}><a href="tel:+380675233540" aria-label="Call agent">+38 (067) 523-35-40</a></li>
+                <li className={s.contactsInformation__item}><a href="tel:+380996813773" aria-label="Call agent">+38 (099) 681-37-73</a></li>
               </ul>
             </div>
           </div>

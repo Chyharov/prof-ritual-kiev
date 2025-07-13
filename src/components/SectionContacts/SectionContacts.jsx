@@ -60,8 +60,8 @@ const SectionContacts = () => {
           Викликати агента
           </button>
 
-          <a className={s.contacts__call} href="tel:+380442090261">
-            +38 (044) 209-02-61
+          <a className={s.contacts__call} href="tel:+380675233540" aria-label="Call agent">
+            +38 (067) 523-35-40
           </a>
         </div>
         
@@ -71,10 +71,7 @@ const SectionContacts = () => {
 
           <ul className={s.contacts__list}>
             <li className={s.contacts__item}>
-              <a href="tel:+380670112160">+38 (067) 011-21-60</a>
-            </li>
-            <li className={s.contacts__item}>
-              <a href="tel:+380939040707">+38 (093) 904-07-07</a>
+              <a href="tel:+380996813773">+38 (099) 681-37-73</a>
             </li>
           </ul>
         </div>
