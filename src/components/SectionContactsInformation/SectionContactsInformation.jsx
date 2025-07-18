@@ -63,7 +63,7 @@ const SectionContactsInformation = () => {
             <div>
               <h2 className={s.contactsInformation__titleList}>Email</h2>
               <ul className={s.contactsInformation__list}>
-                <li className={s.contactsInformation__item}><a href="mailto:info@kievritual.com.ua" aria-label="Link for email">info@kievritual.com.ua</a></li>
+                <li className={s.contactsInformation__item}><a href="mailto:ritualomega33@gmail.com" aria-label="Link for email">ritualomega33@gmail.com</a></li>
               </ul>
             </div>
           </div>
