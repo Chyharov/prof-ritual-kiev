@@ -5,7 +5,7 @@ import { TbMailFilled } from 'react-icons/tb';
 import GoogleMapReact from 'google-map-react';
 import s from './SectionContactsInformation.module.scss';
 
-const Marker = ({ lat, lng, text }) => (
+const Marker = ({ text }) => (
   <div style={{ fontSize: '24px', color: 'red', textAlign: 'center' }}>
     <div style={{ marginBottom: '5px' }}>📍</div>
     {text}
@@ -32,6 +32,7 @@ const SectionContactsInformation = () => {
   return (
     <section className={s.sectionContactsInformation}>
       <div className={`container ${s.contactsInformation__container}`}>
+        
         <div className={s.contactsInformationList__container}>
 
           <h1 className={s.contactsInformation__title}>Контакти</h1>
@@ -80,6 +81,7 @@ const SectionContactsInformation = () => {
             <Marker lat={markerPosition.lat} lng={markerPosition.lng} text="вул. Івана Федорова, 33" />
           </GoogleMapReact>
         </div>
+
       </div>
     </section>
   );
