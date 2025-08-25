@@ -6,7 +6,7 @@ const SectionProfRitualTitle = () => {
       <section className={s.sectionProfRitualTitle}>
         <div className={'container ' + s.ProfRitual__container}>
 
-            <h2 className={s.profRitual__title}>Похоронна служба «Проф Ритуал»</h2>
+            <h2 className={s.profRitual__title}>Похоронне бюро «Проф Ритуал»</h2>
             <img className={s.profRitual__decoration} loading="lazy" src={ProfRitualDecoration} alt="hero__decoration" />
                 
         </div>
