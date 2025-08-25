@@ -46,7 +46,7 @@ const SectionAboutRentRitualHall = () => {
                 
             <h2 style={{marginBottom: '10px'}} className='titls'>Оренда ритуальної зали</h2>
 
-            <p style={{marginBottom: '10px'}} className='description'>Оренда ритуального залу розрахована щогодини. Профритуал співпрацює з багатьма орендарями і тому може надати ритуальні зали в багатьох районах Києва за доступною ціною.</p>
+            <p style={{marginBottom: '10px'}} className='description'>Оренда ритуального залу розрахована щогодини. «Проф Ритуал» співпрацює з багатьма орендарями і тому може надати ритуальні зали в багатьох районах Києва за доступною ціною.</p>
 
             <h3 className={s.aboutRentRitualHall__titleSmall}>Клієнти, які замовляли з нами оренду ритуального залу, так само цікавилися:</h3>
                 
@@ -59,7 +59,7 @@ const SectionAboutRentRitualHall = () => {
                 <li style={{marginBottom: '10px'}}><Link className='links' to='/ritualwreath'>Жалобними вінками</Link></li>  
             </ul>
                 
-            <h3 className={s.aboutRentRitualHall__titleSmall}>Фото деяких ритуальних залів від Профритуалу</h3>
+            <h3 className={s.aboutRentRitualHall__titleSmall}>Фото деяких ритуальних залів від «Проф Ритуал»у</h3>
             
             <ul className={s.ritualHallPhotoList}>
                 {ritualHallImgListArray.map((image) => (        

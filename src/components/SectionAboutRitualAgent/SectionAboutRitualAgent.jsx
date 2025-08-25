@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
-import AboutRitualAgent from '../../images/AboutRitualAgent/AboutRitualAgent.jpg'
+import AboutRitualAgent from '../../images/AboutRitualAgent/AboutRitualAgent.jpg';
 import s from './SectionAboutRitualAgent.module.scss'
 
 const SectionAboutRitualAgent = () => {
@@ -9,7 +9,7 @@ const SectionAboutRitualAgent = () => {
         <div className={'container ' + s.aboutRitualAgent__container}>
             <img className={s.aboutRitualAgent__decoration} loading="lazy" src={AboutRitualAgent} alt="advantages__decoration" />
                 
-            <p style={{marginBottom: '10px'}} className='description'>В агентстві “Профритуал” Ви можете замовити допомогу агента ритуальних послуг. Наш похоронний агент може під’їхати 24 години на добу, <b>первинна консультація — безкоштовно</b>. У разі потреби ми можемо надати медичну та психологічну допомогу. Наш агент ритуальних послуг готовий взяти на себе всі бюрократичні формальності, які необхідні для здійснення похоронного процесу.</p>
+            <p style={{marginBottom: '10px'}} className='description'>В агентстві «Проф Ритуал» Ви можете замовити допомогу агента ритуальних послуг. Наш похоронний агент може під’їхати 24 години на добу, <b>первинна консультація — безкоштовно</b>. У разі потреби ми можемо надати медичну та психологічну допомогу. Наш агент ритуальних послуг готовий взяти на себе всі бюрократичні формальності, які необхідні для здійснення похоронного процесу.</p>
 
             <h2 style={{marginBottom: '10px'}} className='title'>Завдання ритуального агента.</h2>
                 

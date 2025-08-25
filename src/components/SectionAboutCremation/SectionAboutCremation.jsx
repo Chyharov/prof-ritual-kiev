@@ -30,7 +30,7 @@ const SectionAboutCremation = () => {
         <div className={'container ' + s.aboutCremation__container}>
                 <img className={s.aboutCremation__decoration} loading="lazy" src={AboutCremation} alt="hero__decoration" />
                 
-                <p style={{marginBottom: '10px'}} className='description'>Профритуал надає послуги кремації у місті Київ. Кремація є відносно новою послугою в Україні, але за даними статистики 45% померлих було кремовано у місті Київ минулого року. Кремація це складний процес, до якого потрібно правильно підготуватися, щоби все пройшло добре.</p>
+                <p style={{marginBottom: '10px'}} className='description'>«Проф Ритуал» надає послуги кремації у місті Київ. Кремація є відносно новою послугою в Україні, але за даними статистики 45% померлих було кремовано у місті Київ минулого року. Кремація це складний процес, до якого потрібно правильно підготуватися, щоби все пройшло добре.</p>
 
                 <h2 style={{marginBottom: '10px'}} className='title'>Як виконується кремація у місті Київ</h2>
 
@@ -45,7 +45,7 @@ const SectionAboutCremation = () => {
                     <li className={s.aboutCremation__list}><p style={{marginBottom: '10px'}} className='description'>Отримати урну може тільки та людина, на яку оформлювалася послуги кремації</p></li>
                 </ul>
 
-                <p style={{marginBottom: '10px'}} className='description'>Документація дуже педантична, при помилці на вас може чекати відмова. Звернувшись за послугою кремації в <b>Профритуал</b> ви уникнете такого неприємного сюрпризу.</p>
+                <p style={{marginBottom: '10px'}} className='description'>Документація дуже педантична, при помилці на вас може чекати відмова. Звернувшись за послугою кремації в <b>«Проф Ритуал»</b> ви уникнете такого неприємного сюрпризу.</p>
         
                 <h2 style={{marginBottom: '10px'}} className='title'>Також можна придбати поховальні урни</h2>
 
@@ -59,7 +59,7 @@ const SectionAboutCremation = () => {
 
           <SectionNeedHelp />
           
-                <h2 style={{marginTop: '10px'}} className='title'>Які інші послуги ви можете замовити від Профритуал:</h2>
+                <h2 style={{marginTop: '10px'}} className='title'>Які інші послуги ви можете замовити від «Проф Ритуал»:</h2>
 
                 <p style={{marginBottom: '10px'}} className='description'>Після оформлення документів ви стаєте в чергу і маєте прибути в крематорій у потрібний час.</p>
 
@@ -74,7 +74,7 @@ const SectionAboutCremation = () => {
                 <li className={s.aboutCremation__list}><p style={{marginBottom: '10px'}} className='description'>Поминальний обід</p></li>
             </ul>
 
-            <p style={{marginBottom: '10px'}} className='description'>Документація дуже педантична, при помилці на вас може чекати відмова. Звернувшись за послугою кремації в <b>Профритуал</b> ви уникнете такого неприємного сюрпризу.</p>
+            <p style={{marginBottom: '10px'}} className='description'>Документація дуже педантична, при помилці на вас може чекати відмова. Звернувшись за послугою кремації в <b>«Проф Ритуал»</b> ви уникнете такого неприємного сюрпризу.</p>
         
             <h2 style={{marginBottom: '10px'}} className='title'>Зали у крематорії</h2>
 
@@ -84,7 +84,7 @@ const SectionAboutCremation = () => {
                 <li className={s.aboutCremation__list}><p style={{marginBottom: '10px'}} className='description'><b>VIP</b> – гарний ритуальний зал, після прощання перевозять у піч</p></li>
             </ul>
 
-            <p style={{marginBottom: '10px'}} className='description'>Для похоронного бюро Профритуал найголовніше щоб у день кремації все пройшло гладко і без приємних сюрпризів. Ви завжди можете викликати нашого агента до себе додому абсолютно безкоштовно, який допоможе вам вибрати найоптимальніший варіант кремації.</p>
+            <p style={{marginBottom: '10px'}} className='description'>Для похоронного бюро «Проф Ритуал» найголовніше щоб у день кремації все пройшло гладко і без приємних сюрпризів. Ви завжди можете викликати нашого агента до себе додому абсолютно безкоштовно, який допоможе вам вибрати найоптимальніший варіант кремації.</p>
 
             <h2 style={{marginBottom: '10px'}} className='title'>Клієнти, які замовляли послугу кремації, так само цікавилися:</h2>
 
