@@ -1,20 +1,42 @@
 @import '../../sass/utils/mixin';
 
 .sectionAboutRitualAgent {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 
-    @include mq(tab) {
-        padding-bottom: 35px;
-    }
+  @include mq(tab) {
+    padding-bottom: 35px;
+  }
 }
 
 .aboutRitualAgent__decoration {
-    width: 290px;
-    height: 100px;
-    margin-bottom: 25px;
+  width: 290px;
+  height: 100px;
+  margin-bottom: 25px;
 
-    @include mq(tab) {
-        width: 1200px;
-        height: 380px;
-    }
+  @include mq(tab) {
+    width: 1200px;
+    height: 380px;
+  }
+}
+
+.sectionAboutRitualAgent__list {
+  @include mq(desk) {
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.sectionAboutRitualAgent__listItem {
+  font-family: CormorantUnicase Regular;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--secondaryTextColor);
+  text-shadow: var(--primaryTextShadowColor);
+  margin-bottom: 5px;
+  list-style: disc;
+}
+
+.phoneIcon {
+  width: 12px;
+  height: 12px;
 }
