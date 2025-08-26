@@ -62,6 +62,10 @@
     @include mq(tab) {
         left: 406px;
     }
+
+    @include mq(desk) {
+        width: 120px;
+    }
 }
 
 .servicesInformation__itemPriceValue {
@@ -97,7 +101,7 @@
     margin-bottom: 5px;
     text-shadow: var(--primaryTextShadowColor);
     @include mq(tab) {
-        width: 424px;
+        width: 380px;
     }
 }
 

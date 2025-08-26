@@ -1,7 +1,6 @@
-import { Link } from 'react-router-dom';
 import { FaPhoneAlt } from 'react-icons/fa';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
-import AboutRitualAgent from '../../images/AboutRitualAgent/AboutRitualAgent.jpg';
+import AboutRitualAgent from '../../images/AboutRitualAgent/ritualAgentSectionBanner.jpg';
 import s from './SectionAboutRitualAgent.module.scss';
 
 const SectionAboutRitualAgent = () => {
@@ -15,18 +14,20 @@ const SectionAboutRitualAgent = () => {
           alt="advantages__decoration"
         />
 
-        <h2 style={{ marginBottom: '10px' }} className="title">
-          Послуги ритуального агента
-        </h2>
-
         <p style={{ marginBottom: '10px' }} className="description">
-          У складний момент ми беремо на себе всі турботи, пов’язані з
-          організацією похорону. Наш ритуальний агент працює цілодобово та надає
-          безкоштовну первинну консультацію.
+          У складний момент втрати важливо мати поруч тих, хто розуміє й
+          підтримує. Наші фахівці швидко реагують на виклик і готові приїхати до
+          вас у найкоротший термін. Ми беремо на себе всі організаційні турботи,
+          щоб ви могли зосередитися на найголовнішому — гідному прощанні з
+          близькою людиною.
+        </p>
+        <p style={{ marginBottom: '10px' }} className="description">
+          Досвід, тактовність та людяність нашої команди — це підтримка, на яку
+          можна покластися в найважчі хвилини.
         </p>
 
         <h2 style={{ marginBottom: '10px' }} className="title">
-          Послуги ритуального агента
+          Послуги ритуального агента:
         </h2>
 
         <ul className={s.sectionAboutRitualAgent__list}>
@@ -37,7 +38,7 @@ const SectionAboutRitualAgent = () => {
             Допомога з оформленням документів та вирішенням бюрократичних питань
           </li>
           <li className={s.sectionAboutRitualAgent__listItem}>
-            Підбір місця поховання або кремації
+            Допомога близьким в підборі місця поховання або кремації
           </li>
           <li className={s.sectionAboutRitualAgent__listItem}>
             Вибір труни, хрестів, вінків, квітів, ритуальної атрибутики
@@ -73,14 +74,18 @@ const SectionAboutRitualAgent = () => {
         <h2 style={{ marginBottom: '10px' }} className="title">
           Вартість послуг:
         </h2>
-        <p style={{ marginBottom: '10px' }} className="description">
-          Ми пропонуємо гнучкі пакети — ціни доступні для різних категорій
-          клієнтів.
-        </p>
-        <p style={{ marginBottom: '10px' }} className="description">
+
+        <ul className={s.sectionAboutRitualAgent__list}>
+          <li className={s.sectionAboutRitualAgent__listItem}>
+            Ми пропонуємо гнучкі пакети — ціни доступні для різних категорій
+            клієнтів.
+          </li>
+        </ul>
+
+         <h2 style={{ marginBottom: '10px' }} className="title">
           <FaPhoneAlt className={s.phoneIcon} /> Звертайтесь — ми готові
           допомогти в будь-який час
-        </p>
+        </h2>
 
         <SectionNeedHelp />
 
@@ -89,18 +94,10 @@ const SectionAboutRitualAgent = () => {
         </h2>
 
         <p style={{ marginBottom: '10px' }} className="description">
-          Ми надаємо якісні послуги протягом 17 років, і наш досвід, тактовність
-          та делікатність дозволяють нам зменшувати горе людей, які втратили
-          своїх близьких. Взявши на себе більшість турбот з похорону, ми
-          залишаємо час для найголовнішого — для прощання з близьким.
-        </p>
-
-        <p className="description">
-          Кожен з нас розуміє, що у випадку, коли в будинку трапилося лихо,{' '}
-          <b>кваліфікована допомога</b> має бути надана негайно. Ритуальний
-          агент від нашої компанії зможе виїхати на ваше прохання якнайшвидше і
-          приступити до надання професійної допомоги та підтримки у скрутну
-          хвилину.
+          Працюємо з 2005 року. У важкі моменти важливо не залишатися наодинці.
+          Наші ритуальні агенти оперативно приїдуть на виклик, візьмуть на себе
+          всі організаційні турботи та допоможуть провести прощання з гідністю і
+          повагою.
         </p>
       </div>
     </section>

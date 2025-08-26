@@ -30,7 +30,9 @@ const SectionServicesInformation = () => {
                             <h3 className={s.servicesInformation__itemTitle}>{detail.servicesInformationTitle}</h3>
                             
                             <p className={s.servicesInformation__itemPrice}><em className={s.servicesInformation__itemPriceValue}>{detail.servicesInformationMin}</em>{detail.servicesInformationPrice}
-                            <em className={s.servicesInformation__itemPriceValue}>{detail.servicesInformationCurrency}</em></p>
+                                <em className={s.servicesInformation__itemPriceValue}>{detail.servicesInformationCurrency}</em><br/>
+                                <em className={s.servicesInformation__itemPriceValue}>{detail.servicesInformationCheck}</em>
+                            </p>
                         </div>
                             
                         <ul className={s.servicesInformation__itemList}>
