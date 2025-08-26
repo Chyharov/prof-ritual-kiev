@@ -12,7 +12,7 @@ const SectionNavigationList = () => {
                 
           <ul className={s.navigationList__list}>
             <Link className={s.navigationList__link} to="/ritualagent"><li className={s.navigationList__item}>Ритуальний агент</li></Link>
-            <Link className={s.navigationList__link} to="/funeralorganization"><li className={s.navigationList__item}>Організація похорон</li></Link>
+            <Link className={s.navigationList__link} to="/funeralorganization"><li className={s.navigationList__item}>Організація похорону</li></Link>
             <Link className={s.navigationList__link} to="/cremation"><li className={s.navigationList__item}>Кремація</li></Link>
             <Link className={s.navigationList__link} to="/hearse"><li className={s.navigationList__item}>Автокатафалк</li></Link>
             <Link className={s.navigationList__link} to="/cargo"><li className={s.navigationList__item}>Вантаж 200</li></Link>

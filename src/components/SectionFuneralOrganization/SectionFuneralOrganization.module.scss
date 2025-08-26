@@ -1,20 +1,34 @@
 @import '../../sass/utils/mixin';
 
 .sectionFuneralOrganization {
-    padding-bottom: 20px;
-    
-    @include mq(tab) {
-        padding-bottom: 35px;
-    }
+  padding-bottom: 20px;
+
+  @include mq(tab) {
+    padding-bottom: 35px;
+  }
 }
 
 .funeralOrganization__decoration {
-    width: 290px;
-    height: 94px;
-    margin-bottom: 25px;
+  width: 290px;
+  height: 94px;
+  margin-bottom: 25px;
 
-    @include mq(tab) {
-        width: 1200px;
-        height: 380px;
-    }
+  @include mq(tab) {
+    width: 1200px;
+    height: 380px;
+  }
+}
+
+.funeralOrganization__pictureList {
+  @include mq(desk) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+.funeralOrganization__pictureListItemImg {
+  @include mq(desk) {
+    width: 585px;
+  }
 }

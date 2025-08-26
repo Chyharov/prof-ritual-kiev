@@ -9,7 +9,7 @@ import SectionRitualServicesList from 'components/SectionRitualServicesList/Sect
 import Footer from 'components/Footer/Footer';
 
 
-const FuneralOrganizationPageTitle = [{ title: 'Організація похорон' }]
+const FuneralOrganizationPageTitle = [{ title: 'Організація похорону' }]
 
 const FuneralOrganizationPage = () => {
   return (

@@ -30,29 +30,29 @@ const SectionAboutRitualAgent = () => {
           Послуги ритуального агента:
         </h2>
 
-        <ul className={s.sectionAboutRitualAgent__list}>
-          <li className={s.sectionAboutRitualAgent__listItem}>
+        <ul className="list">
+          <li className="listItem">
             Виїзд агента 24/7
           </li>
-          <li className={s.sectionAboutRitualAgent__listItem}>
+          <li className="listItem">
             Допомога з оформленням документів та вирішенням бюрократичних питань
           </li>
-          <li className={s.sectionAboutRitualAgent__listItem}>
+          <li className="listItem">
             Допомога близьким в підборі місця поховання або кремації
           </li>
-          <li className={s.sectionAboutRitualAgent__listItem}>
+          <li className="listItem">
             Вибір труни, хрестів, вінків, квітів, ритуальної атрибутики
           </li>
-          <li className={s.sectionAboutRitualAgent__listItem}>
+          <li className="listItem">
             Організація транспортування тіла (включно з послугою «Вантаж 200»)
           </li>
-          <li className={s.sectionAboutRitualAgent__listItem}>
+          <li className="listItem">
             Проведення церемонії відповідно до релігійних традицій
           </li>
-          <li className={s.sectionAboutRitualAgent__listItem}>
+          <li className="listItem">
             Виклик священника — за бажанням родини
           </li>
-          <li className={s.sectionAboutRitualAgent__listItem}>
+          <li className="listItem">
             За потреби — медична та психологічна підтримка
           </li>
         </ul>
@@ -61,11 +61,11 @@ const SectionAboutRitualAgent = () => {
           Асортимент:
         </h2>
 
-        <ul className={s.sectionAboutRitualAgent__list}>
-          <li className={s.sectionAboutRitualAgent__listItem}>
+        <ul className="list">
+          <li className="listItem">
             Труни: від економ-класу до елітних, також індивідуальне виготовлення
           </li>
-          <li className={s.sectionAboutRitualAgent__listItem}>
+          <li className="listItem">
             Хрести, вінки (живі та штучні), композиції на труну, інші ритуальні
             товари
           </li>
@@ -75,8 +75,8 @@ const SectionAboutRitualAgent = () => {
           Вартість послуг:
         </h2>
 
-        <ul className={s.sectionAboutRitualAgent__list}>
-          <li className={s.sectionAboutRitualAgent__listItem}>
+        <ul className="list">
+          <li className="listItem">
             Ми пропонуємо гнучкі пакети — ціни доступні для різних категорій
             клієнтів.
           </li>

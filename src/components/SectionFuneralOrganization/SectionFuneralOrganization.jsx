@@ -1,5 +1,11 @@
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
-import FuneralOrganization from '../../images/FuneralOrganization/FuneralOrganization.jpg'
+import FuneralOrganization from '../../images/FuneralOrganization/FuneralOrganizationTest.jpg';
+import FuneralOrganizationPictureListItem from '../../images/FuneralOrganization/FuneralOrganizationPictureListItem.jpg';
+import FuneralOrganizationPictureListItem2 from '../../images/FuneralOrganization/FuneralOrganizationPictureListItem2.jpg';
+import FuneralOrganizationPictureListItem3 from '../../images/FuneralOrganization/FuneralOrganizationPictureListItem3.jpg';
+import FuneralOrganizationPictureListItem4 from '../../images/FuneralOrganization/FuneralOrganizationPictureListItem4.jpg';
+import FuneralOrganizationPictureListItem5 from '../../images/FuneralOrganization/FuneralOrganizationPictureListItem5.jpg';
+import FuneralOrganizationPictureListItem6 from '../../images/FuneralOrganization/FuneralOrganizationPictureListItem6.jpg';
 import s from './SectionFuneralOrganization.module.scss'
 
 
@@ -8,34 +14,58 @@ const SectionFuneralOrganization = () => {
       <section className={s.sectionFuneralOrganization}>
         <div className={'container ' + s.funeralOrganization__container}>
                 
-            <img className={s.funeralOrganization__decoration} loading="lazy" src={FuneralOrganization} alt="funeralOrganization__decoration" />
+            <img className={s.funeralOrganization__pictureListItemImg} loading="lazy" src={FuneralOrganization} alt="funeralOrganization__decoration" />
                 
-            <h2 style={{marginBottom: '10px'}} className='title'>Організатор похорон Київ та Київська область</h2>
+            <h2 style={{marginBottom: '10px'}} className='title'>Організація похорону в Києві та Київській області</h2>
 
-            <p style={{marginBottom: '10px'}} className='description'>Пріоритетним напрямком діяльності нашої компанії є якісна організація похорону київ «під ключ» – від збору документів у відповідних інстанціях, необхідних для проведення похорону до самого похоронного обряду та поминальної трапези.</p>
+          <p style={{ marginBottom: '10px' }} className='description'>від похоронного бюро «Проф Рітуал»</p>
 
-            <blockquote style={{marginBottom: '10px'}} className='blockquote'>
-                Наша компанія займається організацією похорону різних цінових категорій – від скромних економних обрядів до <b>VIP-похоронів</b>, які можуть включати супровід машинами ДАІ. Цінова політика нашого агентства дозволяє нам підтримувати широкий спектр цін, що робить наші послуги доступними для більшості верств населення.
-            </blockquote>
-                
-            <h2 style={{marginBottom: '10px'}} className='title'>Професійна допомога від компанії ««Проф Ритуал»»</h2>
-            
-            <p style={{marginBottom: '10px'}} className='description'>У важкі моменти життя, коли у вас немає часу, сил і бажання займатися формальностями, наш похоронний агент готовий взяти всі турботи щодо організації похорону на себе, а все, що від вас вимагатиметься — зв’язатися з ним і висловити свої побажання та повідомити всі необхідні подробиці.</p>
+          <p style={{ marginBottom: '10px' }} className='description'>Похоронне бюро «ПрофРітуал» з 2005 року надає повний спектр ритуальних послуг у Києві та Київській області. Ми спеціалізуємося на комплексній організації похорону під ключ — від оформлення документів до проведення церемонії прощання та поминальної трапези.</p>
+          
+          <p style={{ marginBottom: '10px' }} className='description'>Наші послуги охоплюють поховання у різних цінових категоріях — від доступних економ-варіантів до розширених індивідуальних рішень. Гнучка цінова політика дозволяє нам допомагати сім’ям із різними потребами та можливостями.</p>
 
-            <p style={{marginBottom: '10px'}} className='description'><b>Ми пропонуємо широкий спектр послуг</b>, пов’язаний з організацією похорону, включаючи вирішення питань транспортування тіла та близьких покійного, вирішення питань з місцем поховання або кремації, проведення похоронної церемонії відповідно до релігійних традицій, яких померлий дотримувався, проведення поминальної трапези. У випадку, якщо ви викличете нашого агента відразу після виявлення тіла, всі необхідні дзвінки до поліції, швидку допомогу наш співробітник також візьме на себе.</p>
-                
-              <SectionNeedHelp />
+          <h2 style={{ marginBottom: '10px' }} className='title'>Що ми пропонуємо:</h2>
+          
+          <ul style={{ marginBottom: '20px' }} className="list">
+            <li className="listItem">Оперативний виїзд ритуального агента;</li>
+            <li className="listItem">Оформлення документів у відповідних інстанціях;</li>
+            <li className="listItem">Організацію транспортування померлого;</li>
+            <li className="listItem">Вибір та підготовку місця поховання або кремації;</li>
+            <li className="listItem">Проведення похоронної церемонії з урахуванням релігійних традицій;</li>
+            <li className="listItem">Організацію поминальної трапези;</li>
+            <li className="listItem">Декор місця захоронення та прощання;</li>
+            <li className="listItem">Професійна підтримка в складний момент;</li>
+            <li className="listItem">Ми розуміємо, наскільки важко приймати рішення у момент втрати. Саме тому наші агенти беруть на себе всі організаційні клопоти. Вам достатньо зателефонувати — і ми одразу розпочнемо роботу, надаючи повний супровід на кожному етапі.</li>
+          </ul>
+
+          <SectionNeedHelp />
           
             <h2 style={{marginTop: '10px'}} className='title'>Довіртеся нам у скрутну хвилину</h2>
             
-            <p style={{marginBottom: '10px'}} className='description'>Наша компанія має <b>цілодобову довідкову службу</b>, зателефонувавши в яку в будь-який час ви зможете отримати грамотні та кваліфіковані відповіді на всі питання.</p>
-                
-            <h2 style={{marginBottom: '10px'}} className='title'>Безкоштовний виїзд нашого агента для оформлення похорону</h2>
-
-            <p style={{marginBottom: '10px'}} className='description'>Таке здійснюється у будь-який час дня та ночі. У разі потреби ми надаємо медичну та психологічну допомогу. Ви можете покластися на нас і в таких делікатних питаннях, як вирішення бюрократичних питань, пов’язаних із заповітом покійного.</p>    
-        
-            <p style={{marginBottom: '10px'}} className='description'>Крім того, наша компанія має власну виробничу і транспортну базу, що значно заощадить ваш час на пошук і вибір ритуального приладдя та супутніх товарів. Також ми надаємо жалобну залу для проведення поминальної церемонії.</p>    
+            <p style={{marginBottom: '10px'}} className='description'>Наша компанія має <b>цілодобову довідкову службу</b>, зателефонувавши в будь-який час, ви зможете отримати грамотні та кваліфіковані відповіді на всі питання.</p>
           
+          <h2 style={{ marginBottom: '10px' }} className='title'>Декор місця прощання та захоронення</h2>
+
+          <ul className={s.funeralOrganization__pictureList}>
+            <li className={s.funeralOrganization__pictureListItem}>
+              <img className={s.funeralOrganization__pictureListItemImg} src={FuneralOrganizationPictureListItem} alt="FuneralOrganizationPictureListItem" />
+            </li>
+            <li className={s.funeralOrganization__pictureListItem}>
+              <img className={s.funeralOrganization__pictureListItemImg} src={FuneralOrganizationPictureListItem2} alt="FuneralOrganizationPictureListItem2" />
+            </li>
+            <li className={s.funeralOrganization__pictureListItem}>
+              <img className={s.funeralOrganization__pictureListItemImg} src={FuneralOrganizationPictureListItem3} alt="FuneralOrganizationPictureListItem3" />
+            </li>
+            <li className={s.funeralOrganization__pictureListItem}>
+              <img className={s.funeralOrganization__pictureListItemImg} src={FuneralOrganizationPictureListItem4} alt="FuneralOrganizationPictureListItem4" />
+            </li>
+            <li className={s.funeralOrganization__pictureListItem}>
+              <img className={s.funeralOrganization__pictureListItemImg} src={FuneralOrganizationPictureListItem5} alt="FuneralOrganizationPictureListItem5" />
+            </li>
+            <li className={s.funeralOrganization__pictureListItem}>
+              <img className={s.funeralOrganization__pictureListItemImg} src={FuneralOrganizationPictureListItem6} alt="FuneralOrganizationPictureListItem6" />
+            </li>
+          </ul>
         </div>
       </section>
   )

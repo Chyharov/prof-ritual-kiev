@@ -9,7 +9,7 @@ const SectionRitualServicesList = () => {
                 
                 <ul className={s.ritualServices__list}>
                     <Link className={s.ritualServices__item} to="/ritualagent">Виклик ритуального агента</Link>
-                    <Link className={s.ritualServices__item} to="/funeralorganization">Організація похорон</Link>
+                    <Link className={s.ritualServices__item} to="/funeralorganization">Організація похорону</Link>
                     <Link className={s.ritualServices__item} to="/cremation">Кремація</Link>
                     <Link className={s.ritualServices__item} to="/hearse">Автокатафалк</Link>
                     <Link className={s.ritualServices__item} to="/cargo">Вантаж 200</Link>

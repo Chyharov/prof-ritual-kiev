@@ -10,7 +10,7 @@ const SectionMemorialDinners = () => {
 
             <img className={s.memorialDinners__decoration} loading="lazy" src={MemorialDinnerDecoration} alt="MemorialDinnerDecoration" />
 
-            <p style={{marginBottom: '10px'}} className='description'>Невід’ємною частиною та завершальним етапом церемонії поховання є <b>поминки та поминальний обід</b>. Прагнучи забезпечити цілісність і завершеність траурного обряду, похоронне бюро ««Проф Ритуал»» надає можливість організації поминального обіду у спеціально обладнаних та використовуваних строго відповідно до їх призначення поминальних залах.</p>
+            <p style={{marginBottom: '10px'}} className='description'>Невід’ємною частиною та завершальним етапом церемонії поховання є <b>поминки та поминальний обід</b>. Прагнучи забезпечити цілісність і завершеність траурного обряду, похоронне бюро «Проф Ритуал» надає можливість організації поминального обіду у спеціально обладнаних та використовуваних строго відповідно до їх призначення поминальних залах.</p>
                 
             <h2 style={{marginBottom: '10px'}} className='title'>Оренда приміщення та залу для поминального обіду.</h2>
 
@@ -32,7 +32,7 @@ const SectionMemorialDinners = () => {
                 
                 <ul className='list'>
                     <li><Link className='links' to="/ritualagent">Виклик агента додому</Link></li>
-                    <li><Link className='links' to="/funeralorganization">Організація похорону</Link></li>
+                    <li><Link className='links' to="/funeralorganization">Організація похоронуу</Link></li>
                     <li><Link className='links' to="/hearse">Транспортом катафалк</Link></li>
                     <li><Link className='links' to="/memorialdinners">Оренда приміщення для поминального обіду</Link></li>
                 </ul>
