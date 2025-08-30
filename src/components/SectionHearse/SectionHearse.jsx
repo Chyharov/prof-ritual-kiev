@@ -50,13 +50,45 @@ const SectionHearse = () => {
         <div className={'container ' + s.hearse__container}>
             <img className={s.hearse__decoration} loading="lazy" src={HearseDecoration} alt="hearse__decoration" />
                 
-            <h2 style={{marginBottom: '10px'}} className='title'>Катафалк VIP та економ</h2>
+            <h2 style={{marginBottom: '10px'}} className='title'>Ритуальний транспорт від агентства «Профрітуал»</h2>
 
-            <p style={{marginBottom: '10px'}} className='description'>Слово <b>«катафалк»</b> означає постамент для встановлення труни в залі для прощання або перед проведенням поховання, але в наш час цим словом називають транспорт для перевезення тіла, супроводжуючих та ритуальних аксесуарів до місця поховання та для подальшого перевезення людей до зали для проведення поминальної церемонії.</p>
+            <p style={{marginBottom: '10px'}} className='description'>Компанія «Проф Ритуал» надає повний спектр послуг з ритуального транспортування в Києві та Київській області. Ми організовуємо перевезення тіла померлого, супроводжуючих осіб та ритуальних атрибутів  до місця поховання або до зали для проведення прощальної чи поминальної церемонії.</p>
        
-            <p style={{marginBottom: '10px'}} className='description'><b>Види ритуальних транспортів</b>, які надає компанія «Проф Ритуал». Наше агентство ритуальних послуг має власний автопарк, в якому міститься безліч одиниць транспортних засобів, з яких ви зможете вибрати ті, які відповідають ситуації та відповідають бюджету.</p>
-        
-            <p style={{marginBottom: '10px'}} className='description'>Ми пропонуємо <b>4 види</b> ритуального транспорту у Києві та Київській області – економ, бюджет, середній та VIP. Ви можете вибрати будь-який ритуальний транспорт із 4 видів, який буде відповідати вашим потребам у будь-який час доби.</p>  
+          <h2 style={{marginBottom: '10px'}} className='title'>Що таке катафалк?</h2>
+
+          <p style={{marginBottom: '10px'}} className='description'><b>Катафалк</b> — це спеціалізований транспортний засіб, призначений для урочистого та гідного перевезення труни з тілом померлого. Сучасні катафалки обладнані відповідно до ритуальних вимог і можуть також мати місце для супроводжуючих осіб або ритуальної атрибутики.</p>
+
+          <h2 style={{marginBottom: '10px'}} className='title'>Види ритуального транспорту</h2>
+
+          <p style={{marginBottom: '10px'}} className='description'>Ми пропонуємо 4 категорії ритуального транспорту, які відповідають різним потребам і бюджету:</p>
+
+          <ul style={{listStyle: 'none'}}>
+            <li className='listItem' style={{listStyle: 'none'}}>
+              <h3>Економ</h3>
+              <p style={{marginBottom: '10px'}} className='description'>Найдоступніший варіант транспорту. Просте, але надійне рішення для перевезення до місця поховання.</p>
+            </li>
+            <li className='listItem' style={{listStyle: 'none'}}>
+              <h3>Бюджет</h3>
+              <p style={{marginBottom: '10px'}} className='description'>Покращений варіант із базовим рівнем комфорту. Гарне поєднання ціни та якості.</p>
+            </li>
+            <li className='listItem' style={{listStyle: 'none'}}>
+              <h3>Середній клас</h3>
+              <p style={{marginBottom: '10px'}} className='description'>Комфортніші автомобілі з кращими умовами для супроводжуючих. Підходить для більш організованої церемонії.</p>
+            </li>
+            <li className='listItem' style={{listStyle: 'none'}}>
+              <h3>VIP-катафалк</h3>
+              <p style={{marginBottom: '10px'}} className='description'>Преміальний транспорт для гідного та урочистого прощання. Підкреслює повагу та шану до померлого.</p>
+            </li>
+          </ul>
+
+          <h2 style={{marginBottom: '10px'}} className='title'>Чому обирають «Проф Ритуал»</h2>
+
+          <ul className='list'>
+            <li className='listItem'>Оперативна організація ритуального транспорту</li>
+            <li className='listItem'>Вибір транспорту відповідно до бюджету</li>
+            <li className='listItem'>Професійний та тактовний підхід</li>
+            <li className='listItem'>Підтримка на всіх етапах прощання</li>
+          </ul>
 
             <ul style={{marginTop: '10px'}} className={s.ritualCarParkList__list}>
               {hearseListArray.map(image => (
@@ -87,11 +119,11 @@ const SectionHearse = () => {
                 
                 <h2 style={{marginBottom: '10px'}} className='title'>Клієнти, які замовляли послугу “Катафалк”, також цікавилися:</h2>
                 <ul className={s.ritualCarParkList__listMenu}>
-                    <li><Link className='links' to="/memorialdinners">Поминальним обідом у Києві та області</Link></li>
-                    <li><Link className='links' to="/crosses">Ритуальними хрестами</Link></li>
-                    <li><Link className='links' to="/ritualwreath">Жалобними вінками</Link></li>
-                    <li><Link className='links' to="/сoffins">Елітними та економ трунами</Link></li>
-                    <li><Link className='links' to="/funeralescortbymedicalpersonnal">Медперсоналом для похорону</Link></li>
+                    <li className='listItem'><Link className='links' to="/memorialdinners">Поминальним обідом у Києві та області</Link></li>
+                    <li className='listItem'><Link className='links' to="/crosses">Ритуальними хрестами</Link></li>
+                    <li className='listItem'><Link className='links' to="/ritualwreath">Жалобними вінками</Link></li>
+                    <li className='listItem'><Link className='links' to="/сoffins">Елітними та економ трунами</Link></li>
+                    <li className='listItem'><Link className='links' to="/funeralescortbymedicalpersonnal">Медперсоналом для похорону</Link></li>
                 </ul>
         </div>
       </section>
