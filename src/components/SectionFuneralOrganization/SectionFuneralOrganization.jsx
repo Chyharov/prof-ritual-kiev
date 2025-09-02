@@ -6,6 +6,12 @@ import FuneralOrganizationPictureListItem3 from '../../images/FuneralOrganizatio
 import FuneralOrganizationPictureListItem4 from '../../images/FuneralOrganization/FuneralOrganizationPictureListItem4.jpg';
 import FuneralOrganizationPictureListItem5 from '../../images/FuneralOrganization/FuneralOrganizationPictureListItem5.jpg';
 import FuneralOrganizationPictureListItem6 from '../../images/FuneralOrganization/FuneralOrganizationPictureListItem6.jpg';
+import FuneralOrganizationPictureListItem7 from '../../images/FuneralOrganization/FuneralOrganizationPictureListItem7.jpg';
+import FuneralOrganizationPictureListItem8 from '../../images/FuneralOrganization/FuneralOrganizationPictureListItem8.jpg';
+import FuneralOrganizationPictureListItem9 from '../../images/FuneralOrganization/FuneralOrganizationPictureListItem9.jpg';
+import FuneralOrganizationPictureListItem10 from '../../images/FuneralOrganization/FuneralOrganizationPictureListItem10.jpg';
+import FuneralOrganizationPictureListItem11 from '../../images/FuneralOrganization/FuneralOrganizationPictureListItem11.jpg';
+import FuneralOrganizationPictureListItem12 from '../../images/FuneralOrganization/FuneralOrganizationPictureListItem12.jpg';
 import s from './SectionFuneralOrganization.module.scss';
 
 const SectionFuneralOrganization = () => {
@@ -125,6 +131,48 @@ const SectionFuneralOrganization = () => {
               className={s.funeralOrganization__pictureListItemImg}
               src={FuneralOrganizationPictureListItem6}
               alt="FuneralOrganizationPictureListItem6"
+            />
+          </li>
+          <li className={s.funeralOrganization__pictureListItem}>
+            <img
+              className={s.funeralOrganization__pictureListItemImg}
+              src={FuneralOrganizationPictureListItem7}
+              alt="FuneralOrganizationPictureListItem7"
+            />
+          </li>
+          <li className={s.funeralOrganization__pictureListItem}>
+            <img
+              className={s.funeralOrganization__pictureListItemImg}
+              src={FuneralOrganizationPictureListItem8}
+              alt="FuneralOrganizationPictureListItem8"
+            />
+          </li>
+          <li className={s.funeralOrganization__pictureListItem}>
+            <img
+              className={s.funeralOrganization__pictureListItemImg}
+              src={FuneralOrganizationPictureListItem9}
+              alt="FuneralOrganizationPictureListItem9"
+            />
+          </li>
+          <li className={s.funeralOrganization__pictureListItem}>
+            <img
+              className={s.funeralOrganization__pictureListItemImg}
+              src={FuneralOrganizationPictureListItem10}
+              alt="FuneralOrganizationPictureListItem10"
+            />
+          </li>
+          <li className={s.funeralOrganization__pictureListItem}>
+            <img
+              className={s.funeralOrganization__pictureListItemImg}
+              src={FuneralOrganizationPictureListItem11}
+              alt="FuneralOrganizationPictureListItem11"
+            />
+          </li>
+          <li className={s.funeralOrganization__pictureListItem}>
+            <img
+              className={s.funeralOrganization__pictureListItemImg}
+              src={FuneralOrganizationPictureListItem12}
+              alt="FuneralOrganizationPictureListItem12"
             />
           </li>
         </ul>
