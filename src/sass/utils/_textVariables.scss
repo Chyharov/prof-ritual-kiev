@@ -72,6 +72,9 @@
 .list li {
   margin-left: 30px;
   list-style: disc;
+  @include mq(desk) {
+    margin-bottom: 15px;
+  }
 }
 
 .span {
@@ -81,13 +84,6 @@
   color: var(--hoverColor);
   text-shadow: var(--primaryTextShadowColor);
   margin-bottom: 10px;
-}
-
-.list {
-  @include mq(desk) {
-    padding-left: 20px;
-    margin-bottom: 10px;
-  }
 }
 
 .listItem {

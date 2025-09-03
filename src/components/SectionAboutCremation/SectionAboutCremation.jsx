@@ -8,44 +8,49 @@ import s from './SectionAboutCremation.module.scss';
 const crossesImgListArray = [
   {
     id: 1,
-    src: require('../../images/urnsForAshes/urnsForAshes.jpg'),
+    src: require('../../images/urnsForAshes/SectionAboutCremationImage1.jpg'),
     alt: 'Зображення 1',
   },
   {
     id: 2,
-    src: require('../../images/urnsForAshes/urnsForAshes2.jpg'),
+    src: require('../../images/urnsForAshes/SectionAboutCremationImage2.png'),
     alt: 'Зображення 2',
-  },
-  {
-    id: 3,
-    src: require('../../images/urnsForAshes/urnsForAshes3.jpg'),
-    alt: 'Зображення 3',
-  },
-  {
-    id: 4,
-    src: require('../../images/urnsForAshes/urnsForAshes4.jpg'),
-    alt: 'Зображення 4',
-  },
-  {
-    id: 5,
-    src: require('../../images/urnsForAshes/urnsForAshes5.jpg'),
-    alt: 'Зображення 5',
-  },
-  {
-    id: 6,
-    src: require('../../images/urnsForAshes/urnsForAshes6.jpg'),
-    alt: 'Зображення 6',
-  },
-  {
-    id: 7,
-    src: require('../../images/urnsForAshes/urnsForAshes7.jpg'),
-    alt: 'Зображення 7',
-  },
-  {
-    id: 8,
-    src: require('../../images/urnsForAshes/urnsForAshes8.jpg'),
-    alt: 'Зображення 8',
-  },
+  }
+  // {
+  //   id: 2,
+  //   src: require('../../images/urnsForAshes/urnsForAshes2.jpg'),
+  //   alt: 'Зображення 2',
+  // },
+  // {
+  //   id: 3,
+  //   src: require('../../images/urnsForAshes/urnsForAshes3.jpg'),
+  //   alt: 'Зображення 3',
+  // },
+  // {
+  //   id: 4,
+  //   src: require('../../images/urnsForAshes/urnsForAshes4.jpg'),
+  //   alt: 'Зображення 4',
+  // },
+  // {
+  //   id: 5,
+  //   src: require('../../images/urnsForAshes/urnsForAshes5.jpg'),
+  //   alt: 'Зображення 5',
+  // },
+  // {
+  //   id: 6,
+  //   src: require('../../images/urnsForAshes/urnsForAshes6.jpg'),
+  //   alt: 'Зображення 6',
+  // },
+  // {
+  //   id: 7,
+  //   src: require('../../images/urnsForAshes/urnsForAshes7.jpg'),
+  //   alt: 'Зображення 7',
+  // },
+  // {
+  //   id: 8,
+  //   src: require('../../images/urnsForAshes/urnsForAshes8.jpg'),
+  //   alt: 'Зображення 8',
+  // },
 ];
 
 const SectionAboutCremation = () => {
@@ -68,10 +73,7 @@ const SectionAboutCremation = () => {
         />
 
         <p style={{ marginBottom: '10px' }} className="description">
-          «Проф Ритуал» надає послуги кремації у місті Київ. Кремація є відносно
-          новою послугою в Україні, але за даними статистики 45% померлих було
-          кремовано у місті Київ минулого року. Кремація це складний процес, до
-          якого потрібно правильно підготуватися, щоби все пройшло добре.
+          Кремація — це сучасна та гідна форма прощання. Багато родин в Україні обирають її. Ми забезпечуємо повний супровід: від документів до передачі урни з прахом, з повагою до побажань родини.
         </p>
 
         <h2 style={{ marginBottom: '10px' }} className="title">
@@ -79,41 +81,41 @@ const SectionAboutCremation = () => {
         </h2>
 
         <p style={{ marginBottom: '10px' }} className="description">
-          Она производится, если человек еще при жизни высказал в своем
-          завещании, что не хочет, чтобы его после Вона робиться, якщо людина ще
-          за життя висловила у своєму заповіті, що не хоче, щоб її після смерті
-          ховали, а хоче, щоб її тіло було перетворено на порох. Також така
-          процедура проводиться за бажанням родичів мертвої людини.
+          Кремування – це процес перетворення тіла померлого на порох, що проводиться за бажанням родичів або відповідно до попереднього бажання померлої особи. Ця процедура дозволяє уникнути традиційного поховання та забезпечити подальше зберігання праху у спеціальній урні.
         </p>
 
+        <h2 style={{ marginBottom: '10px' }} className="title">Необхідні документи для кремації</h2>
+
         <p style={{ marginBottom: '10px' }} className="description">
-          <b>Які необхідні документи для кремації.</b> Кремування можливе лише
-          за наявності наступних документів:
+          Для проведення процедури кремації важливо мати наступні документи:
         </p>
 
         <ul className={s.aboutCremation__list}>
           <li className={s.aboutCremation__list}>
             <p style={{ marginBottom: '10px' }} className="description">
-              Свідоцтво про смерть
+              Свідоцтво про смерть – офіційний документ, що підтверджує факт смерті.
             </p>
           </li>
           <li className={s.aboutCremation__list}>
             <p style={{ marginBottom: '10px' }} className="description">
-              Корінець довідки про причину смерті
+              Корінець довідки про причину смерті – для юридичної та медичної фіксації причини смерті.
             </p>
           </li>
           <li className={s.aboutCremation__list}>
             <p style={{ marginBottom: '10px' }} className="description">
-              Паспорт замовника
+              Паспорт замовника послуги – особа, яка замовляє послугу, повинна надати свої особисті дані для оформлення.
             </p>
           </li>
           <li className={s.aboutCremation__list}>
             <p style={{ marginBottom: '10px' }} className="description">
-              Отримати урну може тільки та людина, на яку оформлювалася послуги
-              кремації
+             Урну з прахом може отримати лише та особа, на яку оформлювалася послуга кремації.
             </p>
           </li>
         </ul>
+
+        <h2 style={{ marginBottom: '10px' }} className="title">Чому важлива точність документів?</h2>
+
+        <p style={{ marginBottom: '10px' }} className="description">Кремація – це процедура з чітко регламентованими вимогами щодо документації. Будь-яка помилка у документах може стати причиною відмови в обслуговуванні. Звернувшись до «Проф Ритуал», ви можете бути впевнені, що всі документи будуть оформлені без помилок, а процес кремації пройде без зайвих труднощів.</p>
 
         <p style={{ marginBottom: '10px' }} className="description">
           Документація дуже педантична, при помилці на вас може чекати відмова.
@@ -145,89 +147,32 @@ const SectionAboutCremation = () => {
 
         <SectionNeedHelp />
 
-        <h2 style={{ marginTop: '10px' }} className="title">
-          Які інші послуги ви можете замовити від «Проф Ритуал»:
-        </h2>
+        <h2 style={{ marginBottom: '10px' }} className="title">Послуги кремації від «Проф Ритуал»: комфорт та зручність у кожному етапі</h2>
 
-        <p style={{ marginBottom: '10px' }} className="description">
-          Після оформлення документів ви стаєте в чергу і маєте прибути в
-          крематорій у потрібний час.
-        </p>
+        <p style={{ marginBottom: '10px' }} className="description">Після оформлення всіх необхідних документів ви стаєте в чергу для кремації та маєте прибути в крематорій у зазначений час. Але ми піклуємося про те, щоб процес був максимально комфортним та без зайвих турбот.</p>
+        
+        <p style={{ marginBottom: '10px' }} className="description"><b>У нас є своя комфортна зала для прощання</b>, де ви можете попрощатися з близькою людиною без черг, в атмосфері спокою та затишку. Це місце для останньої зустрічі, де ви можете бути з родиною та друзями в комфортних умовах, не поспішати і не переживати через затримки.</p>
 
-        <h2 style={{ marginBottom: '10px' }} className="title">
-          Ви можете замовити великий, малий та VIP зали:
-        </h2>
+        <h2 style={{ marginBottom: '10px' }} className="title">Додаткові послуги</h2>
+        
+        <p style={{ marginBottom: '10px' }} className="description">«Проф Ритуал» пропонує широкий спектр додаткових послуг для організації кремації та ритуалу:</p>
 
-        <ul className={s.aboutCremation__list}>
-          <li className={s.aboutCremation__list}>
-            <p style={{ marginBottom: '10px' }} className="description">
-              Читання ритуалу
-            </p>
-          </li>
-          <li className={s.aboutCremation__list}>
-            <p style={{ marginBottom: '10px' }} className="description">
-              Напис на урні
-            </p>
-          </li>
-          <li className={s.aboutCremation__list}>
-            <p style={{ marginBottom: '10px' }} className="description">
-              Утилізація вінків/кошиків
-            </p>
-          </li>
-          <li className={s.aboutCremation__list}>
-            <p style={{ marginBottom: '10px' }} className="description">
-              Перевезення померлого/катафалк
-            </p>
-          </li>
-          <li className={s.aboutCremation__list}>
-            <p style={{ marginBottom: '10px' }} className="description">
-              Великий асортимент ритуальних вінків
-            </p>
-          </li>
-          <li className={s.aboutCremation__list}>
-            <p style={{ marginBottom: '10px' }} className="description">
-              Поминальний обід
-            </p>
-          </li>
+        <ul className='list'>
+          <li className='listItem'><b>Оформлення необхідних документів</b> – ми допоможемо вам правильно оформити всі документи для кремації та інших ритуальних послуг.</li>
+          <li className='listItem'><b>Комфортні холодильні камери</b> – зберігання померлого до моменту кремації в наших сучасних холодильних камерах.</li>
+          <li className='listItem'><b>Підготовка покійного до прощання</b> – професійне оброблення та підготовка тіла до прощання, щоб воно виглядало належним чином.</li>
+          <li className='listItem'><b>Великий асортимент трун</b> – вибір різноманітних моделей та стилів трун для будь-яких вимог і побажань.</li>
+          <li className='listItem'><b>Ритуальна атрибутика</b> – великий асортимент ритуальних вінків, квітів, урн для праху та інших атрибутів для проведення обряду.</li>
+          <li className='listItem'><b>Читання ритуалу</b> – виконання обряду за вашим бажанням.</li>
+          <li className='listItem'><b>Утилізація вінків/кошиків</b> – забезпечуємо коректну утилізацію всіх ритуальних атрибутів після обряду.</li>
+          <li className='listItem'><b>Перевезення померлого/катафалк</b> – комфортний транспорт для перевезення померлого до місця кремації.</li>
+          <li className='listItem'><b>Поминальний обід</b> – організація поминального обіду після ритуалу.</li>
         </ul>
 
-        <p style={{ marginBottom: '10px' }} className="description">
-          Документація дуже педантична, при помилці на вас може чекати відмова.
-          Звернувшись за послугою кремації в <b>«Проф Ритуал»</b> ви уникнете
-          такого неприємного сюрпризу.
-        </p>
+        <h2 style={{ marginBottom: '10px' }} className="title">Чому варто обрати «Проф Ритуал»?</h2>
 
-        <h2 style={{ marginBottom: '10px' }} className="title">
-          Зали у крематорії
-        </h2>
-
-        <ul style={{ marginBottom: '10px' }} className={s.aboutCremation__list}>
-          <li className={s.aboutCremation__list}>
-            <p style={{ marginBottom: '10px' }} className="description">
-              <b>Великий</b> – з ліфтом опускається прямо в піч
-            </p>
-          </li>
-          <li className={s.aboutCremation__list}>
-            <p style={{ marginBottom: '10px' }} className="description">
-              <b>Малий</b> – церковний ритуальний зал і після прощання
-              перевозять у піч
-            </p>
-          </li>
-          <li className={s.aboutCremation__list}>
-            <p style={{ marginBottom: '10px' }} className="description">
-              <b>VIP</b> – гарний ритуальний зал, після прощання перевозять у
-              піч
-            </p>
-          </li>
-        </ul>
-
-        <p style={{ marginBottom: '10px' }} className="description">
-          Для похоронного бюро «Проф Ритуал» найголовніше щоб у день кремації
-          все пройшло гладко і без приємних сюрпризів. Ви завжди можете
-          викликати нашого агента до себе додому абсолютно безкоштовно, який
-          допоможе вам вибрати найоптимальніший варіант кремації.
-        </p>
-
+        <p style={{ marginBottom: '10px' }} className="description">Ми гарантуємо, що весь процес кремації пройде без зайвих неприємностей, і ви отримаєте всі необхідні послуги в одному місці. Ви завжди можете викликати нашого агента абсолютно безкоштовно для консультації та допомоги у виборі найкращого варіанту кремації для вашої ситуації.</p>
+        
         <h2 style={{ marginBottom: '10px' }} className="title">
           Клієнти, які замовляли послугу кремації, так само цікавилися:
         </h2>

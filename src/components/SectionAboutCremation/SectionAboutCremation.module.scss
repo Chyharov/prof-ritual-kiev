@@ -35,15 +35,25 @@
 .aboutCremation__img {
     width: 290px;
     height: 218px;
+
+    @include mq(desk) {
+        width: 575px;
+        height: 320px;
+    }
 }
 
 .aboutCremation__listPictures {
     @include mq(tab) {
-        display: grid;
-        gap: 20px;
-        grid-template-columns: repeat(4, 1fr);
-        justify-content: center;
-        justify-items: center;
+        // display: grid;
+        // gap: 20px;
+        // grid-template-columns: repeat(4, 1fr);
+        // justify-content: center;
+        // justify-items: center;
+        margin-bottom: 15px !important;
+        display: flex;
+            margin-bottom: 10px;
+            justify-content: space-between;
+            align-items: center;
     }
 }
 
