@@ -8,6 +8,11 @@
 
 .ritualServicesList__img {
     margin-bottom: 15px;
+
+    @include mq(desk) {
+        width: 270px;
+        height: 180px;
+    }
 }
 
 .ritualServicesList__title {
