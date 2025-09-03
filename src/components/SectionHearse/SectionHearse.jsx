@@ -7,28 +7,28 @@ import s from './SectionHearse.module.scss'
 const hearseListArray = [
   {
     id: 1,
-    src: require('../../images/RitualCarParkList/Cadillac.jpg'),
+    src: require('../../images/RitualCarParkList/VolksWagenT5andT6.jpg'),
     alt: 'Зображення 1',
     title: 'Економ ритуальний транспорт - Volkswagen T5 і T6',
     description: ', що має місткість 7-8 осіб, ролики для зручного завантаження та вивантаження тіла.',
   },
   {
     id: 2,
-    src: require('../../images/RitualCarParkList/MercedesSprinter.jpg'),
+    src: require('../../images/RitualCarParkList/MercedesSprinterEconom.jpg'),
     alt: 'Зображення 2',
     title: 'Бюджет ритуальний транспорт – Mercedes-Benz Sprinter',
     description: ', що має місткість (8 сидячих місць), ролики для зручного завантаження та вивантаження тіла.',
   },
   {
     id: 3,
-    src: require('../../images/RitualCarParkList/MercedesSprinterEconom.jpg'),
+    src: require('../../images/RitualCarParkList/MercedesSprinter.jpg'),
     alt: 'Зображення 3',
     title: 'Середній ритуальний транспорт – Mercedes Benz Sprinter',
     description: ', що має місткість 14-18 місць, кондиціонер, ролики, комфортні сидіння.',
   },
   {
     id: 4,
-    src: require('../../images/RitualCarParkList/VolksWagenT5andT6.jpg'),
+     src: require('../../images/RitualCarParkList/Cadillac.jpg'),
     alt: 'Зображення 4',
     title: 'VIP ритуальний транспорт – Cadillac катафалк лімузин',
     description: ', що має місткість 2-3 особи, кондиціонер, ролики, комфортні сидіння.',
