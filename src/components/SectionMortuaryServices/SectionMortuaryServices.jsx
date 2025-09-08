@@ -1,51 +1,110 @@
-import MortuaryServicesDecoration from '../../images/mortuaryServices/mortuaryServicesDecoration.jpg'
-import s from './SectionMortuaryServices.module.scss'
+import MortuaryServicesDecoration from '../../images/mortuaryServices/mortuaryServicesDecoration.jpg';
+import s from './SectionMortuaryServices.module.scss';
 
 const SectionMortuaryServices = () => {
-    return (
-      <section className={s.sectionMortuaryServices}>
-        <div className={'container ' + s.mortuaryServices__container}>
+  return (
+    <section className={s.sectionMortuaryServices}>
+      <div className={'container ' + s.mortuaryServices__container}>
+        <img
+          className={s.mortuaryServices__decoration}
+          loading="lazy"
+          src={MortuaryServicesDecoration}
+          alt="mortuaryServices__decoration"
+        />
 
-          <img className={s.mortuaryServices__decoration} loading="lazy" src={MortuaryServicesDecoration} alt="mortuaryServices__decoration" />
+        <h2 style={{ marginBottom: '10px' }} className="title">
+          Послуги з перевезення та зберігання тіла
+        </h2>
 
-            <h2 style={{marginBottom: '10px'}} className='title'>Перевезення та зберігання тіла в морзі</h2>
-            
-            <p style={{marginBottom: '10px'}} className='description'>Послуги холодильної камери включають: зберігання тіла в морзі, бальзамування, омивання, одяг, косметичні послуги. Людська психологія влаштована таким чином, що зіткнувшись зі смертю близької людини, емоційність <b>бере гору над розумом</b>. Сльози та душевний біль за померлою людиною отуманюють розум і проводять у розгубленість подальші дії родичів та близьких людей. Усі люди смертні, але всупереч цим знанням ніхто не готується до смерті заздалегідь. Похоронний клопіт лягає на плечі бідолашних і розгублених родичів.</p>
+        <p style={{ marginBottom: '10px' }} className="description">
+          Втрата близької людини завжди стає важким випробуванням. У цей момент
+          важко приймати організаційні рішення. Похоронне бюро{' '}
+          <b>«Проф Ритуал»</b> бере на себе всі клопоти, пов’язані з
+          перевезенням, зберіганням та підготовкою тіла до поховання. Ми
+          працюємо з повагою до пам’яті померлого та тактом до його родини.
+        </p>
 
-            <h2 style={{marginBottom: '10px'}} className='title'>Перевезення тіла до моргу</h2>
-                
-            <p style={{marginBottom: '10px'}} className='description'><b>Доставка тіла в морг</b> – це перша дія, якою ми можемо Вам допомогти. Звернувшись до нас за допомогою, наші співробітники негайно виїдуть на вказану адресу для транспортування тіла в морг. Співробітники з усією відповідальністю підготують тіло, занурять покійного у спеціалізовану машину та доставлять у морг. Ритуальні послуги морг нададуть прайс із фіксованими цінами для будь-якої категорії населення.</p>
+        <h2 style={{ marginBottom: '10px' }} className="title">
+          Перевезення тіла
+        </h2>
 
-            <h2 style={{marginBottom: '10px'}} className='title'>Зберігання тіла у морзі</h2>
-            
-            <p style={{marginBottom: '10px'}} className='description'>Мікроби та бактерії, що живуть в організмі людини, після його смерті починають харчуватися стінками шлунка та кишечника, таким чином, роз’їдаючи їх. Через деякий час, внаслідок цього процесу, людське тіло починає пахнути неприємним запахом. Виходячи з цього, необхідно поміщати тіло покійного <b>в морг для зберігання</b>. Послуги холодильної камери Київ транспортують тіло до холодильної камери під вплив мінусової температури, що дозволить зберегти тіло до поховання.</p>    
-            
-            <h2 style={{marginBottom: '10px'}} className='title'>Похоронне бюро «Проф Ритуал» надає Послуги холодильної камери та комплекс супровідних послуг:</h2>
-            
-            <ul style={{marginBottom: '10px'}} className='list'>
-                <li><p style={{marginBottom: '10px'}} className='description'>Навантаження та перевезення тіла будь-якої складності.</p></li>
-                <li><p style={{marginBottom: '10px'}} className='description'>Транспортування тіла до моргу, з моргу до будинку або до місця поховання, до жалобної зали для прощання з родичами та близькими людьми.</p></li>
-                <li><p style={{marginBottom: '10px'}} className='description'>Антибактеріальна обробка.</p></li>
-                <li><p style={{marginBottom: '10px'}} className='description'>Реконструкція та відновлення дефектів обличчя та тіла після передсмертної деформації.</p></li>
-                <li><p style={{marginBottom: '10px'}} className='description'>Зберігання тіла у спеціалізованому холодильнику протягом потрібного часу.</p></li>
-                <li><p style={{marginBottom: '10px'}} className='description'>Формалінова дезодорація дозволяє усунути запах гниття тіла.</p></li>
-                <li><p style={{marginBottom: '10px'}} className='description'>Фахівці віддадуть тіло санітарній та гігієнічній обробці.</p></li>
-                <li><p style={{marginBottom: '10px'}} className='description'>Працівники моргу помиють і переодягнуть померлого в одяг для проведення похорону.</p></li>
-            </ul>
-                
-                <blockquote style={{marginBottom: '10px'}} className='blockquote'>
-                    Якісною косметикою зроблять посмертний макіяж і по необхідності пострижуть, поголять або покладуть волосся. Покладуть померлого в труну і приготують до прощальної церемонії та похорону.
-                </blockquote>
-            
-            <h2 style={{marginBottom: '10px'}} className='title'>Доставка тіла в морг</h2>
-                
-            <p style={{marginBottom: '10px'}} className='description'>Перевезення тіла в морг в Києві відбувається в короткі терміни і на оснащеному та закріпленій полицею автомобілі. Тіло транспортують з будь-якої точки міста та передмістя. Похоронні вінки та траурну атрибутику можна придбати у нашому похоронному бюро. Широкий асортимент та доступні ціни дають можливість вибору <b>вінків, кошиків, хусток</b>. Також великий вибір трун, можна замовити труну будь-якого розміру, виготовлену з різного дерева.</p>
+        <ul style={{ marginBottom: '10px' }} className="list">
+          <li className="listItem">
+            Оперативний виїзд за адресою (з дому, лікарні чи іншого місця).
+          </li>
+          <li className="listItem">
+            Транспортування у спеціалізованому автомобілі з дотриманням
+            санітарних норм.
+          </li>
+          <li className="listItem">
+            Доставка тіла до холодильних камер за адресою:{' '}
+            <b>м. Київ, вул. Івана Федорова, 33</b>.
+          </li>
+          <li className="listItem">
+            За потреби — подальше транспортування до дому, зали прощання чи
+            місця поховання.
+          </li>
+        </ul>
 
-            <p style={{marginBottom: '10px'}} className='description'>Супровід, перевезення тіла до моргу та всі похоронні заходи допоможуть організувати наші ритуальні агенти. Багаторічний досвід наших співробітників дозволяє уникнути непередбачених <b>неприємностей на похороні</b>. Вони приведуть у дію будь-які Ваші побажання або передсмертні побажання покійного. Родичам набагато легше перенести прикрощі втрати, коли організацією похорону займається наше похоронне бюро.</p>
+        <h2 style={{ marginBottom: '10px' }} className="title">
+          Зберігання
+        </h2>
 
-        </div>
-      </section>
-  )
+        <p style={{ marginBottom: '10px' }} className="description">
+          Для збереження належного стану тіло поміщається у холодильні камери з
+          низькою температурою. Це дозволяє уникнути небажаних змін та зберегти
+          тіло до дня поховання.
+        </p>
+
+        <h2 style={{ marginBottom: '10px' }} className="title">
+          Підготовка до похорону
+        </h2>
+
+        <p style={{ marginBottom: '10px' }} className="description">
+          Наші фахівці забезпечують повний комплекс послуг:
+        </p>
+
+        <ul style={{ marginBottom: '10px' }} className="list">
+          <li className="listItem">санітарна та гігієнічна обробка;</li>
+          <li className="listItem">
+            <b>антибактеріальна обробка</b> та формалінова дезодорація;
+          </li>
+          <li className="listItem">омиття та одягання у поховальний одяг;</li>
+          <li className="listItem">омиття та одягання у поховальний одяг;</li>
+          <li className="listItem">
+            реконструкція зовнішності у випадку пошкоджень;
+          </li>
+          <li className="listItem">
+            підготовка та укладання у труну для прощальної церемонії.
+          </li>
+        </ul>
+
+        <h2 style={{ marginBottom: '10px' }} className="title">
+          Додаткові ритуальні послуги
+        </h2>
+
+        <p style={{ marginBottom: '10px' }} className="description">
+          У нашому бюро можна замовити:
+        </p>
+
+        <ul style={{ marginBottom: '10px' }} className="list">
+          <li className="listItem">труни різних розмірів і матеріалів;</li>
+          <li className="listItem">жалобні вінки, кошики, хустки;</li>
+          <li className="listItem">траурну атрибутику.</li>
+        </ul>
+
+        <h2 style={{ marginBottom: '10px' }} className="title">
+          Підтримка родини
+        </h2>
+
+        <p style={{ marginBottom: '10px' }} className="description">
+          Ритуальні агенти «Проф Ритуал» мають багаторічний досвід і допоможуть
+          уникнути труднощів при організації похорону. Ми врахуємо всі побажання
+          родини та забезпечимо гідне проведення прощальної церемонії.
+        </p>
+      </div>
+    </section>
+  );
 };
 
 export default SectionMortuaryServices;
