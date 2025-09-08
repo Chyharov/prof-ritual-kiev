@@ -108,7 +108,7 @@ const NavLinks = (props) => {
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.35}}
-                        className={s.menu__list_itemSubMenu}>Послуги моргу
+                        className={s.menu__list_itemSubMenu}>Послуги холодильної камери
                     </motion.li>
                     </Link>
                     

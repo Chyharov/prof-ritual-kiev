@@ -16,7 +16,7 @@ const SectionNavigationList = () => {
             <Link className={s.navigationList__link} to="/cremation"><li className={s.navigationList__item}>Кремація</li></Link>
             <Link className={s.navigationList__link} to="/hearse"><li className={s.navigationList__item}>Автокатафалк</li></Link>
             <Link className={s.navigationList__link} to="/cargo"><li className={s.navigationList__item}>Вантаж 200</li></Link>
-            <Link className={s.navigationList__link} to="/mortuaryservices"><li className={s.navigationList__item}>Послуги моргу</li></Link>
+            <Link className={s.navigationList__link} to="/mortuaryservices"><li className={s.navigationList__item}>Послуги холодильної камери</li></Link>
             <Link className={s.navigationList__link} to="/memorialdinners"><li className={s.navigationList__item}>Поминальні обіди</li></Link>
             <Link className={s.navigationList__link} to="/documentsforfuneral"><li className={s.navigationList__item}>Оформлення документів для похорону</li></Link>
             <Link className={s.navigationList__link} to="/ritualhall"><li className={s.navigationList__item}>Ритуальна зала</li></Link>

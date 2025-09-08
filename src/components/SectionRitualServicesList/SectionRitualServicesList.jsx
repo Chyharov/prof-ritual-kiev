@@ -13,7 +13,7 @@ const SectionRitualServicesList = () => {
                     <Link className={s.ritualServices__item} to="/cremation">Кремація</Link>
                     <Link className={s.ritualServices__item} to="/hearse">Автокатафалк</Link>
                     <Link className={s.ritualServices__item} to="/cargo">Вантаж 200</Link>
-                    <Link className={s.ritualServices__item} to="/mortuaryservices">Послуги моргу</Link>
+                    <Link className={s.ritualServices__item} to="/mortuaryservices">Послуги холодильної камери</Link>
                     <Link className={s.ritualServices__item} to="/memorialdinners">Поминальні обіди</Link>
                     <Link className={s.ritualServices__item} to="/ritualgoods">Ритуальні товари</Link>
                 </ul>
