@@ -123,28 +123,6 @@ const SectionAboutCremation = () => {
           такого неприємного сюрпризу.
         </p>
 
-        <h2 style={{ marginBottom: '10px' }} className="title">
-          Також можна придбати поховальні урни
-        </h2>
-
-        <ul
-          style={{ marginBottom: '10px' }}
-          className={s.aboutCremation__listPictures}
-        >
-          {crossesImgListArray.map(image => (
-            <li className={s.aboutCremation__itemPictures} key={image.id}>
-              <img
-                className={s.aboutCremation__img}
-                loading="lazy"
-                id={image.id}
-                src={image.src}
-                alt={image.alt}
-                onClick={() => openModal(image.id, image.src, image.alt)}
-              />
-            </li>
-          ))}
-        </ul>
-
         <SectionNeedHelp />
 
         <h2 style={{ marginBottom: '10px' }} className="title">Послуги кремації від «Проф Ритуал»: комфорт та зручність у кожному етапі</h2>
@@ -173,6 +151,28 @@ const SectionAboutCremation = () => {
 
         <p style={{ marginBottom: '10px' }} className="description">Ми гарантуємо, що весь процес кремації пройде без зайвих неприємностей, і ви отримаєте всі необхідні послуги в одному місці. Ви завжди можете викликати нашого агента абсолютно безкоштовно для консультації та допомоги у виборі найкращого варіанту кремації для вашої ситуації.</p>
         
+        <h2 style={{ marginBottom: '10px' }} className="title">
+          Наші зали для прощання
+        </h2>
+
+        <ul
+          style={{ marginBottom: '10px' }}
+          className={s.aboutCremation__listPictures}
+        >
+          {crossesImgListArray.map(image => (
+            <li className={s.aboutCremation__itemPictures} key={image.id}>
+              <img
+                className={s.aboutCremation__img}
+                loading="lazy"
+                id={image.id}
+                src={image.src}
+                alt={image.alt}
+                onClick={() => openModal(image.id, image.src, image.alt)}
+              />
+            </li>
+          ))}
+        </ul>
+
         <h2 style={{ marginBottom: '10px' }} className="title">
           Клієнти, які замовляли послугу кремації, так само цікавилися:
         </h2>

@@ -10,7 +10,7 @@ const hearseListArray = [
     src: require('../../images/RitualCarParkList/VolksWagenT5andT6.jpg'),
     alt: 'Зображення 1',
     title: 'Економ ритуальний транспорт - Volkswagen T5 і T6',
-    description: ', що має місткість 7-8 осіб, ролики для зручного завантаження та вивантаження тіла.',
+    description: ', що має місткість 3-5 осіб, ролики для зручного завантаження та вивантаження тіла.',
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const hearseListArray = [
      src: require('../../images/RitualCarParkList/Cadillac.jpg'),
     alt: 'Зображення 4',
     title: 'VIP ритуальний транспорт – Cadillac катафалк лімузин',
-    description: ', що має місткість 2-3 особи, кондиціонер, ролики, комфортні сидіння.',
+    description: ', що має місткість для однієї особи, кондиціонер, ролики.',
   }
 ];
 
@@ -106,7 +106,9 @@ const SectionHearse = () => {
                   <p style={{ marginBottom: '10px' }} className='description'><b>{image.title}</b>{image.description}</p>
                 </li>
               ))}
-            </ul>
+          </ul>
+          
+          <h2>Про Ритуал</h2>
 
             {modalOpen && selectedImage && (
               <Modal

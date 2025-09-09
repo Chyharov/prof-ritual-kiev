@@ -29,3 +29,25 @@
         height: 880px;
     }
 }
+
+.MemorialDinnersHallImgFirst {
+    @include mq(tab) {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+.MemorialDinnersHallImg {
+    @include mq(tab) {
+        width: 370px;
+        height: 490px;
+    }
+}
+
+.MemorialDinnersHallImgList {
+    @include mq(tab) {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+}

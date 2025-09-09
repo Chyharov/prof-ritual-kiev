@@ -66,10 +66,7 @@ const SectionMortuaryServices = () => {
 
         <ul style={{ marginBottom: '10px' }} className="list">
           <li className="listItem">санітарна та гігієнічна обробка;</li>
-          <li className="listItem">
-            <b>антибактеріальна обробка</b> та формалінова дезодорація;
-          </li>
-          <li className="listItem">омиття та одягання у поховальний одяг;</li>
+          <li className="listItem">антибактеріальна обробка;</li>
           <li className="listItem">омиття та одягання у поховальний одяг;</li>
           <li className="listItem">
             реконструкція зовнішності у випадку пошкоджень;
