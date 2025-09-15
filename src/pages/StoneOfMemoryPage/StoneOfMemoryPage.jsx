@@ -1,7 +1,7 @@
 import Header from 'components/Header/Header';
 import SectionContactsList from 'components/SectionContactsList/SectionContactsList';
 import SectionCurrentPage from 'components/SectionCurrentPage/SectionCurrentPage';
-import SectionAboutSanitationOfPremises from 'components/SectionAboutSanitationOfPremises/SectionAboutSanitationOfPremises';
+import SectionStoneOfMemory from 'components/SectionStoneOfMemory/SectionStoneOfMemory';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
 import SectionNavigationList from 'components/SectionNavigationList/SectionNavigationList';
 import SectionContacts from 'components/SectionContacts/SectionContacts';
@@ -18,7 +18,7 @@ const StoneOfMemoryPage = () => {
         <main>
             <SectionContactsList />
             <SectionCurrentPage title={StoneOfMemoryPageTitle} />
-            <SectionAboutSanitationOfPremises />
+            <SectionStoneOfMemory />
             <SectionNeedHelp />
             <SectionNavigationList />
             <SectionContacts />
