@@ -1,4 +1,8 @@
 import { Link } from 'react-router-dom';
+import OrganizationFuneralServiceslCallBack from '../../images/OrganizationFuneralServices/OrganizationFuneralServiceslCallBack.jpg';
+import OrganizationFuneralServicesDrawingOrder from '../../images/OrganizationFuneralServices/OrganizationFuneralServicesDrawingOrder.jpg';
+import OrganizationFuneralServicesCremationOrFuneral from '../../images/OrganizationFuneralServices/OrganizationFuneralServicesCremationOrFuneral.jpg';
+import OrganizationFuneralDiner from '../../images/OrganizationFuneralServices/OrganizationFuneralDiner.jpg';
 import BntMoreDetail from 'components/BntMoreDetail/BntMoreDetail';
 import s from './SectionOrganizationFuneralServices.module.scss'
 
@@ -8,18 +12,33 @@ const SectionOrganizationFuneralServices = () => {
     return (
       <section className={s.sectionOrganizationFuneralServices}>
         <div className={'container ' + s.funeralServices__container}>
-          <div loading="lazy" className={s.funeralServices__decoration}>
-          </div>
+              
+              <h2 className={s.funeralServices__title} style={{marginBottom: '20px'}}>Організація ритуальних послуг</h2>
                 
-          <div className={s.organizationFuneralServicesInfoContainer}>
-              <h2 className={s.funeralServices__title}>Організація ритуальних послуг</h2>
-                
-              <p className={s.funeralServices__description}>Починаючи з оформлення документів і закінчуючи поминальним обідом. Такий стрес може негативно вплинути на здоров’я людини. «Проф Ритуал» більше 10 років працює у сфері ритуальних послуг і ми знаємо як організувати похорон за <b>доступною для вас ціною.</b></p>
-                
-              <p className={s.funeralServices__description} style={{marginBottom: '35px'}}>Ми працюємо з усіма клієнтами і знаходимо їм найкращий варіант. Ми співпрацюємо з <b>десятками ресторанів</b>, маємо власний транспорт, тому ціна наших ритуальних послуг завжди залишається низькою і доступною для всіх.</p>
+          <p className='description' style={{marginBottom: '20px'}}>Процес кремації або захоронення від похоронного бюро «Проф Ритуал»</p>
+
+          <ul className={s.organizationFuneralList} style={{marginBottom: '20px'}}>
+            <li className={s.organizationFuneralList__item}>
+              <img className={s.organizationFuneralList__itemImg} src={OrganizationFuneralServiceslCallBack} alt="OrganizationFuneralServiceslCallBack" />
+              <p className='description'><b>1. Зателефонуйте нам → домовляємося про деталі.</b></p>
+            </li>
+            <li className={s.organizationFuneralList__item}>
+              <img className={s.organizationFuneralList__itemImg} src={OrganizationFuneralServicesDrawingOrder} alt="OrganizationFuneralServicesDrawingOrder" />
+              <p className='description'><b>2. Оформлення договору-замовлення → оформлення документів, підбір зали, труни та необхідної ритуальної атрибутики.</b></p>
+            </li>
+            <li className={s.organizationFuneralList__item}>
+              <img className={s.organizationFuneralList__itemImg} src={OrganizationFuneralServicesCremationOrFuneral} alt="OrganizationFuneralServicesCremationOrFuneral " />
+              <p className='description'><b>3. Процес кремації або захоронення → проведення процедури та передача праху.</b></p>
+            </li>
+            <li className={s.organizationFuneralList__item}>
+              <img className={s.organizationFuneralList__itemImg} src={OrganizationFuneralDiner} alt="OrganizationFuneralDiner" />
+              <p className='description'><b>4. Додатково → організація поминального обіду, транспорт, супровід.</b></p>
+            </li>
+          </ul>
+            
+
 
               <Link to="/ritualservices"><BntMoreDetail /></Link>
-          </div>
                 
         </div>
       </section>

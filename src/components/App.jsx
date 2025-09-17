@@ -28,6 +28,8 @@ const RitualMonumentsPage = lazy(() => import('pages/RitualMonumentsPage/RitualM
 const RitualAccessoriesPage = lazy(() => import('pages/RitualAccessoriesPage/RitualAccessoriesPage'));
 const StoneOfMemoryPage = lazy(() => import('pages/StoneOfMemoryPage/StoneOfMemoryPage'));
 const MusicalAccompanimentPage = lazy(() => import('pages/MusicalAccompanimentPage/MusicalAccompanimentPage'));
+const MemoryCodePage = lazy(() => import('pages/MemoryCodePage/MemoryCodePage'))
+const PetsCremationPage = lazy(() => import('pages/PetsCremationPage/PetsCremationPage'));
 
 export const App = () => {
   return (
@@ -62,6 +64,8 @@ export const App = () => {
           <Route path="/ritualaccessories" element={<RitualAccessoriesPage />} />
           <Route path="/stoneofmemory" element={<StoneOfMemoryPage />} />
           <Route path="/musicalaccompaniment" element={<MusicalAccompanimentPage />} />
+          <Route path="/memorycode" element={<MemoryCodePage />} />
+          <Route path="/petscremation" element={<PetsCremationPage />} />
         </Routes>
       </Suspense>
     </>

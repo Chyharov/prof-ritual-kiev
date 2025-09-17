@@ -1,0 +1,28 @@
+@import '../../sass/utils/mixin';
+
+.sectionMemoryCode {
+    padding-bottom: 20px;
+
+    @include mq(tab) {
+        padding-bottom: 35px;
+    }
+}
+
+.memoryCode__decoration {
+    width: 290px;
+    height: 94px;
+    margin-bottom: 25px;
+
+    @include mq(tab) {
+        width: 1200px;
+        height: auto;
+    }
+}
+
+.memoryCodeImgDescription {
+    @include mq(tab) {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}

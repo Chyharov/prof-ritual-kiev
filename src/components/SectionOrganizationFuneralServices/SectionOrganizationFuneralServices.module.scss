@@ -4,31 +4,6 @@
     padding-top: 35px;
     padding-bottom: 35px;
     background-color: #f7f7f7;
-    @include mq(tab) {
-        display: flex;
-        justify-content: space-between;
-    }
-}
-
-.funeralServices__decoration {
-    width: 290px;
-    height: 100px;
-    background-image: url(../../images/OrganizationFuneralServices/OrganizationFuneralServicesMobile.jpg);
-    margin-bottom: 15px;
-
-    @include mq(tab) {
-        width: 570px;
-        height: 380px;
-        background-image: url(../../images/OrganizationFuneralServices/OrganizationFuneralServicesDesktop.jpg);
-        margin-bottom: 0px;
-    }
-}
-
-.organizationFuneralServicesInfoContainer {
-    @include mq(tab) {
-        width: 570px;
-        height: 380px;
-    }
 }
 
 .funeralServices__title {
@@ -56,5 +31,27 @@
     @include mq(tab) {
         line-height: 1.63;
         margin-bottom: 20px;
+    }
+}
+
+.organizationFuneralList__item {
+    @include mq(desk) {
+        width: 260px;
+    }
+}
+
+.organizationFuneralList__itemImg {
+    @include mq(desk) {
+        width: 260px;
+        height: 260px;
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+}
+
+.organizationFuneralList {
+    @include mq(desk) {
+        display: flex;
+        justify-content: space-between;
     }
 }

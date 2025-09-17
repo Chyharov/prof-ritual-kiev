@@ -1,4 +1,4 @@
-import StoneOfMemoryDecoration from '../../images/StoneOfMemoryPage/StoneOfMemoryPage.jpg';
+import StoneOfMemoryDecoration from '../../images/StoneOfMemoryPage/StoneOfMemoryPageTest.jpg';
 import s from './SectionStoneOfMemory.module.scss';
 
 const SectionStoneOfMemory = () => {

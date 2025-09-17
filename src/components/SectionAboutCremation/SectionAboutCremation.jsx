@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import UrnsForAshes from '../../images/urnsForAshes/UrnsForAshes.jpg';
+import UrnsForAshesTest from '../../images/urnsForAshes/urnsForAshesTest.jpg';
 import AboutCremation from '../../images/Cremation/Cremation.jpg';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
 import Modal from '../ModalWindow/ModalWindow';
@@ -176,7 +176,7 @@ const SectionAboutCremation = () => {
 
         <h2 className='title'>Урни для праху</h2>
 
-        <img className={s.urnsForAshesImg} src={UrnsForAshes} alt="Урни для праху" />
+        <img className={s.urnsForAshesImg} src={UrnsForAshesTest} alt="Урни для праху" />
 
         <h2 style={{ marginBottom: '10px' }} className="title">
           Клієнти, які замовляли послугу кремації, так само цікавилися:
