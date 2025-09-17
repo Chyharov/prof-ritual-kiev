@@ -1,0 +1,20 @@
+@import '../../sass/utils/mixin';
+
+.sectionMusicalAccompaniment {
+    padding-bottom: 20px;
+
+    @include mq(tab) {
+        padding-bottom: 35px;
+    }   
+}
+
+.musicalAccompaniment__decoration {
+    width: 290px;
+    height: 94px;
+    margin-bottom: 25px;
+
+    @include mq(tab) {
+        width: 1200px;
+        height: 580px;
+    }
+}
