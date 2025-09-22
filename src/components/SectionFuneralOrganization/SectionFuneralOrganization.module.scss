@@ -28,7 +28,11 @@
 }
 
 .funeralOrganization__pictureListItemImg {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
   @include mq(desk) {
     width: 585px;
+    margin-bottom: 0px;
   }
 }
