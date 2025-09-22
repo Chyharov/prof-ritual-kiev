@@ -31,6 +31,7 @@
 }
 
 .MemorialDinnersHallImgFirst {
+    margin-bottom: 10px;
     @include mq(tab) {
         width: 100%;
         margin-bottom: 30px;
@@ -38,6 +39,7 @@
 }
 
 .MemorialDinnersHallImg {
+    margin-bottom: 10px;
     @include mq(tab) {
         width: 370px;
         height: 490px;

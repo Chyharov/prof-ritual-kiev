@@ -55,7 +55,7 @@ const SectionMusicalAccompaniment = () => {
 
         <video
           style={{ marginBottom: '20px' }}
-          width="1170px"
+          className={s.musicalAccompaniment__video}
           src={SaxophoneMusicAccompanimentTest}
           controls
           autoPlay
@@ -64,7 +64,7 @@ const SectionMusicalAccompaniment = () => {
         ></video>
 
         <video
-          width="1170px"
+          className={s.musicalAccompaniment__video}
           src={CelloMusicAccompanimentTest}
           controls
           autoPlay

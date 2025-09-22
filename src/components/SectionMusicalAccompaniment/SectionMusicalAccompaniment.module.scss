@@ -10,11 +10,21 @@
 
 .musicalAccompaniment__decoration {
     width: 290px;
-    height: 94px;
+    height: 284px;
     margin-bottom: 25px;
 
     @include mq(tab) {
         width: 1200px;
         height: 580px;
+    }
+}
+
+.musicalAccompaniment__video {
+    width: 100%;
+    height: auto;
+
+    @include mq(tab) {
+        width: 1170px;
+        height: auto;
     }
 }

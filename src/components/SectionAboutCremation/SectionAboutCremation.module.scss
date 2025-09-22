@@ -58,9 +58,9 @@
 }
 
 .urnsForAshesImg {
+    margin-bottom: 10px;
     @include mq(tab) {
         width: 100%;
         height: auto;
-        margin-bottom: 10px;
     }
 }
