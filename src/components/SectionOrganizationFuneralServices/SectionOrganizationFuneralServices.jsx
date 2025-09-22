@@ -4,45 +4,84 @@ import OrganizationFuneralServicesDrawingOrder from '../../images/OrganizationFu
 import OrganizationFuneralServicesCremationOrFuneral from '../../images/OrganizationFuneralServices/OrganizationFuneralServicesCremationOrFuneral.jpg';
 import OrganizationFuneralDiner from '../../images/OrganizationFuneralServices/OrganizationFuneralDiner.jpg';
 import BntMoreDetail from 'components/BntMoreDetail/BntMoreDetail';
-import s from './SectionOrganizationFuneralServices.module.scss'
-
-
+import s from './SectionOrganizationFuneralServices.module.scss';
 
 const SectionOrganizationFuneralServices = () => {
-    return (
-      <section className={s.sectionOrganizationFuneralServices}>
-        <div className={'container ' + s.funeralServices__container}>
-              
-              <h2 className={s.funeralServices__title} style={{marginBottom: '20px'}}>Організація ритуальних послуг</h2>
-                
-          <p className='description' style={{marginBottom: '20px'}}>Процес кремації або захоронення від похоронного бюро «Проф Ритуал»</p>
+  return (
+    <section className={s.sectionOrganizationFuneralServices}>
+      <div className={'container ' + s.funeralServices__container}>
+        <h2
+          className={s.funeralServices__title}
+          style={{ marginBottom: '20px' }}
+        >
+          Організація ритуальних послуг
+        </h2>
 
-          <ul className={s.organizationFuneralList} style={{marginBottom: '20px'}}>
-            <li className={s.organizationFuneralList__item}>
-              <img className={s.organizationFuneralList__itemImg} src={OrganizationFuneralServiceslCallBack} alt="OrganizationFuneralServiceslCallBack" />
-              <p className='description'><b>1. Зателефонуйте нам → домовляємося про деталі.</b></p>
-            </li>
-            <li className={s.organizationFuneralList__item}>
-              <img className={s.organizationFuneralList__itemImg} src={OrganizationFuneralServicesDrawingOrder} alt="OrganizationFuneralServicesDrawingOrder" />
-              <p className='description'><b>2. Оформлення договору-замовлення → оформлення документів, підбір зали, труни та необхідної ритуальної атрибутики.</b></p>
-            </li>
-            <li className={s.organizationFuneralList__item}>
-              <img className={s.organizationFuneralList__itemImg} src={OrganizationFuneralServicesCremationOrFuneral} alt="OrganizationFuneralServicesCremationOrFuneral " />
-              <p className='description'><b>3. Процес кремації або захоронення → проведення процедури та передача праху.</b></p>
-            </li>
-            <li className={s.organizationFuneralList__item}>
-              <img className={s.organizationFuneralList__itemImg} src={OrganizationFuneralDiner} alt="OrganizationFuneralDiner" />
-              <p className='description'><b>4. Додатково → організація поминального обіду, транспорт, супровід.</b></p>
-            </li>
-          </ul>
-            
+        <p className="description" style={{ marginBottom: '20px' }}>
+          Процес кремації або захоронення від похоронного бюро «Проф Ритуал»
+        </p>
 
+        <ul
+          className={s.organizationFuneralList}
+          style={{ marginBottom: '20px' }}
+        >
+          <li className={s.organizationFuneralList__item}>
+            <img
+              className={s.organizationFuneralList__itemImg}
+              src={OrganizationFuneralServiceslCallBack}
+              alt="OrganizationFuneralServiceslCallBack"
+            />
+            <p className="description" style={{ marginBottom: '0px' }}>
+              <b>1. Зателефонуйте нам → домовляємося про деталі.</b>
+            </p>
+          </li>
+          <li className={s.organizationFuneralList__item}>
+            <img
+              className={s.organizationFuneralList__itemImg}
+              src={OrganizationFuneralServicesDrawingOrder}
+              alt="OrganizationFuneralServicesDrawingOrder"
+            />
+            <p className="description" style={{ marginBottom: '0px' }}>
+              <b>
+                2. Оформлення договору-замовлення → оформлення документів,
+                підбір зали, труни та необхідної ритуальної атрибутики.
+              </b>
+            </p>
+          </li>
+          <li className={s.organizationFuneralList__item}>
+            <img
+              className={s.organizationFuneralList__itemImg}
+              src={OrganizationFuneralServicesCremationOrFuneral}
+              alt="OrganizationFuneralServicesCremationOrFuneral "
+            />
+            <p className="description" style={{ marginBottom: '0px' }}>
+              <b>
+                3. Процес кремації або захоронення → проведення процедури та
+                передача праху.
+              </b>
+            </p>
+          </li>
+          <li className={s.organizationFuneralList__item}>
+            <img
+              className={s.organizationFuneralList__itemImg}
+              src={OrganizationFuneralDiner}
+              alt="OrganizationFuneralDiner"
+            />
+            <p className="description" style={{ marginBottom: '0px' }}>
+              <b>
+                4. Додатково → організація поминального обіду, транспорт,
+                супровід.
+              </b>
+            </p>
+          </li>
+        </ul>
 
-              <Link to="/ritualservices"><BntMoreDetail /></Link>
-                
-        </div>
-      </section>
-  )
+        <Link to="/ritualservices">
+          <BntMoreDetail />
+        </Link>
+      </div>
+    </section>
+  );
 };
 
 export default SectionOrganizationFuneralServices;
