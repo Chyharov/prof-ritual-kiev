@@ -1,4 +1,3 @@
-import HeroDecoration from '../../images/Hero/HeroDecoration.png'
 import s from './SectionHero.module.scss'
 
 const SectionHero = () => {
@@ -6,7 +5,6 @@ const SectionHero = () => {
       <section className={s.sectionHero}>
         <div className={'container ' + s.hero__container}>
             <h1 className={s.hero__title}>Проф Ритуал</h1>
-                <img className={s.hero__decoration} loading="lazy" src={HeroDecoration} alt="hero__decoration" />
                 <p className={s.hero_description}>
                     Похоронне бюро «Проф Ритуал» — турбота та підтримка у складні моменти" Ми допомагаємо організувати похорон або кремацію з гідністю та повагою, забезпечуючи повний комплекс ритуальних послуг у Києві та області
                 </p>
