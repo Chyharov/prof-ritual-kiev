@@ -3,8 +3,8 @@ import sharp from "sharp";
 import fs from "fs";
 import path from "path";
 
-const inputDir = "./src/watermarked";           // вихідна папка
-const outputDir = "./src/watermarked";     // куди зберігати результат
+const inputDir = "./src/watermarked";              // вихідна папка
+const outputDir = "./src/watermarked";            // куди зберігати результат
 const watermarkText = "prof-ritual.com.ua";      // твій домен (заміни)
 
 // створюємо вихідну директорію, якщо її немає

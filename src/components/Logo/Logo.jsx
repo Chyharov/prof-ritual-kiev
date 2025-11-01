@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from '../../watermarked/Logo/profRitualLogo.png';
+import logo from '../../images/Logo/profRitualLogo.png';
 import s from './Logo.module.scss';
 
 const Logo = () => {
