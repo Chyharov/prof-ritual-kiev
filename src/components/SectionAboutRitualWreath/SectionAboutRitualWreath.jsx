@@ -1,4 +1,4 @@
-import RitualWreathDecoration from '../../images/RitualWreath/RitualWreathDecoration.webp'
+import RitualWreathDecoration from '../../watermarked/RitualWreath/RitualWreathDecoration.webp'
 import RitualWreathListComponent from 'components/RitualWreathListComponent/RitualWreathListComponent';
 import ArtificialRitualWreathsListComponent from 'components/ArtificialRitualWreathsListComponent/ArtificialRitualWreathsListComponent';
 import EkibansForTheCoffinComponent from 'components/EkibansForTheCoffinComponent/EkibansForTheCoffinComponent';

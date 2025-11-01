@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import CargoDecoration from '../../images/Cargo/Cargo.jpg'
+import CargoDecoration from '../../watermarked/Cargo/Cargo.jpg'
 import s from './SectionCargo.module.scss'
 
 const SectionCargo = () => {

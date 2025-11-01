@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import OrganizationFuneralServiceslCallBack from '../../images/OrganizationFuneralServices/OrganizationFuneralServiceslCallBack.jpg';
-import OrganizationFuneralServicesDrawingOrder from '../../images/OrganizationFuneralServices/OrganizationFuneralServicesDrawingOrder.jpg';
-import OrganizationFuneralServicesCremationOrFuneral from '../../images/OrganizationFuneralServices/OrganizationFuneralServicesCremationOrFuneral.jpg';
-import OrganizationFuneralDiner from '../../images/OrganizationFuneralServices/OrganizationFuneralDiner.jpg';
+import OrganizationFuneralServiceslCallBack from '../../watermarked/OrganizationFuneralServices/OrganizationFuneralServiceslCallBack.jpg';
+import OrganizationFuneralServicesDrawingOrder from '../../watermarked/OrganizationFuneralServices/OrganizationFuneralServicesDrawingOrder.jpg';
+import OrganizationFuneralServicesCremationOrFuneral from '../../watermarked/OrganizationFuneralServices/OrganizationFuneralServicesCremationOrFuneral.jpg';
+import OrganizationFuneralDiner from '../../watermarked/OrganizationFuneralServices/OrganizationFuneralDiner.jpg';
 import BntMoreDetail from 'components/BntMoreDetail/BntMoreDetail';
 import s from './SectionOrganizationFuneralServices.module.scss';
 

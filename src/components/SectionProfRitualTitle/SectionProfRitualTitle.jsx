@@ -1,4 +1,4 @@
-import ProfRitualDecoration from '../../images/RitualServices/double-lines-dark.png'
+import ProfRitualDecoration from '../../watermarked/RitualServices/double-lines-dark.png'
 import s from './SectionProfRitualTitle.module.scss'
 
 const SectionProfRitualTitle = () => {

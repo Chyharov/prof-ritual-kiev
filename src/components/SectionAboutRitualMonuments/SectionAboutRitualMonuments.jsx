@@ -1,4 +1,4 @@
-import RitualMonumentsDecoration from '../../images/RitualMonuments/RitualMonumentsDecoration.jpg'
+import RitualMonumentsDecoration from '../../watermarked/RitualMonuments/RitualMonumentsDecoration.jpg'
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
 import s from './SectionAboutRitualMonuments.module.scss'
 

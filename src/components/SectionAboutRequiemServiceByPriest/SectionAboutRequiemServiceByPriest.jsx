@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import RequiemServiceByPriestDecoration from '../../images/RequiemServiceByPriest/RequiemServiceByPriestDecoration.jpg'
+import RequiemServiceByPriestDecoration from '../../watermarked/RequiemServiceByPriest/RequiemServiceByPriestDecoration.jpg'
 import s from './SectionAboutRequiemServiceByPriest.module.scss'
 
 const SectionAboutRequiemServiceByPriest = () => {

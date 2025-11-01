@@ -14,7 +14,7 @@
     padding-bottom: 35px;
     width: 320px;
     height: 120px;
-    background-image: url('../../images/AllImages/Background.jpg');
+    background-image: url('../../watermarked/AllImages/Background.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@
     @include mq(tab) {
         width: 1170px;
         height: 140px;
-        background-image: url('../../images/currentPage/Slice1.jpg');
+        background-image: url('../../watermarked/currentPage/Slice1.jpg');
         align-items: flex-start;
         margin-bottom: 0px;
     }

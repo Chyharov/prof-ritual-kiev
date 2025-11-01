@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import AboutDocumentsForFuneral from '../../images/DocumentsForFuneral/DocumentsForFuneralPage.jpg'
+import AboutDocumentsForFuneral from '../../watermarked/DocumentsForFuneral/DocumentsForFuneralPage.jpg'
 import s from './SectionAboutDocumentsForFuneral.module.scss'
 
 const SectionAboutDocumentsForFuneral = () => {

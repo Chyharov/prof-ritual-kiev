@@ -3,17 +3,17 @@ import Modal from '../ModalWindow/ModalWindow';
 import s from './RitualAccessorieListComponent.module.scss';
 
 const ritualAccessoriesImgListArray = [
-    { id: 1, src: require('../../images/funeralSets/funeralSets.jpg'), alt: 'Зображення 1' },
-    { id: 2, src: require('../../images/funeralSets/funeralSets2.jpg'), alt: 'Зображення 2' },
-    { id: 3, src: require('../../images/funeralSets/funeralSets3.jpg'), alt: 'Зображення 3' },
-    { id: 4, src: require('../../images/funeralSets/funeralSets4.jpg'), alt: 'Зображення 4' },
-    { id: 5, src: require('../../images/funeralSets/funeralSets5.jpg'), alt: 'Зображення 5' },
-    { id: 6, src: require('../../images/funeralSets/funeralSets6.jpg'), alt: 'Зображення 6' },
-    { id: 7, src: require('../../images/funeralSets/funeralSets7.jpg'), alt: 'Зображення 7' },
-    { id: 8, src: require('../../images/funeralSets/funeralSets8.jpg'), alt: 'Зображення 8' },
-    { id: 9, src: require('../../images/RitualAccessories/RitualAccessories.jpg'), alt: 'Зображення 9' },
-    { id: 10, src: require('../../images/RitualAccessories/RitualAccessories2.jpg'), alt: 'Зображення 10' },
-    { id: 11, src: require('../../images/RitualAccessories/RitualAccessories3.jpg'), alt: 'Зображення 11' },
+    { id: 1, src: require('../../watermarked/funeralSets/funeralSets.jpg'), alt: 'Зображення 1' },
+    { id: 2, src: require('../../watermarked/funeralSets/funeralSets2.jpg'), alt: 'Зображення 2' },
+    { id: 3, src: require('../../watermarked/funeralSets/funeralSets3.jpg'), alt: 'Зображення 3' },
+    { id: 4, src: require('../../watermarked/funeralSets/funeralSets4.jpg'), alt: 'Зображення 4' },
+    { id: 5, src: require('../../watermarked/funeralSets/funeralSets5.jpg'), alt: 'Зображення 5' },
+    { id: 6, src: require('../../watermarked/funeralSets/funeralSets6.jpg'), alt: 'Зображення 6' },
+    { id: 7, src: require('../../watermarked/funeralSets/funeralSets7.jpg'), alt: 'Зображення 7' },
+    { id: 8, src: require('../../watermarked/funeralSets/funeralSets8.jpg'), alt: 'Зображення 8' },
+    { id: 9, src: require('../../watermarked/RitualAccessories/RitualAccessories.jpg'), alt: 'Зображення 9' },
+    { id: 10, src: require('../../watermarked/RitualAccessories/RitualAccessories2.jpg'), alt: 'Зображення 10' },
+    { id: 11, src: require('../../watermarked/RitualAccessories/RitualAccessories3.jpg'), alt: 'Зображення 11' },
 ];
 
 const RitualAccessorieListComponent = () => {

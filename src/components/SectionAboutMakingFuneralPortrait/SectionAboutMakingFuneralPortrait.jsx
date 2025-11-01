@@ -1,4 +1,4 @@
-import MakingFuneralPortraitDecoration from '../../images/MakingFuneralPortrait/MakingFuneralPortrait.jpg'
+import MakingFuneralPortraitDecoration from '../../watermarked/MakingFuneralPortrait/MakingFuneralPortrait.jpg'
 import s from './SectionAboutMakingFuneralPortrait.module.scss'
 
 const SectionAboutMakingFuneralPortrait = () => {

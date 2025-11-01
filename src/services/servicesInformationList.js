@@ -2,7 +2,7 @@ export const servicesInformationList = [
     {
         id: 1,
         title: 'Вартість похорону',
-        titleDecorationSec: require('../images/CustomIcons/Tombstone.png'),
+        titleDecorationSec: require('../watermarked/CustomIcons/Tombstone.png'),
         titleDecorationAlt: 'servicesInformation__decoration',
         servicesInformationItem: [
             {
@@ -67,7 +67,7 @@ export const servicesInformationList = [
     {
         id: 2,
         title: 'Вартість кремації',
-        titleDecorationSec: require('../images/CustomIcons/FuneralVase.png'),
+        titleDecorationSec: require('../watermarked/CustomIcons/FuneralVase.png'),
         titleDecorationAlt: 'servicesInformation__decoration',
         servicesInformationItem: [
             {

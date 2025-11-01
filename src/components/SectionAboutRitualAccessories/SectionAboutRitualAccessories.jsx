@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import RitualAccessoriesDecoration from '../../images/RitualAccessories/RitualAccessoriesDecoration.jpg';
+import RitualAccessoriesDecoration from '../../watermarked/RitualAccessories/RitualAccessoriesDecoration.jpg';
 import RitualAccessorieListComponent from 'components/RitualAccessorieListComponent/RitualAccessorieListComponent';
 import TulleCoveringListComponent from 'components/TulleCoveringListComponent/TulleCoveringListComponent';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';

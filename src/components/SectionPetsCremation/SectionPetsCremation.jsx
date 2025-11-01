@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionPetsCremationImg from '../../images/PetsCremation/PetsCremation.jpg';
+import SectionPetsCremationImg from '../../watermarked/PetsCremation/PetsCremation.jpg';
 import s from './SectionPetsCremation.module.scss';
 
 const SectionPetsCremation = () => {

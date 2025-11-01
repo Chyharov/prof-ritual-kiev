@@ -3,17 +3,17 @@ import Modal from '../ModalWindow/ModalWindow';
 import s from './TulleCoveringListComponent.module.scss';
 
 const tulleCoveringListArray = [
-    { id: 1, src: require('../../images/RitualAccessories/RitualAccessories6.jpg'), alt: 'Зображення 1' },
-    { id: 2, src: require('../../images/RitualAccessories/RitualAccessories7.jpg'), alt: 'Зображення 2' },
-    { id: 3, src: require('../../images/RitualAccessories/RitualAccessories8.jpg'), alt: 'Зображення 3' },
-    { id: 4, src: require('../../images/RitualAccessories/RitualAccessories9.jpg'), alt: 'Зображення 4' },
-    { id: 5, src: require('../../images/RitualAccessories/RitualAccessories10.jpg'), alt: 'Зображення 5' },
-    { id: 6, src: require('../../images/RitualAccessories/RitualAccessories11.jpg'), alt: 'Зображення 6' },
-    { id: 7, src: require('../../images/RitualAccessories/RitualAccessories12.jpg'), alt: 'Зображення 7' },
-    { id: 8, src: require('../../images/RitualAccessories/RitualAccessories13.jpg'), alt: 'Зображення 8' },
-    { id: 9, src: require('../../images/RitualAccessories/RitualAccessories14.jpg'), alt: 'Зображення 9' },
-    { id: 10, src: require('../../images/RitualAccessories/RitualAccessories15.jpg'), alt: 'Зображення 10' },
-    { id: 11, src: require('../../images/RitualAccessories/RitualAccessories16.jpg'), alt: 'Зображення 11' },
+    { id: 1, src: require('../../watermarked/RitualAccessories/RitualAccessories6.jpg'), alt: 'Зображення 1' },
+    { id: 2, src: require('../../watermarked/RitualAccessories/RitualAccessories7.jpg'), alt: 'Зображення 2' },
+    { id: 3, src: require('../../watermarked/RitualAccessories/RitualAccessories8.jpg'), alt: 'Зображення 3' },
+    { id: 4, src: require('../../watermarked/RitualAccessories/RitualAccessories9.jpg'), alt: 'Зображення 4' },
+    { id: 5, src: require('../../watermarked/RitualAccessories/RitualAccessories10.jpg'), alt: 'Зображення 5' },
+    { id: 6, src: require('../../watermarked/RitualAccessories/RitualAccessories11.jpg'), alt: 'Зображення 6' },
+    { id: 7, src: require('../../watermarked/RitualAccessories/RitualAccessories12.jpg'), alt: 'Зображення 7' },
+    { id: 8, src: require('../../watermarked/RitualAccessories/RitualAccessories13.jpg'), alt: 'Зображення 8' },
+    { id: 9, src: require('../../watermarked/RitualAccessories/RitualAccessories14.jpg'), alt: 'Зображення 9' },
+    { id: 10, src: require('../../watermarked/RitualAccessories/RitualAccessories15.jpg'), alt: 'Зображення 10' },
+    { id: 11, src: require('../../watermarked/RitualAccessories/RitualAccessories16.jpg'), alt: 'Зображення 11' },
 ];
 
 const TulleCoveringListComponent = () => {

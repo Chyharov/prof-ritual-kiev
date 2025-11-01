@@ -1,4 +1,4 @@
-import CrossesDecoration from '../../images/Сrosses/CrossesDecoration.jpg';
+import CrossesDecoration from '../../watermarked/Сrosses/CrossesDecoration.jpg';
 import CrossesListComponent from 'components/CrossesListComponent/CrossesListComponent';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
 import s from './SectionAboutCrosses.module.scss'

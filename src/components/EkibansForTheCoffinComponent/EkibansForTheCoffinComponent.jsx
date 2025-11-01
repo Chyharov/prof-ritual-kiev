@@ -5,42 +5,42 @@ import s from './EkibansForTheCoffinComponent.module.scss';
 const ekibansForTheCoffin = [
   {
     id: 1,
-    src: require('../../images/RitualWreath/ekibansForTheCoffin.jpg'),
+    src: require('../../watermarked/RitualWreath/ekibansForTheCoffin.jpg'),
     alt: 'Зображення 1',
   },
   {
     id: 2,
-    src: require('../../images/RitualWreath/ekibansForTheCoffin2.jpg'),
+    src: require('../../watermarked/RitualWreath/ekibansForTheCoffin2.jpg'),
     alt: 'Зображення 2',
   },
   {
     id: 3,
-    src: require('../../images/RitualWreath/ekibansForTheCoffin3.jpg'),
+    src: require('../../watermarked/RitualWreath/ekibansForTheCoffin3.jpg'),
     alt: 'Зображення 3',
   },
   {
     id: 4,
-    src: require('../../images/RitualWreath/ekibansForTheCoffin4.jpg'),
+    src: require('../../watermarked/RitualWreath/ekibansForTheCoffin4.jpg'),
     alt: 'Зображення 4',
   },
   {
     id: 5,
-    src: require('../../images/RitualWreath/ekibansForTheCoffin5.jpg'),
+    src: require('../../watermarked/RitualWreath/ekibansForTheCoffin5.jpg'),
     alt: 'Зображення 5',
   },
   {
     id: 6,
-    src: require('../../images/RitualWreath/ekibansForTheCoffin6.jpg'),
+    src: require('../../watermarked/RitualWreath/ekibansForTheCoffin6.jpg'),
     alt: 'Зображення 6',
   },
   {
     id: 7,
-    src: require('../../images/RitualWreath/ekibansForTheCoffin7.jpg'),
+    src: require('../../watermarked/RitualWreath/ekibansForTheCoffin7.jpg'),
     alt: 'Зображення 7',
   },
   {
     id: 8,
-    src: require('../../images/RitualWreath/ekibansForTheCoffin8.jpg'),
+    src: require('../../watermarked/RitualWreath/ekibansForTheCoffin8.jpg'),
     alt: 'Зображення 8',
   },
 ];

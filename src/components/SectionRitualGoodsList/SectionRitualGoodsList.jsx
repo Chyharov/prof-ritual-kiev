@@ -2,11 +2,11 @@ import { Link } from 'react-router-dom';
 import s from './SectionRitualGoodsList.module.scss'
 
 const SectionRitualGoodsListPictures = [
-    { id: 1, src: require('../../images/RitualGoodsList/wreath.jpg'), alt: 'Зображення 1', title: 'Вінки', link: "/ritualwreath", description: "Великий вибір вінків із штучних квітів." },
-    { id: 2, src: require('../../images/RitualGoodsList/coffin.jpg'), alt: 'Зображення 2', title: 'Труни', link: "/сoffins", description: "Якісні економ та VIP варіанти трун." },
-    { id: 3, src: require('../../images/RitualGoodsList/cross.jpg'), alt: 'Зображення 3', title: 'Хрести', link: "/crosses", description: "Широкий вібор хрестів з різних матеріалів" },
-    { id: 4, src: require('../../images/RitualGoodsList/monument.jpg'), alt: 'Зображення 4', title: 'Пам`ятники', link: "/ritualmonuments", description: "Ви можете замовити будь-яку надгробну пам’ятку." },
-    { id: 5, src: require('../../images/RitualGoodsList/candle.jpg'), alt: 'Зображення 5', title: 'Приладдя', link: "/ritualaccessories", description: "Похоронні набори, саван православний та ін." },
+    { id: 1, src: require('../../watermarked/RitualGoodsList/wreath.jpg'), alt: 'Зображення 1', title: 'Вінки', link: "/ritualwreath", description: "Великий вибір вінків із штучних квітів." },
+    { id: 2, src: require('../../watermarked/RitualGoodsList/coffin.jpg'), alt: 'Зображення 2', title: 'Труни', link: "/сoffins", description: "Якісні економ та VIP варіанти трун." },
+    { id: 3, src: require('../../watermarked/RitualGoodsList/cross.jpg'), alt: 'Зображення 3', title: 'Хрести', link: "/crosses", description: "Широкий вібор хрестів з різних матеріалів" },
+    { id: 4, src: require('../../watermarked/RitualGoodsList/monument.jpg'), alt: 'Зображення 4', title: 'Пам`ятники', link: "/ritualmonuments", description: "Ви можете замовити будь-яку надгробну пам’ятку." },
+    { id: 5, src: require('../../watermarked/RitualGoodsList/candle.jpg'), alt: 'Зображення 5', title: 'Приладдя', link: "/ritualaccessories", description: "Похоронні набори, саван православний та ін." },
 ];
 
 const SectionRitualGoodsList = () => {

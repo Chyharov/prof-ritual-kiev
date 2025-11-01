@@ -1,4 +1,4 @@
-import StoneOfMemoryDecoration from '../../images/RitualServices/musicalaccompaniment.jpg';
+import StoneOfMemoryDecoration from '../../watermarked/RitualServices/musicalaccompaniment.jpg';
 import CelloMusicAccompanimentTest from '../../images/MusicalAccompanimen/celloMusicAccompanimentTest.mp4';
 import SaxophoneMusicAccompanimentTest from '../../images/MusicalAccompanimen/saxophoneMusicAccompanimentTest.mp4';
 import s from './SectionMusicalAccompaniment.module.scss';

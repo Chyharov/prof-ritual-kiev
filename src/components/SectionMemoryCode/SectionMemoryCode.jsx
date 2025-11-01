@@ -1,5 +1,5 @@
-import MemoryCodeImg from '../../images/MemoryCode/MemoryCode.jpg';
-import MemoryCodeImgDescription from '../../images/MemoryCode/MemoryCodeImgDescription.jpg';
+import MemoryCodeImg from '../../watermarked/MemoryCode/MemoryCode.jpg';
+import MemoryCodeImgDescription from '../../watermarked/MemoryCode/MemoryCodeImgDescription.jpg';
 import s from './SectionMemoryCode.module.scss';
 
 const SectionMemoryCode = () => {

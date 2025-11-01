@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import UrnsForAshesTest from '../../images/urnsForAshes/urnsForAshesTest.jpg';
-import AboutCremation from '../../images/Cremation/Cremation.jpg';
+import UrnsForAshesTest from '../../watermarked/urnsForAshes/urnsForAshesTest.jpg';
+import AboutCremation from '../../watermarked/Cremation/Cremation.jpg';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
 import Modal from '../ModalWindow/ModalWindow';
 import s from './SectionAboutCremation.module.scss';
@@ -9,47 +9,47 @@ import s from './SectionAboutCremation.module.scss';
 const crossesImgListArray = [
   {
     id: 1,
-    src: require('../../images/urnsForAshes/SectionAboutCremationImage1.jpg'),
+    src: require('../../watermarked/urnsForAshes/SectionAboutCremationImage1.jpg'),
     alt: 'Зображення 1',
   },
   {
     id: 2,
-    src: require('../../images/urnsForAshes/SectionAboutCremationImage2.png'),
+    src: require('../../watermarked/urnsForAshes/SectionAboutCremationImage2.png'),
     alt: 'Зображення 2',
   }
   // {
   //   id: 2,
-  //   src: require('../../images/urnsForAshes/urnsForAshes2.jpg'),
+  //   src: require('../../watermarked/urnsForAshes/urnsForAshes2.jpg'),
   //   alt: 'Зображення 2',
   // },
   // {
   //   id: 3,
-  //   src: require('../../images/urnsForAshes/urnsForAshes3.jpg'),
+  //   src: require('../../watermarked/urnsForAshes/urnsForAshes3.jpg'),
   //   alt: 'Зображення 3',
   // },
   // {
   //   id: 4,
-  //   src: require('../../images/urnsForAshes/urnsForAshes4.jpg'),
+  //   src: require('../../watermarked/urnsForAshes/urnsForAshes4.jpg'),
   //   alt: 'Зображення 4',
   // },
   // {
   //   id: 5,
-  //   src: require('../../images/urnsForAshes/urnsForAshes5.jpg'),
+  //   src: require('../../watermarked/urnsForAshes/urnsForAshes5.jpg'),
   //   alt: 'Зображення 5',
   // },
   // {
   //   id: 6,
-  //   src: require('../../images/urnsForAshes/urnsForAshes6.jpg'),
+  //   src: require('../../watermarked/urnsForAshes/urnsForAshes6.jpg'),
   //   alt: 'Зображення 6',
   // },
   // {
   //   id: 7,
-  //   src: require('../../images/urnsForAshes/urnsForAshes7.jpg'),
+  //   src: require('../../watermarked/urnsForAshes/urnsForAshes7.jpg'),
   //   alt: 'Зображення 7',
   // },
   // {
   //   id: 8,
-  //   src: require('../../images/urnsForAshes/urnsForAshes8.jpg'),
+  //   src: require('../../watermarked/urnsForAshes/urnsForAshes8.jpg'),
   //   alt: 'Зображення 8',
   // },
 ];

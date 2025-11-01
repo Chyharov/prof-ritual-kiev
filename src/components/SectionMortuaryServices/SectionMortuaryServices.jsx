@@ -1,4 +1,4 @@
-import MortuaryServicesDecoration from '../../images/mortuaryServices/mortuaryServicesDecoration.jpg';
+import MortuaryServicesDecoration from '../../watermarked/mortuaryServices/mortuaryServicesDecoration.jpg';
 import s from './SectionMortuaryServices.module.scss';
 
 const SectionMortuaryServices = () => {

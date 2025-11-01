@@ -14,13 +14,13 @@
 .ritualGoods__decoration {
     width: 290px;
     height: 100px;
-    background-image: url(../../images/RitualGoods/ritualGoodsDecorationMobile.jpg);
+    background-image: url(../../watermarked/RitualGoods/ritualGoodsDecorationMobile.jpg);
     margin-bottom: 20px;
 
     @include mq(tab) {
         width: 570px;
         height: 380px;
-        background-image: url(../../images/RitualGoods/ritualGoodsDecorationDesktop.jpg);
+        background-image: url(../../watermarked/RitualGoods/ritualGoodsDecorationDesktop.jpg);
     }
 }
 

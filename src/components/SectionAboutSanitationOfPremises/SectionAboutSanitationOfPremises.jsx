@@ -1,4 +1,4 @@
-import SanitationOfPremisesDecoration from '../../images/SanitationOfPremises/SanitationOfPremises.jpg'
+import SanitationOfPremisesDecoration from '../../watermarked/SanitationOfPremises/SanitationOfPremises.jpg'
 import s from './SectionAboutSanitationOfPremises.module.scss'
 
 const SectionAboutSanitationOfPremises = () => {

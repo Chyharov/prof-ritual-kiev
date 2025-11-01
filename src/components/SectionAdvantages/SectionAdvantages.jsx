@@ -1,11 +1,11 @@
-import AdvantagesDecoration from '../../images/RitualServices/double-lines-dark.png'
+import AdvantagesDecoration from '../../watermarked/RitualServices/double-lines-dark.png'
 import s from './SectionAdvantages.module.scss'
 
 const advantagesServicesList = [
-      { id: 1, src: require('../../images/Advantages/like.png'), alt: 'Зображення 1', title: 'Професійна команда' },
-      { id: 2, src: require('../../images/Advantages/24-hours.png'), alt: 'Зображення 2', title: 'Цілодобова Робота' },
-      { id: 3, src: require('../../images/Advantages/dollar.png'), alt: 'Зображення 3', title: 'Доступна чесна вартість' },
-      { id: 4, src: require('../../images/Advantages/shield.png'), alt: 'Зображення 4', title: 'Оперативна робота' },
+      { id: 1, src: require('../../watermarked/Advantages/like.png'), alt: 'Зображення 1', title: 'Професійна команда' },
+      { id: 2, src: require('../../watermarked/Advantages/24-hours.png'), alt: 'Зображення 2', title: 'Цілодобова Робота' },
+      { id: 3, src: require('../../watermarked/Advantages/dollar.png'), alt: 'Зображення 3', title: 'Доступна чесна вартість' },
+      { id: 4, src: require('../../watermarked/Advantages/shield.png'), alt: 'Зображення 4', title: 'Оперативна робота' },
 ];
 
 const SectionAdvantages = () => {

@@ -1,4 +1,4 @@
-import FuneralEscortByMedicalPersonnalDecoration from '../../images/FuneralEscortByMedicalPersonnal/FuneralEscortByMedicalPersonnal.jpg'
+import FuneralEscortByMedicalPersonnalDecoration from '../../watermarked/FuneralEscortByMedicalPersonnal/FuneralEscortByMedicalPersonnal.jpg'
 import s from './SectionAboutFuneralEscortByMedicalPersonnal.module.scss'
 
 const SectionAboutFuneralEscortByMedicalPersonnal = () => {

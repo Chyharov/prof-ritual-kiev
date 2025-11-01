@@ -13,14 +13,14 @@
     padding-bottom: 35px;
     width: 320px;
     height: 210px;
-    background-image: url('../../images/NeedHelp/BgForNeedHelp.jpg');
+    background-image: url('../../watermarked/NeedHelp/BgForNeedHelp.jpg');
 
     @include mq(tab) {
         padding-top: 20px;
         padding-bottom: 20px;
         width: 1170px;
         height: 114px;
-        background-image: url('../../images/NeedHelp/BgForNeedHelpDesk.jpg');
+        background-image: url('../../watermarked/NeedHelp/BgForNeedHelpDesk.jpg');
     }
 }
 

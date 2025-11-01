@@ -3,18 +3,18 @@ import Modal from '../ModalWindow/ModalWindow';
 import s from './CrossesListComponent.module.scss';
 
 const crossesImgListArray = [
-    { id: 1, src: require('../../images/Сrosses/Crosses.jpg'), alt: 'Зображення 1' },
-    { id: 2, src: require('../../images/Сrosses/Crosses2.jpg'), alt: 'Зображення 2' },
-    { id: 3, src: require('../../images/Сrosses/Crosses3.jpg'), alt: 'Зображення 3' },
-    { id: 4, src: require('../../images/Сrosses/Crosses4.jpg'), alt: 'Зображення 4' },
-    { id: 5, src: require('../../images/Сrosses/Crosses5.jpg'), alt: 'Зображення 5' },
-    { id: 6, src: require('../../images/Сrosses/Crosses6.jpg'), alt: 'Зображення 6' },
-    { id: 7, src: require('../../images/Сrosses/Crosses7.jpg'), alt: 'Зображення 7' },
-    { id: 8, src: require('../../images/Сrosses/Crosses8.jpg'), alt: 'Зображення 8' },
-    { id: 9, src: require('../../images/Сrosses/Crosses9.jpg'), alt: 'Зображення 9' },
-    { id: 10, src: require('../../images/Сrosses/Crosses10.jpg'), alt: 'Зображення 10' },
-    { id: 11, src: require('../../images/Сrosses/Crosses11.jpg'), alt: 'Зображення 11' },
-    { id: 12, src: require('../../images/Сrosses/Crosses12.jpg'), alt: 'Зображення 12' },
+    { id: 1, src: require('../../watermarked/Сrosses/Crosses.jpg'), alt: 'Зображення 1' },
+    { id: 2, src: require('../../watermarked/Сrosses/Crosses2.jpg'), alt: 'Зображення 2' },
+    { id: 3, src: require('../../watermarked/Сrosses/Crosses3.jpg'), alt: 'Зображення 3' },
+    { id: 4, src: require('../../watermarked/Сrosses/Crosses4.jpg'), alt: 'Зображення 4' },
+    { id: 5, src: require('../../watermarked/Сrosses/Crosses5.jpg'), alt: 'Зображення 5' },
+    { id: 6, src: require('../../watermarked/Сrosses/Crosses6.jpg'), alt: 'Зображення 6' },
+    { id: 7, src: require('../../watermarked/Сrosses/Crosses7.jpg'), alt: 'Зображення 7' },
+    { id: 8, src: require('../../watermarked/Сrosses/Crosses8.jpg'), alt: 'Зображення 8' },
+    { id: 9, src: require('../../watermarked/Сrosses/Crosses9.jpg'), alt: 'Зображення 9' },
+    { id: 10, src: require('../../watermarked/Сrosses/Crosses10.jpg'), alt: 'Зображення 10' },
+    { id: 11, src: require('../../watermarked/Сrosses/Crosses11.jpg'), alt: 'Зображення 11' },
+    { id: 12, src: require('../../watermarked/Сrosses/Crosses12.jpg'), alt: 'Зображення 12' },
 ];
 
 const CrossesListComponent = () => {

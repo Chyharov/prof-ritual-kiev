@@ -5,62 +5,62 @@ import s from './StandardCoffinsListComponent.module.scss';
 const standardCoffinsArray = [
   {
     id: 1,
-    src: require('../../images/Coffins/StandardCoffins/StandardCoffins.jpg'),
+    src: require('../../watermarked/Coffins/StandardCoffins/StandardCoffins.jpg'),
     alt: 'Зображення 1',
   },
   {
     id: 2,
-    src: require('../../images/Coffins/StandardCoffins/StandardCoffins2.jpg'),
+    src: require('../../watermarked/Coffins/StandardCoffins/StandardCoffins2.jpg'),
     alt: 'Зображення 2',
   },
   {
     id: 3,
-    src: require('../../images/Coffins/StandardCoffins/StandardCoffins3.jpg'),
+    src: require('../../watermarked/Coffins/StandardCoffins/StandardCoffins3.jpg'),
     alt: 'Зображення 3',
   },
   {
     id: 4,
-    src: require('../../images/Coffins/StandardCoffins/StandardCoffins4.jpg'),
+    src: require('../../watermarked/Coffins/StandardCoffins/StandardCoffins4.jpg'),
     alt: 'Зображення 4',
   },
   {
     id: 5,
-    src: require('../../images/Coffins/StandardCoffins/StandardCoffins5.jpg'),
+    src: require('../../watermarked/Coffins/StandardCoffins/StandardCoffins5.jpg'),
     alt: 'Зображення 5',
   },
   {
     id: 6,
-    src: require('../../images/Coffins/StandardCoffins/StandardCoffins6.jpg'),
+    src: require('../../watermarked/Coffins/StandardCoffins/StandardCoffins6.jpg'),
     alt: 'Зображення 6',
   },
   {
     id: 7,
-    src: require('../../images/Coffins/StandardCoffins/StandardCoffins7.jpg'),
+    src: require('../../watermarked/Coffins/StandardCoffins/StandardCoffins7.jpg'),
     alt: 'Зображення 7',
   },
   {
     id: 8,
-    src: require('../../images/Coffins/StandardCoffins/StandardCoffins8.jpg'),
+    src: require('../../watermarked/Coffins/StandardCoffins/StandardCoffins8.jpg'),
     alt: 'Зображення 8',
   },
   {
     id: 9,
-    src: require('../../images/Coffins/StandardCoffins/StandardCoffins9.jpg'),
+    src: require('../../watermarked/Coffins/StandardCoffins/StandardCoffins9.jpg'),
     alt: 'Зображення 9',
   },
   {
     id: 10,
-    src: require('../../images/Coffins/StandardCoffins/StandardCoffins10.jpg'),
+    src: require('../../watermarked/Coffins/StandardCoffins/StandardCoffins10.jpg'),
     alt: 'Зображення 10',
   },
   {
     id: 11,
-    src: require('../../images/Coffins/StandardCoffins/StandardCoffins11.jpg'),
+    src: require('../../watermarked/Coffins/StandardCoffins/StandardCoffins11.jpg'),
     alt: 'Зображення 11',
   },
   {
     id: 12,
-    src: require('../../images/Coffins/StandardCoffins/StandardCoffins12.jpg'),
+    src: require('../../watermarked/Coffins/StandardCoffins/StandardCoffins12.jpg'),
     alt: 'Зображення 12',
   },
 ];

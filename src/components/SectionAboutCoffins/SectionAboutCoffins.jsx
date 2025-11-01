@@ -1,4 +1,4 @@
-import CoffinsDecoration from '../../images/Coffins/CoffinsDecoration.jpg'
+import CoffinsDecoration from '../../watermarked/Coffins/CoffinsDecoration.jpg'
 import StandardCoffinsListComponent from 'components/StandardCoffinsListComponent/StandardCoffinsListComponent';
 import EliteCoffinsListComponent from 'components/EliteCoffinsListComponent/EliteCoffinsListComponent';
 import EconomCoffinsListComponent from 'components/EconomCoffinsListComponent/EconomCoffinsListComponent';

@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Modal from '../ModalWindow/ModalWindow';
-import RemovalBodyDecoration from '../../images/RemovalBody/RemovalBodyDecoration.jpg'
+import RemovalBodyDecoration from '../../watermarked/RemovalBody/RemovalBodyDecoration.jpg'
 import s from './SectionAbooutRemovalBody.module.scss'
 
 const removalBodyImgListArray = [
-    { id: 1, src: require('../../images/RemovalBody/funeralTeam__photo.jpeg'), alt: 'Зображення 1' },
-    { id: 2, src: require('../../images/RemovalBody/funeralTeam__photo2.jpeg'), alt: 'Зображення 2' },
-    { id: 3, src: require('../../images/RemovalBody/funeralTeam__photo3.jpeg'), alt: 'Зображення 3' },
+    { id: 1, src: require('../../watermarked/RemovalBody/funeralTeam__photo.jpeg'), alt: 'Зображення 1' },
+    { id: 2, src: require('../../watermarked/RemovalBody/funeralTeam__photo2.jpeg'), alt: 'Зображення 2' },
+    { id: 3, src: require('../../watermarked/RemovalBody/funeralTeam__photo3.jpeg'), alt: 'Зображення 3' },
 ];
 
 const SectionAbooutRemovalBody = () => {

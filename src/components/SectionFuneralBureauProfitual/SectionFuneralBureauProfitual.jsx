@@ -1,9 +1,9 @@
-import AdvantagesDecoration from '../../images/RitualServices/double-lines-dark.png'
+import AdvantagesDecoration from '../../watermarked/RitualServices/double-lines-dark.png'
 import s from './SectionFuneralBureauProfitual.module.scss'
 
 const FuneralBureauProfitualPhotos = [
-      { id: 1, src: require('../../images/FuneralBureauProfitualPhotos/photo_2019-12-23_12-13-56-1024x690.jpg'), alt: 'Зображення 1', },
-      { id: 2, src: require('../../images/FuneralBureauProfitualPhotos/photo_2019-12-23_13-49-52-1024x690.jpg'), alt: 'Зображення 2', },
+      { id: 1, src: require('../../watermarked/FuneralBureauProfitualPhotos/photo_2019-12-23_12-13-56-1024x690.jpg'), alt: 'Зображення 1', },
+      { id: 2, src: require('../../watermarked/FuneralBureauProfitualPhotos/photo_2019-12-23_13-49-52-1024x690.jpg'), alt: 'Зображення 2', },
 ];
 
 const SectionFuneralBureauProfitual = () => {

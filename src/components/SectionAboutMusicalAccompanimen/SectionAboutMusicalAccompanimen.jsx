@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import MusicalAccompanimen from '../../images/MusicalAccompanimen/MusicalAccompanimen.jpg'
+import MusicalAccompanimen from '../../watermarked/MusicalAccompanimen/MusicalAccompanimen.jpg'
 import s from './SectionAboutMusicalAccompanimen.module.scss'
 
 const SectionAboutMusicalAccompanimen = () => {

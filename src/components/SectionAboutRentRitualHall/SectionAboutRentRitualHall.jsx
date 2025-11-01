@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 import Modal from '../ModalWindow/ModalWindow';
-import RentRitualHall from '../../images/RentRitualHall/RentRitualHall.jpg'
+import RentRitualHall from '../../watermarked/RentRitualHall/RentRitualHall.jpg'
 import s from './SectionAboutRentRitualHall.module.scss'
 
 const ritualHallImgListArray = [
-    { id: 1, src: require('../../images/RentRitualHall/RentRitualHallPhoto.jpg'), alt: 'Зображення 1' },
-    { id: 2, src: require('../../images/RentRitualHall/RentRitualHallPhoto2.jpg'), alt: 'Зображення 2' },
-    { id: 3, src: require('../../images/RentRitualHall/RentRitualHallPhoto3.jpg'), alt: 'Зображення 3' }
+    { id: 1, src: require('../../watermarked/RentRitualHall/RentRitualHallPhoto.jpg'), alt: 'Зображення 1' },
+    { id: 2, src: require('../../watermarked/RentRitualHall/RentRitualHallPhoto2.jpg'), alt: 'Зображення 2' },
+    { id: 3, src: require('../../watermarked/RentRitualHall/RentRitualHallPhoto3.jpg'), alt: 'Зображення 3' }
 ];
 
 const SectionAboutRentRitualHall = () => {

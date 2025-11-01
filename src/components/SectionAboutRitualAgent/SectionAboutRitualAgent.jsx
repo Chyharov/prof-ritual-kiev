@@ -1,6 +1,6 @@
 import { FaPhoneAlt } from 'react-icons/fa';
 import SectionNeedHelp from 'components/SectionNeedHelp/SectionNeedHelp';
-import AboutRitualAgent from '../../images/AboutRitualAgent/ritualAgentSectionBanner.jpg';
+import AboutRitualAgent from '../../watermarked/AboutRitualAgent/ritualAgentSectionBanner.jpg';
 import s from './SectionAboutRitualAgent.module.scss';
 
 const SectionAboutRitualAgent = () => {

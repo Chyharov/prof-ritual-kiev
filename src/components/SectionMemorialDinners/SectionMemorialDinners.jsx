@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import MemorialDinnerDecoration from '../../images/MemorialDinners/MemorialDinners.jpg';
-import MemorialDinnersHall from '../../images/MemorialDinners/MemorialDinnersHall.jpg';
-import MemorialDinnersHall2 from '../../images/MemorialDinners/MemorialDinnersHall2.jpg';
-import MemorialDinnersHall3 from '../../images/MemorialDinners/MemorialDinnersHall3.jpg';
-import MemorialDinnersHall4 from '../../images/MemorialDinners/MemorialDinnersHall4.jpg';
+import MemorialDinnerDecoration from '../../watermarked/MemorialDinners/MemorialDinners.jpg';
+import MemorialDinnersHall from '../../watermarked/MemorialDinners/MemorialDinnersHall.jpg';
+import MemorialDinnersHall2 from '../../watermarked/MemorialDinners/MemorialDinnersHall2.jpg';
+import MemorialDinnersHall3 from '../../watermarked/MemorialDinners/MemorialDinnersHall3.jpg';
+import MemorialDinnersHall4 from '../../watermarked/MemorialDinners/MemorialDinnersHall4.jpg';
 import s from './SectionMemorialDinners.module.scss';
 
 const SectionMemorialDinners = () => {
